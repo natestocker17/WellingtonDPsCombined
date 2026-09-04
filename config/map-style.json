@@ -1,0 +1,5841 @@
+{
+  "version": 8,
+  "name": "WRLC District Plans planning overlays",
+  "metadata": {
+    "generator": "ArcGIS Pro APRX to MapLibre/PMTiles converter",
+    "aprxMap": "WRLC District Plans",
+    "bounds": [
+      174.6021084879838,
+      -41.39819857110866,
+      175.0601322564029,
+      -41.13437931717089
+    ]
+  },
+  "sources": {
+    "planning": {
+      "type": "vector",
+      "url": "pmtiles://./data/wellington-district-plans.pmtiles",
+      "attribution": "District-plan data: source councils. Refer to each feature's plan URL; this map is not statutory."
+    }
+  },
+  "layers": [
+    {
+      "id": "regional_district_plans_zones_wellington_city_2024_dis__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_zones_wellington_city_2024_dis",
+      "layout": {
+        "visibility": "visible"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_zones_wellington_city_2024_dis",
+        "displayName": "Wellington City 2024 District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Zones"
+        ]
+      },
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "to-string",
+            [
+              "coalesce",
+              [
+                "get",
+                "STD_CLASS"
+              ],
+              ""
+            ]
+          ],
+          "CCZ",
+          "rgba(137,68,101,1.000)",
+          "GIZ",
+          "rgba(176,115,255,1.000)",
+          "GRUZ",
+          "rgba(181,187,125,1.000)",
+          "HRZ",
+          "rgba(255,181,97,1.000)",
+          "LCZ",
+          "rgba(245,143,148,1.000)",
+          "LLRZ",
+          "rgba(242,235,204,1.000)",
+          "MCZ",
+          "rgba(168,0,132,1.000)",
+          "MRZ",
+          "rgba(254,219,125,1.000)",
+          "MUZ",
+          "rgba(230,0,169,1.000)",
+          "NCZ",
+          "rgba(255,181,199,1.000)",
+          "NOSZ",
+          "rgba(56,173,0,1.000)",
+          "OSZ",
+          "rgba(187,240,156,1.000)",
+          "SARZ",
+          "rgba(137,205,102,1.000)",
+          "UNMAPPED",
+          "rgba(210,210,210,1.000)",
+          "rgba(130,130,130,1.000)"
+        ],
+        "fill-opacity": 0.6,
+        "fill-antialias": false
+      }
+    },
+    {
+      "id": "regional_district_plans_zones_upper_hutt_operative_dis__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_zones_upper_hutt_operative_dis",
+      "layout": {
+        "visibility": "visible"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_zones_upper_hutt_operative_dis",
+        "displayName": "Upper Hutt Operative District Plan 2004",
+        "groupPath": [
+          "Regional District Plans",
+          "Zones"
+        ]
+      },
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "to-string",
+            [
+              "coalesce",
+              [
+                "get",
+                "STD_CLASS"
+              ],
+              ""
+            ]
+          ],
+          "CCZ",
+          "rgba(137,68,101,1.000)",
+          "COMZ",
+          "rgba(227,97,117,1.000)",
+          "GIZ",
+          "rgba(176,115,255,1.000)",
+          "GRUZ",
+          "rgba(181,187,125,1.000)",
+          "GRZ",
+          "rgba(245,245,122,1.000)",
+          "HRZ",
+          "rgba(255,181,97,1.000)",
+          "LCZ",
+          "rgba(245,143,148,1.000)",
+          "MUZ",
+          "rgba(230,0,169,1.000)",
+          "NCZ",
+          "rgba(255,181,199,1.000)",
+          "OSZ",
+          "rgba(187,240,156,1.000)",
+          "RLZ",
+          "rgba(227,203,154,1.000)",
+          "RPROZ",
+          "rgba(168,181,122,1.000)",
+          "SETZ",
+          "rgba(217,222,18,1.000)",
+          "TCZ",
+          "rgba(199,4,111,1.000)",
+          "UNMAPPED",
+          "rgba(210,210,210,1.000)",
+          "rgba(130,130,130,1.000)"
+        ],
+        "fill-opacity": 0.6,
+        "fill-antialias": false
+      }
+    },
+    {
+      "id": "regional_district_plans_zones_proposed_wairarapa_combi__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_zones_proposed_wairarapa_combi",
+      "layout": {
+        "visibility": "visible"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_zones_proposed_wairarapa_combi",
+        "displayName": "Proposed Wairarapa Combined District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Zones"
+        ]
+      },
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "to-string",
+            [
+              "coalesce",
+              [
+                "get",
+                "STD_CLASS"
+              ],
+              ""
+            ]
+          ],
+          "GIZ",
+          "rgba(176,115,255,1.000)",
+          "GRUZ",
+          "rgba(181,187,125,1.000)",
+          "GRZ",
+          "rgba(245,245,122,1.000)",
+          "MUZ",
+          "rgba(230,0,169,1.000)",
+          "NCZ",
+          "rgba(255,181,199,1.000)",
+          "NOSZ",
+          "rgba(56,173,0,1.000)",
+          "OSZ",
+          "rgba(187,240,156,1.000)",
+          "RLZ",
+          "rgba(227,203,154,1.000)",
+          "SARZ",
+          "rgba(137,205,102,1.000)",
+          "SETZ",
+          "rgba(217,222,18,1.000)",
+          "TCZ",
+          "rgba(199,4,111,1.000)",
+          "UNMAPPED",
+          "rgba(210,210,210,1.000)",
+          "rgba(130,130,130,1.000)"
+        ],
+        "fill-opacity": 0.6,
+        "fill-antialias": false
+      }
+    },
+    {
+      "id": "regional_district_plans_zones_proposed_lower_hutt_dist__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_zones_proposed_lower_hutt_dist",
+      "layout": {
+        "visibility": "visible"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_zones_proposed_lower_hutt_dist",
+        "displayName": "Proposed Lower Hutt District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Zones"
+        ]
+      },
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "to-string",
+            [
+              "coalesce",
+              [
+                "get",
+                "STD_CLASS"
+              ],
+              ""
+            ]
+          ],
+          "CCZ",
+          "rgba(137,68,101,1.000)",
+          "GIZ",
+          "rgba(176,115,255,1.000)",
+          "GRUZ",
+          "rgba(181,187,125,1.000)",
+          "HIZ",
+          "rgba(132,0,168,1.000)",
+          "HRZ",
+          "rgba(255,181,97,1.000)",
+          "LCZ",
+          "rgba(245,143,148,1.000)",
+          "LIZ",
+          "rgba(207,171,245,1.000)",
+          "LLRZ",
+          "rgba(242,235,204,1.000)",
+          "MCZ",
+          "rgba(168,0,132,1.000)",
+          "MRZ",
+          "rgba(254,219,125,1.000)",
+          "MUZ",
+          "rgba(230,0,169,1.000)",
+          "NCZ",
+          "rgba(255,181,199,1.000)",
+          "NOSZ",
+          "rgba(56,173,0,1.000)",
+          "OSZ",
+          "rgba(187,240,156,1.000)",
+          "RLZ",
+          "rgba(227,203,154,1.000)",
+          "SARZ",
+          "rgba(137,205,102,1.000)",
+          "UNMAPPED",
+          "rgba(210,210,210,1.000)",
+          "rgba(130,130,130,1.000)"
+        ],
+        "fill-opacity": 0.6,
+        "fill-antialias": false
+      }
+    },
+    {
+      "id": "regional_district_plans_zones_porirua_district_plan_20__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_zones_porirua_district_plan_20",
+      "layout": {
+        "visibility": "visible"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_zones_porirua_district_plan_20",
+        "displayName": "Porirua District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Zones"
+        ]
+      },
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "to-string",
+            [
+              "coalesce",
+              [
+                "get",
+                "STD_CLASS"
+              ],
+              ""
+            ]
+          ],
+          "GIZ",
+          "rgba(176,115,255,1.000)",
+          "GRUZ",
+          "rgba(181,187,125,1.000)",
+          "HRZ",
+          "rgba(255,181,97,1.000)",
+          "LCZ",
+          "rgba(245,143,148,1.000)",
+          "LFRZ",
+          "rgba(255,115,223,1.000)",
+          "MCZ",
+          "rgba(168,0,132,1.000)",
+          "MRZ",
+          "rgba(254,219,125,1.000)",
+          "MUZ",
+          "rgba(230,0,169,1.000)",
+          "NCZ",
+          "rgba(255,181,199,1.000)",
+          "OSZ",
+          "rgba(187,240,156,1.000)",
+          "RLZ",
+          "rgba(227,203,154,1.000)",
+          "SARZ",
+          "rgba(137,205,102,1.000)",
+          "SETZ",
+          "rgba(217,222,18,1.000)",
+          "UNMAPPED",
+          "rgba(210,210,210,1.000)",
+          "rgba(130,130,130,1.000)"
+        ],
+        "fill-opacity": 0.6,
+        "fill-antialias": false
+      }
+    },
+    {
+      "id": "regional_district_plans_zones_operative_kapiti_coast_d__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_zones_operative_kapiti_coast_d",
+      "layout": {
+        "visibility": "visible"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_zones_operative_kapiti_coast_d",
+        "displayName": "Operative Kapiti Coast District Plan 2021",
+        "groupPath": [
+          "Regional District Plans",
+          "Zones"
+        ]
+      },
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "to-string",
+            [
+              "coalesce",
+              [
+                "get",
+                "STD_CLASS"
+              ],
+              ""
+            ]
+          ],
+          "GRZ",
+          "rgba(245,245,122,1.000)",
+          "HRZ",
+          "rgba(255,181,97,1.000)",
+          "NOSZ",
+          "rgba(56,173,0,1.000)",
+          "OSZ",
+          "rgba(187,240,156,1.000)",
+          "TCZ",
+          "rgba(199,4,111,1.000)",
+          "UNMAPPED",
+          "rgba(210,210,210,1.000)",
+          "rgba(130,130,130,1.000)"
+        ],
+        "fill-opacity": 0.6,
+        "fill-antialias": false
+      }
+    },
+    {
+      "id": "regional_district_plans_zones_operative_horowhenua_dis__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_zones_operative_horowhenua_dis",
+      "layout": {
+        "visibility": "visible"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_zones_operative_horowhenua_dis",
+        "displayName": "Operative Horowhenua District Plan 2015",
+        "groupPath": [
+          "Regional District Plans",
+          "Zones"
+        ]
+      },
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "to-string",
+            [
+              "coalesce",
+              [
+                "get",
+                "STD_CLASS"
+              ],
+              ""
+            ]
+          ],
+          "UNMAPPED",
+          "rgba(210,210,210,1.000)",
+          "rgba(130,130,130,1.000)"
+        ],
+        "fill-opacity": 0.6,
+        "fill-antialias": false
+      }
+    },
+    {
+      "id": "regional_district_plans_other_overlays_other_planning_52b53e52__circle",
+      "type": "circle",
+      "source": "planning",
+      "source-layer": "regional_district_plans_other_overlays_other_planning_52b53e52",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_other_overlays_other_planning_52b53e52",
+        "displayName": "Proposed Wairarapa Combined District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Other Overlays",
+          "Other Planning Overlays"
+        ]
+      },
+      "paint": {
+        "circle-color": "rgba(95,95,95,1.000)",
+        "circle-radius": 3.9989999999999997,
+        "circle-stroke-color": "rgba(95,95,95,1.000)",
+        "circle-stroke-width": 1.333,
+        "circle-opacity": 0.6,
+        "circle-stroke-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_other_overlays_other_planning_3300618b__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_other_overlays_other_planning_3300618b",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_other_overlays_other_planning_3300618b",
+        "displayName": "Proposed Lower Hutt District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Other Overlays",
+          "Other Planning Overlays"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(95,95,95,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_other_overlays_other_planning_3300618b__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_other_overlays_other_planning_3300618b",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_other_overlays_other_planning_3300618b",
+        "displayName": "Proposed Lower Hutt District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Other Overlays",
+          "Other Planning Overlays"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(95,95,95,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_other_overlays_other_planning_00415c06__line",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_other_overlays_other_planning_00415c06",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_other_overlays_other_planning_00415c06",
+        "displayName": "Operative Kapiti Coast District Plan 2021",
+        "groupPath": [
+          "Regional District Plans",
+          "Other Overlays",
+          "Other Planning Overlays"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(95,95,95,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_other_overlays_other_planning_e9072a84__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_other_overlays_other_planning_e9072a84",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_other_overlays_other_planning_e9072a84",
+        "displayName": "Operative Horowhenua District Plan 2015",
+        "groupPath": [
+          "Regional District Plans",
+          "Other Overlays",
+          "Other Planning Overlays"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(95,95,95,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_other_overlays_other_planning_e9072a84__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_other_overlays_other_planning_e9072a84",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_other_overlays_other_planning_e9072a84",
+        "displayName": "Operative Horowhenua District Plan 2015",
+        "groupPath": [
+          "Regional District Plans",
+          "Other Overlays",
+          "Other Planning Overlays"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(95,95,95,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_other_overlays_plan_changes_an_aae69a74__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_other_overlays_plan_changes_an_aae69a74",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_other_overlays_plan_changes_an_aae69a74",
+        "displayName": "Wellington City 2024 District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Other Overlays",
+          "Plan Changes and Appeals"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(105,105,105,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_other_overlays_plan_changes_an_aae69a74__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_other_overlays_plan_changes_an_aae69a74",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_other_overlays_plan_changes_an_aae69a74",
+        "displayName": "Wellington City 2024 District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Other Overlays",
+          "Plan Changes and Appeals"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(105,105,105,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_other_overlays_character_and_s_e2b51d38__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_other_overlays_character_and_s_e2b51d38",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_other_overlays_character_and_s_e2b51d38",
+        "displayName": "Proposed Wairarapa Combined District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Other Overlays",
+          "Character and Special Management Areas"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(128,110,94,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_other_overlays_character_and_s_e2b51d38__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_other_overlays_character_and_s_e2b51d38",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_other_overlays_character_and_s_e2b51d38",
+        "displayName": "Proposed Wairarapa Combined District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Other Overlays",
+          "Character and Special Management Areas"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(128,110,94,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_other_overlays_character_and_s_71c2d84b__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_other_overlays_character_and_s_71c2d84b",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_other_overlays_character_and_s_71c2d84b",
+        "displayName": "Proposed Lower Hutt District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Other Overlays",
+          "Character and Special Management Areas"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(128,110,94,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_other_overlays_character_and_s_71c2d84b__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_other_overlays_character_and_s_71c2d84b",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_other_overlays_character_and_s_71c2d84b",
+        "displayName": "Proposed Lower Hutt District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Other Overlays",
+          "Character and Special Management Areas"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(128,110,94,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_other_overlays_quarry_controls_5ba42860__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_other_overlays_quarry_controls_5ba42860",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_other_overlays_quarry_controls_5ba42860",
+        "displayName": "Proposed Lower Hutt District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Other Overlays",
+          "Quarry Controls"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(115,115,115,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_other_overlays_quarry_controls_5ba42860__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_other_overlays_quarry_controls_5ba42860",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_other_overlays_quarry_controls_5ba42860",
+        "displayName": "Proposed Lower Hutt District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Other Overlays",
+          "Quarry Controls"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(115,115,115,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_other_overlays_quarry_controls_b6208935__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_other_overlays_quarry_controls_b6208935",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_other_overlays_quarry_controls_b6208935",
+        "displayName": "Operative Kapiti Coast District Plan 2021",
+        "groupPath": [
+          "Regional District Plans",
+          "Other Overlays",
+          "Quarry Controls"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(115,115,115,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_other_overlays_quarry_controls_b6208935__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_other_overlays_quarry_controls_b6208935",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_other_overlays_quarry_controls_b6208935",
+        "displayName": "Operative Kapiti Coast District Plan 2021",
+        "groupPath": [
+          "Regional District Plans",
+          "Other Overlays",
+          "Quarry Controls"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(115,115,115,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_water_9525b91e__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_water_9525b91e",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_water_9525b91e",
+        "displayName": "Proposed Wairarapa Combined District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "Water Supply and Collection"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(30,136,168,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_water_9525b91e__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_water_9525b91e",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_water_9525b91e",
+        "displayName": "Proposed Wairarapa Combined District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "Water Supply and Collection"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(30,136,168,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_water_1689eba4__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_water_1689eba4",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_water_1689eba4",
+        "displayName": "Operative Kapiti Coast District Plan 2021",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "Water Supply and Collection"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(30,136,168,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_water_1689eba4__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_water_1689eba4",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_water_1689eba4",
+        "displayName": "Operative Kapiti Coast District Plan 2021",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "Water Supply and Collection"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(30,136,168,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_trans_406604ee__line",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_trans_406604ee",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_trans_406604ee",
+        "displayName": "Wellington City 2024 District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "Transport Network"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(57,106,177,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_trans_66737b47__line",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_trans_66737b47",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_trans_66737b47",
+        "displayName": "Proposed Wairarapa Combined District Plan — Lines",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "Transport Network"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(57,106,177,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_trans_974705b9__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_trans_974705b9",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_trans_974705b9",
+        "displayName": "Proposed Wairarapa Combined District Plan — Areas",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "Transport Network"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(57,106,177,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_trans_974705b9__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_trans_974705b9",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_trans_974705b9",
+        "displayName": "Proposed Wairarapa Combined District Plan — Areas",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "Transport Network"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(57,106,177,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_trans_a12f1e33__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_trans_a12f1e33",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_trans_a12f1e33",
+        "displayName": "Proposed Lower Hutt District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "Transport Network"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(57,106,177,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_trans_a12f1e33__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_trans_a12f1e33",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_trans_a12f1e33",
+        "displayName": "Proposed Lower Hutt District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "Transport Network"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(57,106,177,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_trans_e48cb9de__line",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_trans_e48cb9de",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_trans_e48cb9de",
+        "displayName": "Operative Kapiti Coast District Plan 2021",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "Transport Network"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(57,106,177,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_noise_98e65658__line",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_noise_98e65658",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_noise_98e65658",
+        "displayName": "Wellington City 2024 District Plan — Lines",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "Noise and Vibration Controls"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(245,130,33,1.000)",
+        "line-width": 2.666,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_noise_f54b83a1__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_noise_f54b83a1",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_noise_f54b83a1",
+        "displayName": "Wellington City 2024 District Plan — Areas (Overlay)",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "Noise and Vibration Controls"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(245,130,33,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_noise_f54b83a1__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_noise_f54b83a1",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_noise_f54b83a1",
+        "displayName": "Wellington City 2024 District Plan — Areas (Overlay)",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "Noise and Vibration Controls"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(245,130,33,1.000)",
+        "line-width": 2.666,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_noise_78f3c691__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_noise_78f3c691",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_noise_78f3c691",
+        "displayName": "Wellington City 2024 District Plan — Areas (Designation)",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "Noise and Vibration Controls"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(20,177,231,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_noise_78f3c691__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_noise_78f3c691",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_noise_78f3c691",
+        "displayName": "Wellington City 2024 District Plan — Areas (Designation)",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "Noise and Vibration Controls"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(20,177,231,1.000)",
+        "line-width": 1.9994999999999998,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_noise_937e5be3__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_noise_937e5be3",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_noise_937e5be3",
+        "displayName": "Proposed Wairarapa Combined District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "Noise and Vibration Controls"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(245,130,33,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_noise_937e5be3__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_noise_937e5be3",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_noise_937e5be3",
+        "displayName": "Proposed Wairarapa Combined District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "Noise and Vibration Controls"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(245,130,33,1.000)",
+        "line-width": 2.666,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_noise_1e54ba51__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_noise_1e54ba51",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_noise_1e54ba51",
+        "displayName": "Proposed Lower Hutt District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "Noise and Vibration Controls"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(245,130,33,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_noise_1e54ba51__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_noise_1e54ba51",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_noise_1e54ba51",
+        "displayName": "Proposed Lower Hutt District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "Noise and Vibration Controls"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(245,130,33,1.000)",
+        "line-width": 2.666,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_noise_c5d3f810__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_noise_c5d3f810",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_noise_c5d3f810",
+        "displayName": "Porirua District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "Noise and Vibration Controls"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(245,130,33,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_noise_c5d3f810__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_noise_c5d3f810",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_noise_c5d3f810",
+        "displayName": "Porirua District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "Noise and Vibration Controls"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(245,130,33,1.000)",
+        "line-width": 2.666,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_noise_22902ed4__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_noise_22902ed4",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_noise_22902ed4",
+        "displayName": "Operative Kapiti Coast District Plan 2021",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "Noise and Vibration Controls"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(245,130,33,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_noise_22902ed4__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_noise_22902ed4",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_noise_22902ed4",
+        "displayName": "Operative Kapiti Coast District Plan 2021",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "Noise and Vibration Controls"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(245,130,33,1.000)",
+        "line-width": 2.666,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_airpo_e7ca19a4__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_airpo_e7ca19a4",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_airpo_e7ca19a4",
+        "displayName": "Wellington City 2024 District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "Airport and Airspace Controls"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(0,137,123,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_airpo_e7ca19a4__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_airpo_e7ca19a4",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_airpo_e7ca19a4",
+        "displayName": "Wellington City 2024 District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "Airport and Airspace Controls"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(0,137,123,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_airpo_3741a659__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_airpo_3741a659",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_airpo_3741a659",
+        "displayName": "Proposed Wairarapa Combined District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "Airport and Airspace Controls"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(0,137,123,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_airpo_3741a659__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_airpo_3741a659",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_airpo_3741a659",
+        "displayName": "Proposed Wairarapa Combined District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "Airport and Airspace Controls"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(0,137,123,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_airpo_b0c64ebc__line",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_airpo_b0c64ebc",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_airpo_b0c64ebc",
+        "displayName": "Operative Kapiti Coast District Plan 2021 — Lines",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "Airport and Airspace Controls"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(0,137,123,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_airpo_0df248fa__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_airpo_0df248fa",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_airpo_0df248fa",
+        "displayName": "Operative Kapiti Coast District Plan 2021 — Areas",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "Airport and Airspace Controls"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(0,137,123,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_airpo_0df248fa__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_airpo_0df248fa",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_airpo_0df248fa",
+        "displayName": "Operative Kapiti Coast District Plan 2021 — Areas",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "Airport and Airspace Controls"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(0,137,123,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_gas_t_cd192fb4__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_gas_t_cd192fb4",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_gas_t_cd192fb4",
+        "displayName": "Porirua District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "Gas Transmission"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(121,85,72,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_gas_t_cd192fb4__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_gas_t_cd192fb4",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_gas_t_cd192fb4",
+        "displayName": "Porirua District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "Gas Transmission"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(121,85,72,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_gas_t_3a196f6a__line",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_gas_t_3a196f6a",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_gas_t_3a196f6a",
+        "displayName": "Operative Kapiti Coast District Plan 2021",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "Gas Transmission"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(121,85,72,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_natio_c4b38c5e__line",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_natio_c4b38c5e",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_natio_c4b38c5e",
+        "displayName": "Wellington City 2024 District Plan — Lines",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "National Grid"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(52,52,52,1.000)",
+        "line-width": 2.666,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_natio_12aa006c__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_natio_12aa006c",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_natio_12aa006c",
+        "displayName": "Wellington City 2024 District Plan — Areas",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "National Grid"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(52,52,52,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_natio_12aa006c__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_natio_12aa006c",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_natio_12aa006c",
+        "displayName": "Wellington City 2024 District Plan — Areas",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "National Grid"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(52,52,52,1.000)",
+        "line-width": 2.666,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_natio_620d1d55__line",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_natio_620d1d55",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_natio_620d1d55",
+        "displayName": "Proposed Wairarapa Combined District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "National Grid"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(52,52,52,1.000)",
+        "line-width": 2.666,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_natio_69a8d0e1__line",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_natio_69a8d0e1",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_natio_69a8d0e1",
+        "displayName": "Porirua District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "National Grid"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(52,52,52,1.000)",
+        "line-width": 2.666,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_natio_f54828ec__line",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_natio_f54828ec",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_natio_f54828ec",
+        "displayName": "Operative Kapiti Coast District Plan 2021 — Lines",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "National Grid"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(52,52,52,1.000)",
+        "line-width": 2.666,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_natio_ea0ec813__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_natio_ea0ec813",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_natio_ea0ec813",
+        "displayName": "Operative Kapiti Coast District Plan 2021 — Areas",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "National Grid"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(52,52,52,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_infrastructure_transport_natio_ea0ec813__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_infrastructure_transport_natio_ea0ec813",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_infrastructure_transport_natio_ea0ec813",
+        "displayName": "Operative Kapiti Coast District Plan 2021 — Areas",
+        "groupPath": [
+          "Regional District Plans",
+          "Infrastructure & Transport",
+          "National Grid"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(52,52,52,1.000)",
+        "line-width": 2.666,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_designations_designations_well__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_designations_designations_well",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_designations_designations_well",
+        "displayName": "Wellington City 2024 District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Designations",
+          "Designations"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(20,177,231,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_designations_designations_well__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_designations_designations_well",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_designations_designations_well",
+        "displayName": "Wellington City 2024 District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Designations",
+          "Designations"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(20,177,231,1.000)",
+        "line-width": 1.9994999999999998,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_designations_designations_uppe_22f06c97__circle",
+      "type": "circle",
+      "source": "planning",
+      "source-layer": "regional_district_plans_designations_designations_uppe_22f06c97",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_designations_designations_uppe_22f06c97",
+        "displayName": "Upper Hutt Operative District Plan 2004 — Locations",
+        "groupPath": [
+          "Regional District Plans",
+          "Designations",
+          "Designations"
+        ]
+      },
+      "paint": {
+        "circle-color": "rgba(20,177,231,1.000)",
+        "circle-radius": 3.9989999999999997,
+        "circle-stroke-color": "rgba(20,177,231,1.000)",
+        "circle-stroke-width": 1.333,
+        "circle-opacity": 0.6,
+        "circle-stroke-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_designations_designations_uppe__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_designations_designations_uppe",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_designations_designations_uppe",
+        "displayName": "Upper Hutt Operative District Plan 2004 — Areas",
+        "groupPath": [
+          "Regional District Plans",
+          "Designations",
+          "Designations"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(20,177,231,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_designations_designations_uppe__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_designations_designations_uppe",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_designations_designations_uppe",
+        "displayName": "Upper Hutt Operative District Plan 2004 — Areas",
+        "groupPath": [
+          "Regional District Plans",
+          "Designations",
+          "Designations"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(20,177,231,1.000)",
+        "line-width": 1.9994999999999998,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_designations_designations_prop_309c3fad__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_designations_designations_prop_309c3fad",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_designations_designations_prop_309c3fad",
+        "displayName": "Proposed Wairarapa Combined District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Designations",
+          "Designations"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(20,177,231,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_designations_designations_prop_309c3fad__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_designations_designations_prop_309c3fad",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_designations_designations_prop_309c3fad",
+        "displayName": "Proposed Wairarapa Combined District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Designations",
+          "Designations"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(20,177,231,1.000)",
+        "line-width": 1.9994999999999998,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_designations_designations_prop__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_designations_designations_prop",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_designations_designations_prop",
+        "displayName": "Proposed Lower Hutt District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Designations",
+          "Designations"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(20,177,231,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_designations_designations_prop__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_designations_designations_prop",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_designations_designations_prop",
+        "displayName": "Proposed Lower Hutt District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Designations",
+          "Designations"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(20,177,231,1.000)",
+        "line-width": 1.9994999999999998,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_designations_designations_pori__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_designations_designations_pori",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_designations_designations_pori",
+        "displayName": "Porirua District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Designations",
+          "Designations"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(20,177,231,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_designations_designations_pori__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_designations_designations_pori",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_designations_designations_pori",
+        "displayName": "Porirua District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Designations",
+          "Designations"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(20,177,231,1.000)",
+        "line-width": 1.9994999999999998,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_designations_designations_oper_f145d812__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_designations_designations_oper_f145d812",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_designations_designations_oper_f145d812",
+        "displayName": "Operative Kapiti Coast District Plan 2021",
+        "groupPath": [
+          "Regional District Plans",
+          "Designations",
+          "Designations"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(20,177,231,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_designations_designations_oper_f145d812__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_designations_designations_oper_f145d812",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_designations_designations_oper_f145d812",
+        "displayName": "Operative Kapiti Coast District Plan 2021",
+        "groupPath": [
+          "Regional District Plans",
+          "Designations",
+          "Designations"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(20,177,231,1.000)",
+        "line-width": 1.9994999999999998,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_designations_designations_oper__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_designations_designations_oper",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_designations_designations_oper",
+        "displayName": "Operative Horowhenua District Plan 2015",
+        "groupPath": [
+          "Regional District Plans",
+          "Designations",
+          "Designations"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(20,177,231,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_designations_designations_oper__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_designations_designations_oper",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_designations_designations_oper",
+        "displayName": "Operative Horowhenua District Plan 2015",
+        "groupPath": [
+          "Regional District Plans",
+          "Designations",
+          "Designations"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(20,177,231,1.000)",
+        "line-width": 1.9994999999999998,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_7762a391__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_7762a391",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_7762a391",
+        "displayName": "Proposed Wairarapa Combined District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Highly Productive Land and Soils"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(166,154,91,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_7762a391__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_7762a391",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_7762a391",
+        "displayName": "Proposed Wairarapa Combined District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Highly Productive Land and Soils"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(166,154,91,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_410c87f5__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_410c87f5",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_410c87f5",
+        "displayName": "Operative Horowhenua District Plan 2015",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Highly Productive Land and Soils"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(166,154,91,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_410c87f5__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_410c87f5",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_410c87f5",
+        "displayName": "Operative Horowhenua District Plan 2015",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Highly Productive Land and Soils"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(166,154,91,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_d9dec298__circle",
+      "type": "circle",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_d9dec298",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_d9dec298",
+        "displayName": "Operative Kapiti Coast District Plan 2021 — Locations",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Geological Sites and Areas"
+        ]
+      },
+      "paint": {
+        "circle-color": "rgba(148,103,61,1.000)",
+        "circle-radius": 3.9989999999999997,
+        "circle-stroke-color": "rgba(148,103,61,1.000)",
+        "circle-stroke-width": 1.333,
+        "circle-opacity": 0.6,
+        "circle-stroke-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_b7d021cd__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_b7d021cd",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_b7d021cd",
+        "displayName": "Operative Kapiti Coast District Plan 2021 — Areas",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Geological Sites and Areas"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(148,103,61,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_b7d021cd__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_b7d021cd",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_b7d021cd",
+        "displayName": "Operative Kapiti Coast District Plan 2021 — Areas",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Geological Sites and Areas"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(148,103,61,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_a88bd0f3__line",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_a88bd0f3",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_a88bd0f3",
+        "displayName": "Upper Hutt Operative District Plan 2004",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Waterbodies, Rivers and Streams"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(43,140,190,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_1db1600f__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_1db1600f",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_1db1600f",
+        "displayName": "Proposed Wairarapa Combined District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Waterbodies, Rivers and Streams"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(43,140,190,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_1db1600f__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_1db1600f",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_1db1600f",
+        "displayName": "Proposed Wairarapa Combined District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Waterbodies, Rivers and Streams"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(43,140,190,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_54270c3d__line",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_54270c3d",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_54270c3d",
+        "displayName": "Operative Kapiti Coast District Plan 2021",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Waterbodies, Rivers and Streams"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(43,140,190,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_bff25d18__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_bff25d18",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_bff25d18",
+        "displayName": "Wellington City 2024 District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Ridgelines and Hilltops"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(89,145,84,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_bff25d18__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_bff25d18",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_bff25d18",
+        "displayName": "Wellington City 2024 District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Ridgelines and Hilltops"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(89,145,84,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_457fec29__line",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_457fec29",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_457fec29",
+        "displayName": "Upper Hutt Operative District Plan 2004 — Lines",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Ridgelines and Hilltops"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(89,145,84,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_189086a2__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_189086a2",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_189086a2",
+        "displayName": "Upper Hutt Operative District Plan 2004 — Areas",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Ridgelines and Hilltops"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(89,145,84,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_189086a2__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_189086a2",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_189086a2",
+        "displayName": "Upper Hutt Operative District Plan 2004 — Areas",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Ridgelines and Hilltops"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(89,145,84,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_6c784deb__line",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_6c784deb",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_6c784deb",
+        "displayName": "Operative Horowhenua District Plan 2015",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Ridgelines and Hilltops"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(89,145,84,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_0585c283__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_0585c283",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_0585c283",
+        "displayName": "Wellington City 2024 District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Coastal Environment"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(28,103,148,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_0585c283__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_0585c283",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_0585c283",
+        "displayName": "Wellington City 2024 District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Coastal Environment"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(28,103,148,1.000)",
+        "line-width": 2.666,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_2211cf58__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_2211cf58",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_2211cf58",
+        "displayName": "Proposed Wairarapa Combined District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Coastal Environment"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(28,103,148,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_2211cf58__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_2211cf58",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_2211cf58",
+        "displayName": "Proposed Wairarapa Combined District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Coastal Environment"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(28,103,148,1.000)",
+        "line-width": 2.666,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_fe2d37c6__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_fe2d37c6",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_fe2d37c6",
+        "displayName": "Porirua District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Coastal Environment"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(28,103,148,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_fe2d37c6__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_fe2d37c6",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_fe2d37c6",
+        "displayName": "Porirua District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Coastal Environment"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(28,103,148,1.000)",
+        "line-width": 2.666,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_0d6ec0b4__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_0d6ec0b4",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_0d6ec0b4",
+        "displayName": "Operative Kapiti Coast District Plan 2021",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Coastal Environment"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(28,103,148,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_0d6ec0b4__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_0d6ec0b4",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_0d6ec0b4",
+        "displayName": "Operative Kapiti Coast District Plan 2021",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Coastal Environment"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(28,103,148,1.000)",
+        "line-width": 2.666,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_1472fa80__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_1472fa80",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_1472fa80",
+        "displayName": "Wellington City 2024 District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Natural Character"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(92,174,123,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_1472fa80__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_1472fa80",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_1472fa80",
+        "displayName": "Wellington City 2024 District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Natural Character"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(92,174,123,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_701442e9__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_701442e9",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_701442e9",
+        "displayName": "Proposed Wairarapa Combined District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Natural Character"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(92,174,123,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_701442e9__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_701442e9",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_701442e9",
+        "displayName": "Proposed Wairarapa Combined District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Natural Character"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(92,174,123,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_1afe5111__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_1afe5111",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_1afe5111",
+        "displayName": "Porirua District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Natural Character"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(92,174,123,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_1afe5111__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_1afe5111",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_1afe5111",
+        "displayName": "Porirua District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Natural Character"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(92,174,123,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_4b506a4e__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_4b506a4e",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_4b506a4e",
+        "displayName": "Operative Kapiti Coast District Plan 2021",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Natural Character"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(92,174,123,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_4b506a4e__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_4b506a4e",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_4b506a4e",
+        "displayName": "Operative Kapiti Coast District Plan 2021",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Natural Character"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(92,174,123,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_d12eff9c__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_d12eff9c",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_d12eff9c",
+        "displayName": "Wellington City 2024 District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Special Amenity Landscapes"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(116,196,118,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_d12eff9c__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_d12eff9c",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_d12eff9c",
+        "displayName": "Wellington City 2024 District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Special Amenity Landscapes"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(116,196,118,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_04445f22__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_04445f22",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_04445f22",
+        "displayName": "Proposed Wairarapa Combined District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Special Amenity Landscapes"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(116,196,118,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_04445f22__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_04445f22",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_04445f22",
+        "displayName": "Proposed Wairarapa Combined District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Special Amenity Landscapes"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(116,196,118,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_8247595f__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_8247595f",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_8247595f",
+        "displayName": "Porirua District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Special Amenity Landscapes"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(116,196,118,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_8247595f__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_8247595f",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_8247595f",
+        "displayName": "Porirua District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Special Amenity Landscapes"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(116,196,118,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_8d4d657c__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_8d4d657c",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_8d4d657c",
+        "displayName": "Operative Kapiti Coast District Plan 2021",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Special Amenity Landscapes"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(116,196,118,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_8d4d657c__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_8d4d657c",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_8d4d657c",
+        "displayName": "Operative Kapiti Coast District Plan 2021",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Special Amenity Landscapes"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(116,196,118,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_c785498c__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_c785498c",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_c785498c",
+        "displayName": "Wellington City 2024 District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Outstanding Natural Features and Landscapes"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(49,130,92,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_c785498c__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_c785498c",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_c785498c",
+        "displayName": "Wellington City 2024 District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Outstanding Natural Features and Landscapes"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(49,130,92,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_e2003e92__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_e2003e92",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_e2003e92",
+        "displayName": "Proposed Wairarapa Combined District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Outstanding Natural Features and Landscapes"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(49,130,92,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_e2003e92__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_e2003e92",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_e2003e92",
+        "displayName": "Proposed Wairarapa Combined District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Outstanding Natural Features and Landscapes"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(49,130,92,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_0ad162aa__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_0ad162aa",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_0ad162aa",
+        "displayName": "Porirua District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Outstanding Natural Features and Landscapes"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(49,130,92,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_0ad162aa__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_0ad162aa",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_0ad162aa",
+        "displayName": "Porirua District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Outstanding Natural Features and Landscapes"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(49,130,92,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_6499a1b9__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_6499a1b9",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_6499a1b9",
+        "displayName": "Operative Kapiti Coast District Plan 2021",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Outstanding Natural Features and Landscapes"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(49,130,92,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_6499a1b9__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_6499a1b9",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_6499a1b9",
+        "displayName": "Operative Kapiti Coast District Plan 2021",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Outstanding Natural Features and Landscapes"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(49,130,92,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_07893b44__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_07893b44",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_07893b44",
+        "displayName": "Operative Horowhenua District Plan 2015",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Outstanding Natural Features and Landscapes"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(49,130,92,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_07893b44__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_07893b44",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_07893b44",
+        "displayName": "Operative Horowhenua District Plan 2015",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Outstanding Natural Features and Landscapes"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(49,130,92,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_11c01dd0__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_11c01dd0",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_11c01dd0",
+        "displayName": "Upper Hutt Operative District Plan 2004",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Ecological Sites and Areas"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(72,158,75,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_11c01dd0__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_11c01dd0",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_11c01dd0",
+        "displayName": "Upper Hutt Operative District Plan 2004",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Ecological Sites and Areas"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(72,158,75,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_3d3de826__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_3d3de826",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_3d3de826",
+        "displayName": "Operative Kapiti Coast District Plan 2021",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Ecological Sites and Areas"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(72,158,75,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_3d3de826__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_3d3de826",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_3d3de826",
+        "displayName": "Operative Kapiti Coast District Plan 2021",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Ecological Sites and Areas"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(72,158,75,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_57f19a04__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_57f19a04",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_57f19a04",
+        "displayName": "Wellington City 2024 District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Significant Natural Areas"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(35,139,69,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_57f19a04__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_57f19a04",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_57f19a04",
+        "displayName": "Wellington City 2024 District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Significant Natural Areas"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(35,139,69,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_f3f98195__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_f3f98195",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_f3f98195",
+        "displayName": "Proposed Wairarapa Combined District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Significant Natural Areas"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(35,139,69,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_f3f98195__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_f3f98195",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_f3f98195",
+        "displayName": "Proposed Wairarapa Combined District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Significant Natural Areas"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(35,139,69,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_38d11577__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_38d11577",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_38d11577",
+        "displayName": "Porirua District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Significant Natural Areas"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(35,139,69,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_landscape_natural_environment_38d11577__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_landscape_natural_environment_38d11577",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_landscape_natural_environment_38d11577",
+        "displayName": "Porirua District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Landscape & Natural Environment",
+          "Significant Natural Areas"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(35,139,69,1.000)",
+        "line-width": 1.66625,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_liste_5bc8d687__circle",
+      "type": "circle",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_liste_5bc8d687",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_liste_5bc8d687",
+        "displayName": "Wellington City 2024 District Plan — Locations",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Listed Buildings, Structures and Sites"
+        ]
+      },
+      "paint": {
+        "circle-color": "rgba(132,0,168,1.000)",
+        "circle-radius": 4.6655,
+        "circle-stroke-color": "rgba(132,0,168,1.000)",
+        "circle-stroke-width": 1.333,
+        "circle-opacity": 0.6,
+        "circle-stroke-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_liste_1aa46545__line",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_liste_1aa46545",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_liste_1aa46545",
+        "displayName": "Wellington City 2024 District Plan — Lines",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Listed Buildings, Structures and Sites"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(132,0,168,1.000)",
+        "line-width": 2.666,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_liste_f74b1005__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_liste_f74b1005",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_liste_f74b1005",
+        "displayName": "Wellington City 2024 District Plan — Areas",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Listed Buildings, Structures and Sites"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(132,0,168,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_liste_f74b1005__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_liste_f74b1005",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_liste_f74b1005",
+        "displayName": "Wellington City 2024 District Plan — Areas",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Listed Buildings, Structures and Sites"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(132,0,168,1.000)",
+        "line-width": 2.666,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_liste_01ebf51e__circle",
+      "type": "circle",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_liste_01ebf51e",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_liste_01ebf51e",
+        "displayName": "Upper Hutt Operative District Plan 2004",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Listed Buildings, Structures and Sites"
+        ]
+      },
+      "paint": {
+        "circle-color": "rgba(132,0,168,1.000)",
+        "circle-radius": 4.6655,
+        "circle-stroke-color": "rgba(132,0,168,1.000)",
+        "circle-stroke-width": 1.333,
+        "circle-opacity": 0.6,
+        "circle-stroke-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_liste_771f0ccc__circle",
+      "type": "circle",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_liste_771f0ccc",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_liste_771f0ccc",
+        "displayName": "Proposed Wairarapa Combined District Plan — Locations",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Listed Buildings, Structures and Sites"
+        ]
+      },
+      "paint": {
+        "circle-color": "rgba(132,0,168,1.000)",
+        "circle-radius": 4.6655,
+        "circle-stroke-color": "rgba(132,0,168,1.000)",
+        "circle-stroke-width": 1.333,
+        "circle-opacity": 0.6,
+        "circle-stroke-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_liste_4a33577b__line",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_liste_4a33577b",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_liste_4a33577b",
+        "displayName": "Proposed Wairarapa Combined District Plan — Lines",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Listed Buildings, Structures and Sites"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(132,0,168,1.000)",
+        "line-width": 2.666,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_liste_ae8bd597__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_liste_ae8bd597",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_liste_ae8bd597",
+        "displayName": "Proposed Lower Hutt District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Listed Buildings, Structures and Sites"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(132,0,168,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_liste_ae8bd597__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_liste_ae8bd597",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_liste_ae8bd597",
+        "displayName": "Proposed Lower Hutt District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Listed Buildings, Structures and Sites"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(132,0,168,1.000)",
+        "line-width": 2.666,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_liste_b3be29da__circle",
+      "type": "circle",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_liste_b3be29da",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_liste_b3be29da",
+        "displayName": "Porirua District Plan 2025 — Locations",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Listed Buildings, Structures and Sites"
+        ]
+      },
+      "paint": {
+        "circle-color": "rgba(132,0,168,1.000)",
+        "circle-radius": 4.6655,
+        "circle-stroke-color": "rgba(132,0,168,1.000)",
+        "circle-stroke-width": 1.333,
+        "circle-opacity": 0.6,
+        "circle-stroke-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_liste_211e2aaf__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_liste_211e2aaf",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_liste_211e2aaf",
+        "displayName": "Porirua District Plan 2025 — Areas",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Listed Buildings, Structures and Sites"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(132,0,168,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_liste_211e2aaf__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_liste_211e2aaf",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_liste_211e2aaf",
+        "displayName": "Porirua District Plan 2025 — Areas",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Listed Buildings, Structures and Sites"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(132,0,168,1.000)",
+        "line-width": 2.666,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_liste_0d5735e4__circle",
+      "type": "circle",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_liste_0d5735e4",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_liste_0d5735e4",
+        "displayName": "Operative Kapiti Coast District Plan 2021",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Listed Buildings, Structures and Sites"
+        ]
+      },
+      "paint": {
+        "circle-color": "rgba(132,0,168,1.000)",
+        "circle-radius": 4.6655,
+        "circle-stroke-color": "rgba(132,0,168,1.000)",
+        "circle-stroke-width": 1.333,
+        "circle-opacity": 0.6,
+        "circle-stroke-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_liste_5116d365__circle",
+      "type": "circle",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_liste_5116d365",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_liste_5116d365",
+        "displayName": "Operative Horowhenua District Plan 2015",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Listed Buildings, Structures and Sites"
+        ]
+      },
+      "paint": {
+        "circle-color": "rgba(132,0,168,1.000)",
+        "circle-radius": 4.6655,
+        "circle-stroke-color": "rgba(132,0,168,1.000)",
+        "circle-stroke-width": 1.333,
+        "circle-opacity": 0.6,
+        "circle-stroke-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_views_f875a26f__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_views_f875a26f",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_views_f875a26f",
+        "displayName": "Wellington City 2024 District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Viewshafts"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(132,0,168,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_views_f875a26f__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_views_f875a26f",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_views_f875a26f",
+        "displayName": "Wellington City 2024 District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Viewshafts"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(132,0,168,1.000)",
+        "line-width": 2.666,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_herit_3b40ca4d__circle",
+      "type": "circle",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_herit_3b40ca4d",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_herit_3b40ca4d",
+        "displayName": "Wellington City 2024 District Plan — Locations",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Heritage Areas and Settings"
+        ]
+      },
+      "paint": {
+        "circle-color": "rgba(132,0,168,1.000)",
+        "circle-radius": 4.6655,
+        "circle-stroke-color": "rgba(132,0,168,1.000)",
+        "circle-stroke-width": 1.333,
+        "circle-opacity": 0.6,
+        "circle-stroke-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_herit_cd3d2ee8__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_herit_cd3d2ee8",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_herit_cd3d2ee8",
+        "displayName": "Wellington City 2024 District Plan — Areas",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Heritage Areas and Settings"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(132,0,168,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_herit_cd3d2ee8__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_herit_cd3d2ee8",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_herit_cd3d2ee8",
+        "displayName": "Wellington City 2024 District Plan — Areas",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Heritage Areas and Settings"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(132,0,168,1.000)",
+        "line-width": 2.666,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_herit_81e34a4c__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_herit_81e34a4c",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_herit_81e34a4c",
+        "displayName": "Proposed Wairarapa Combined District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Heritage Areas and Settings"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(132,0,168,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_herit_81e34a4c__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_herit_81e34a4c",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_herit_81e34a4c",
+        "displayName": "Proposed Wairarapa Combined District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Heritage Areas and Settings"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(132,0,168,1.000)",
+        "line-width": 2.666,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_herit_b85f0581__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_herit_b85f0581",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_herit_b85f0581",
+        "displayName": "Porirua District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Heritage Areas and Settings"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(132,0,168,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_herit_b85f0581__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_herit_b85f0581",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_herit_b85f0581",
+        "displayName": "Porirua District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Heritage Areas and Settings"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(132,0,168,1.000)",
+        "line-width": 2.666,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_herit_9e61769c__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_herit_9e61769c",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_herit_9e61769c",
+        "displayName": "Operative Kapiti Coast District Plan 2021",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Heritage Areas and Settings"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(132,0,168,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_herit_9e61769c__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_herit_9e61769c",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_herit_9e61769c",
+        "displayName": "Operative Kapiti Coast District Plan 2021",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Heritage Areas and Settings"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(132,0,168,1.000)",
+        "line-width": 2.666,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_archa_28f1efc5__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_archa_28f1efc5",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_archa_28f1efc5",
+        "displayName": "Wellington City 2024 District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Archaeological Sites"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(132,0,168,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_archa_28f1efc5__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_archa_28f1efc5",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_archa_28f1efc5",
+        "displayName": "Wellington City 2024 District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Archaeological Sites"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(132,0,168,1.000)",
+        "line-width": 2.666,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_sites_8227007c__circle",
+      "type": "circle",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_sites_8227007c",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_sites_8227007c",
+        "displayName": "Proposed Wairarapa Combined District Plan — Locations",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Sites and Areas of Significance to Māori"
+        ]
+      },
+      "paint": {
+        "circle-color": "rgba(132,0,168,1.000)",
+        "circle-radius": 4.6655,
+        "circle-stroke-color": "rgba(132,0,168,1.000)",
+        "circle-stroke-width": 1.333,
+        "circle-opacity": 0.6,
+        "circle-stroke-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_sites_15ca32f5__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_sites_15ca32f5",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_sites_15ca32f5",
+        "displayName": "Proposed Wairarapa Combined District Plan — Areas",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Sites and Areas of Significance to Māori"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(132,0,168,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_sites_15ca32f5__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_sites_15ca32f5",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_sites_15ca32f5",
+        "displayName": "Proposed Wairarapa Combined District Plan — Areas",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Sites and Areas of Significance to Māori"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(132,0,168,1.000)",
+        "line-width": 2.666,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_sites_62d93b19__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_sites_62d93b19",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_sites_62d93b19",
+        "displayName": "Operative Kapiti Coast District Plan 2021",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Sites and Areas of Significance to Māori"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(132,0,168,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_sites_62d93b19__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_sites_62d93b19",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_sites_62d93b19",
+        "displayName": "Operative Kapiti Coast District Plan 2021",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Sites and Areas of Significance to Māori"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(132,0,168,1.000)",
+        "line-width": 2.666,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_statu_163bb292__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_statu_163bb292",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_statu_163bb292",
+        "displayName": "Wellington City 2024 District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Statutory Acknowledgements"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(255,255,255,0.550)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_statu_163bb292__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_statu_163bb292",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_statu_163bb292",
+        "displayName": "Wellington City 2024 District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Statutory Acknowledgements"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(255,0,0,1.000)",
+        "line-width": 0.6665,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_statu_b96ca074__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_statu_b96ca074",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_statu_b96ca074",
+        "displayName": "Operative Kapiti Coast District Plan 2021",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Statutory Acknowledgements"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(255,255,255,0.550)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_statu_b96ca074__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_statu_b96ca074",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_statu_b96ca074",
+        "displayName": "Operative Kapiti Coast District Plan 2021",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Statutory Acknowledgements"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(255,0,0,1.000)",
+        "line-width": 0.6665,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_notab_f52839d5__circle",
+      "type": "circle",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_notab_f52839d5",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_notab_f52839d5",
+        "displayName": "Wellington City 2024 District Plan — Locations",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Notable and Significant Trees"
+        ]
+      },
+      "paint": {
+        "circle-color": "rgba(38,115,0,1.000)",
+        "circle-radius": 4.6655,
+        "circle-stroke-color": "rgba(38,115,0,1.000)",
+        "circle-stroke-width": 1.333,
+        "circle-opacity": 0.6,
+        "circle-stroke-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_notab_d2cf0b51__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_notab_d2cf0b51",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_notab_d2cf0b51",
+        "displayName": "Wellington City 2024 District Plan — Areas",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Notable and Significant Trees"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(38,115,0,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_notab_d2cf0b51__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_notab_d2cf0b51",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_notab_d2cf0b51",
+        "displayName": "Wellington City 2024 District Plan — Areas",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Notable and Significant Trees"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(38,115,0,1.000)",
+        "line-width": 1.333,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_notab_b2a89a30__circle",
+      "type": "circle",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_notab_b2a89a30",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_notab_b2a89a30",
+        "displayName": "Upper Hutt Operative District Plan 2004 — Locations",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Notable and Significant Trees"
+        ]
+      },
+      "paint": {
+        "circle-color": "rgba(38,115,0,1.000)",
+        "circle-radius": 4.6655,
+        "circle-stroke-color": "rgba(38,115,0,1.000)",
+        "circle-stroke-width": 1.333,
+        "circle-opacity": 0.6,
+        "circle-stroke-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_notab_c3afbbad__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_notab_c3afbbad",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_notab_c3afbbad",
+        "displayName": "Upper Hutt Operative District Plan 2004 — Areas",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Notable and Significant Trees"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(38,115,0,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_notab_c3afbbad__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_notab_c3afbbad",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_notab_c3afbbad",
+        "displayName": "Upper Hutt Operative District Plan 2004 — Areas",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Notable and Significant Trees"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(38,115,0,1.000)",
+        "line-width": 1.333,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_notab_5554cf8e__circle",
+      "type": "circle",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_notab_5554cf8e",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_notab_5554cf8e",
+        "displayName": "Proposed Wairarapa Combined District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Notable and Significant Trees"
+        ]
+      },
+      "paint": {
+        "circle-color": "rgba(38,115,0,1.000)",
+        "circle-radius": 4.6655,
+        "circle-stroke-color": "rgba(38,115,0,1.000)",
+        "circle-stroke-width": 1.333,
+        "circle-opacity": 0.6,
+        "circle-stroke-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_notab_479c8889__circle",
+      "type": "circle",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_notab_479c8889",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_notab_479c8889",
+        "displayName": "Proposed Lower Hutt District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Notable and Significant Trees"
+        ]
+      },
+      "paint": {
+        "circle-color": "rgba(38,115,0,1.000)",
+        "circle-radius": 4.6655,
+        "circle-stroke-color": "rgba(38,115,0,1.000)",
+        "circle-stroke-width": 1.333,
+        "circle-opacity": 0.6,
+        "circle-stroke-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_notab_472238cc__circle",
+      "type": "circle",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_notab_472238cc",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_notab_472238cc",
+        "displayName": "Porirua District Plan 2025 — Locations",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Notable and Significant Trees"
+        ]
+      },
+      "paint": {
+        "circle-color": "rgba(38,115,0,1.000)",
+        "circle-radius": 4.6655,
+        "circle-stroke-color": "rgba(38,115,0,1.000)",
+        "circle-stroke-width": 1.333,
+        "circle-opacity": 0.6,
+        "circle-stroke-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_notab_03dc038e__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_notab_03dc038e",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_notab_03dc038e",
+        "displayName": "Porirua District Plan 2025 — Areas",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Notable and Significant Trees"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(38,115,0,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_notab_03dc038e__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_notab_03dc038e",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_notab_03dc038e",
+        "displayName": "Porirua District Plan 2025 — Areas",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Notable and Significant Trees"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(38,115,0,1.000)",
+        "line-width": 1.333,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_notab_d19672ea__circle",
+      "type": "circle",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_notab_d19672ea",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_notab_d19672ea",
+        "displayName": "Operative Kapiti Coast District Plan 2021 — Locations (Overlay)",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Notable and Significant Trees"
+        ]
+      },
+      "paint": {
+        "circle-color": "rgba(38,115,0,1.000)",
+        "circle-radius": 4.6655,
+        "circle-stroke-color": "rgba(38,115,0,1.000)",
+        "circle-stroke-width": 1.333,
+        "circle-opacity": 0.6,
+        "circle-stroke-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_notab_34e939a9__circle",
+      "type": "circle",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_notab_34e939a9",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_notab_34e939a9",
+        "displayName": "Operative Kapiti Coast District Plan 2021 — Locations (Heritage)",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Notable and Significant Trees"
+        ]
+      },
+      "paint": {
+        "circle-color": "rgba(38,115,0,1.000)",
+        "circle-radius": 4.6655,
+        "circle-stroke-color": "rgba(38,115,0,1.000)",
+        "circle-stroke-width": 1.333,
+        "circle-opacity": 0.6,
+        "circle-stroke-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_notab_56f2f35c__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_notab_56f2f35c",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_notab_56f2f35c",
+        "displayName": "Operative Kapiti Coast District Plan 2021 — Areas",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Notable and Significant Trees"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(38,115,0,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_notab_56f2f35c__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_notab_56f2f35c",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_notab_56f2f35c",
+        "displayName": "Operative Kapiti Coast District Plan 2021 — Areas",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Notable and Significant Trees"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(38,115,0,1.000)",
+        "line-width": 1.333,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_heritage_cultural_values_notab_38ad4f2a__circle",
+      "type": "circle",
+      "source": "planning",
+      "source-layer": "regional_district_plans_heritage_cultural_values_notab_38ad4f2a",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_heritage_cultural_values_notab_38ad4f2a",
+        "displayName": "Operative Horowhenua District Plan 2015",
+        "groupPath": [
+          "Regional District Plans",
+          "Heritage & Cultural Values",
+          "Notable and Significant Trees"
+        ]
+      },
+      "paint": {
+        "circle-color": "rgba(38,115,0,1.000)",
+        "circle-radius": 4.6655,
+        "circle-stroke-color": "rgba(38,115,0,1.000)",
+        "circle-stroke-width": 1.333,
+        "circle-opacity": 0.6,
+        "circle-stroke-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_hazardous_substances_p__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_hazardous_substances_p",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_hazardous_substances_p",
+        "displayName": "Proposed Lower Hutt District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Hazardous Substances"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(117,107,177,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_hazardous_substances_p__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_hazardous_substances_p",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_hazardous_substances_p",
+        "displayName": "Proposed Lower Hutt District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Hazardous Substances"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(117,107,177,1.000)",
+        "line-width": 1.9994999999999998,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_erosion_hazard_propose__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_erosion_hazard_propose",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_erosion_hazard_propose",
+        "displayName": "Proposed Wairarapa Combined District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Erosion Hazard"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(202,108,62,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_erosion_hazard_propose__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_erosion_hazard_propose",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_erosion_hazard_propose",
+        "displayName": "Proposed Wairarapa Combined District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Erosion Hazard"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(202,108,62,1.000)",
+        "line-width": 1.9994999999999998,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_slope_and_land_instabi_6b8873b8__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_slope_and_land_instabi_6b8873b8",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_slope_and_land_instabi_6b8873b8",
+        "displayName": "Proposed Lower Hutt District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Slope and Land Instability Hazard"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(145,82,45,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_slope_and_land_instabi_6b8873b8__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_slope_and_land_instabi_6b8873b8",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_slope_and_land_instabi_6b8873b8",
+        "displayName": "Proposed Lower Hutt District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Slope and Land Instability Hazard"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(145,82,45,1.000)",
+        "line-width": 1.9994999999999998,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_liquefaction_hazard_we__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_liquefaction_hazard_we",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_liquefaction_hazard_we",
+        "displayName": "Wellington City 2024 District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Liquefaction Hazard"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(239,138,98,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_liquefaction_hazard_we__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_liquefaction_hazard_we",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_liquefaction_hazard_we",
+        "displayName": "Wellington City 2024 District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Liquefaction Hazard"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(239,138,98,1.000)",
+        "line-width": 1.9994999999999998,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_liquefaction_hazard_pr_011d906d__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_liquefaction_hazard_pr_011d906d",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_liquefaction_hazard_pr_011d906d",
+        "displayName": "Proposed Wairarapa Combined District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Liquefaction Hazard"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(239,138,98,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_liquefaction_hazard_pr_011d906d__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_liquefaction_hazard_pr_011d906d",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_liquefaction_hazard_pr_011d906d",
+        "displayName": "Proposed Wairarapa Combined District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Liquefaction Hazard"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(239,138,98,1.000)",
+        "line-width": 1.9994999999999998,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_liquefaction_hazard_pr__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_liquefaction_hazard_pr",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_liquefaction_hazard_pr",
+        "displayName": "Proposed Lower Hutt District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Liquefaction Hazard"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(239,138,98,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_liquefaction_hazard_pr__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_liquefaction_hazard_pr",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_liquefaction_hazard_pr",
+        "displayName": "Proposed Lower Hutt District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Liquefaction Hazard"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(239,138,98,1.000)",
+        "line-width": 1.9994999999999998,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_fault_hazard_wellingto__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_fault_hazard_wellingto",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_fault_hazard_wellingto",
+        "displayName": "Wellington City 2024 District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Fault Hazard"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(178,24,43,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_fault_hazard_wellingto__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_fault_hazard_wellingto",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_fault_hazard_wellingto",
+        "displayName": "Wellington City 2024 District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Fault Hazard"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(178,24,43,1.000)",
+        "line-width": 1.9994999999999998,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_fault_hazard_proposed_fed9f501__line",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_fault_hazard_proposed_fed9f501",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_fault_hazard_proposed_fed9f501",
+        "displayName": "Proposed Wairarapa Combined District Plan — Lines",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Fault Hazard"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(178,24,43,1.000)",
+        "line-width": 1.9994999999999998,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_fault_hazard_proposed_218364a0__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_fault_hazard_proposed_218364a0",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_fault_hazard_proposed_218364a0",
+        "displayName": "Proposed Wairarapa Combined District Plan — Areas",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Fault Hazard"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(178,24,43,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_fault_hazard_proposed_218364a0__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_fault_hazard_proposed_218364a0",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_fault_hazard_proposed_218364a0",
+        "displayName": "Proposed Wairarapa Combined District Plan — Areas",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Fault Hazard"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(178,24,43,1.000)",
+        "line-width": 1.9994999999999998,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_fault_hazard_proposed__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_fault_hazard_proposed",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_fault_hazard_proposed",
+        "displayName": "Proposed Lower Hutt District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Fault Hazard"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(178,24,43,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_fault_hazard_proposed__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_fault_hazard_proposed",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_fault_hazard_proposed",
+        "displayName": "Proposed Lower Hutt District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Fault Hazard"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(178,24,43,1.000)",
+        "line-width": 1.9994999999999998,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_fault_hazard_porirua_d__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_fault_hazard_porirua_d",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_fault_hazard_porirua_d",
+        "displayName": "Porirua District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Fault Hazard"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(178,24,43,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_fault_hazard_porirua_d__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_fault_hazard_porirua_d",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_fault_hazard_porirua_d",
+        "displayName": "Porirua District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Fault Hazard"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(178,24,43,1.000)",
+        "line-width": 1.9994999999999998,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_fault_hazard_operative__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_fault_hazard_operative",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_fault_hazard_operative",
+        "displayName": "Operative Kapiti Coast District Plan 2021",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Fault Hazard"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(178,24,43,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_fault_hazard_operative__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_fault_hazard_operative",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_fault_hazard_operative",
+        "displayName": "Operative Kapiti Coast District Plan 2021",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Fault Hazard"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(178,24,43,1.000)",
+        "line-width": 1.9994999999999998,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_flood_hazard_wellingto__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_flood_hazard_wellingto",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_flood_hazard_wellingto",
+        "displayName": "Wellington City 2024 District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Flood Hazard"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(44,127,184,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_flood_hazard_wellingto__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_flood_hazard_wellingto",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_flood_hazard_wellingto",
+        "displayName": "Wellington City 2024 District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Flood Hazard"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(44,127,184,1.000)",
+        "line-width": 1.9994999999999998,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_flood_hazard_proposed_1d500d9f__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_flood_hazard_proposed_1d500d9f",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_flood_hazard_proposed_1d500d9f",
+        "displayName": "Proposed Wairarapa Combined District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Flood Hazard"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(44,127,184,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_flood_hazard_proposed_1d500d9f__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_flood_hazard_proposed_1d500d9f",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_flood_hazard_proposed_1d500d9f",
+        "displayName": "Proposed Wairarapa Combined District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Flood Hazard"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(44,127,184,1.000)",
+        "line-width": 1.9994999999999998,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_flood_hazard_proposed__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_flood_hazard_proposed",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_flood_hazard_proposed",
+        "displayName": "Proposed Lower Hutt District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Flood Hazard"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(44,127,184,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_flood_hazard_proposed__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_flood_hazard_proposed",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_flood_hazard_proposed",
+        "displayName": "Proposed Lower Hutt District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Flood Hazard"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(44,127,184,1.000)",
+        "line-width": 1.9994999999999998,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_flood_hazard_porirua_d__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_flood_hazard_porirua_d",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_flood_hazard_porirua_d",
+        "displayName": "Porirua District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Flood Hazard"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(44,127,184,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_flood_hazard_porirua_d__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_flood_hazard_porirua_d",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_flood_hazard_porirua_d",
+        "displayName": "Porirua District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Flood Hazard"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(44,127,184,1.000)",
+        "line-width": 1.9994999999999998,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_flood_hazard_operative_370a33d9__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_flood_hazard_operative_370a33d9",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_flood_hazard_operative_370a33d9",
+        "displayName": "Operative Kapiti Coast District Plan 2021",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Flood Hazard"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(44,127,184,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_flood_hazard_operative_370a33d9__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_flood_hazard_operative_370a33d9",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_flood_hazard_operative_370a33d9",
+        "displayName": "Operative Kapiti Coast District Plan 2021",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Flood Hazard"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(44,127,184,1.000)",
+        "line-width": 1.9994999999999998,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_flood_hazard_operative__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_flood_hazard_operative",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_flood_hazard_operative",
+        "displayName": "Operative Horowhenua District Plan 2015",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Flood Hazard"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(44,127,184,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_flood_hazard_operative__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_flood_hazard_operative",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_flood_hazard_operative",
+        "displayName": "Operative Horowhenua District Plan 2015",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Flood Hazard"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(44,127,184,1.000)",
+        "line-width": 1.9994999999999998,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_tsunami_hazard_welling__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_tsunami_hazard_welling",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_tsunami_hazard_welling",
+        "displayName": "Wellington City 2024 District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Tsunami Hazard"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(66,146,198,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_tsunami_hazard_welling__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_tsunami_hazard_welling",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_tsunami_hazard_welling",
+        "displayName": "Wellington City 2024 District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Tsunami Hazard"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(66,146,198,1.000)",
+        "line-width": 1.9994999999999998,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_tsunami_hazard_propose__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_tsunami_hazard_propose",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_tsunami_hazard_propose",
+        "displayName": "Proposed Lower Hutt District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Tsunami Hazard"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(66,146,198,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_tsunami_hazard_propose__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_tsunami_hazard_propose",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_tsunami_hazard_propose",
+        "displayName": "Proposed Lower Hutt District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Tsunami Hazard"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(66,146,198,1.000)",
+        "line-width": 1.9994999999999998,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_tsunami_hazard_porirua__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_tsunami_hazard_porirua",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_tsunami_hazard_porirua",
+        "displayName": "Porirua District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Tsunami Hazard"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(66,146,198,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_tsunami_hazard_porirua__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_tsunami_hazard_porirua",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_tsunami_hazard_porirua",
+        "displayName": "Porirua District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Tsunami Hazard"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(66,146,198,1.000)",
+        "line-width": 1.9994999999999998,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_coastal_inundation_haz_8938c4a5__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_coastal_inundation_haz_8938c4a5",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_coastal_inundation_haz_8938c4a5",
+        "displayName": "Wellington City 2024 District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Coastal Inundation Hazard"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(59,126,173,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_coastal_inundation_haz_8938c4a5__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_coastal_inundation_haz_8938c4a5",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_coastal_inundation_haz_8938c4a5",
+        "displayName": "Wellington City 2024 District Plan",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Coastal Inundation Hazard"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(59,126,173,1.000)",
+        "line-width": 1.9994999999999998,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_coastal_inundation_haz_df85b7f9__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_coastal_inundation_haz_df85b7f9",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_coastal_inundation_haz_df85b7f9",
+        "displayName": "Proposed Lower Hutt District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Coastal Inundation Hazard"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(59,126,173,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_coastal_inundation_haz_df85b7f9__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_coastal_inundation_haz_df85b7f9",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_coastal_inundation_haz_df85b7f9",
+        "displayName": "Proposed Lower Hutt District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Coastal Inundation Hazard"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(59,126,173,1.000)",
+        "line-width": 1.9994999999999998,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_coastal_inundation_haz_f8918314__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_coastal_inundation_haz_f8918314",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_coastal_inundation_haz_f8918314",
+        "displayName": "Porirua District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Coastal Inundation Hazard"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(59,126,173,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_coastal_inundation_haz_f8918314__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_coastal_inundation_haz_f8918314",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_coastal_inundation_haz_f8918314",
+        "displayName": "Porirua District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Coastal Inundation Hazard"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(59,126,173,1.000)",
+        "line-width": 1.9994999999999998,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_coastal_inundation_haz_908a3a6b__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_coastal_inundation_haz_908a3a6b",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_coastal_inundation_haz_908a3a6b",
+        "displayName": "Operative Horowhenua District Plan 2015",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Coastal Inundation Hazard"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(59,126,173,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_coastal_inundation_haz_908a3a6b__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_coastal_inundation_haz_908a3a6b",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_coastal_inundation_haz_908a3a6b",
+        "displayName": "Operative Horowhenua District Plan 2015",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Coastal Inundation Hazard"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(59,126,173,1.000)",
+        "line-width": 1.9994999999999998,
+        "line-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_coastal_erosion_hazard_3b9a41dc__fill",
+      "type": "fill",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_coastal_erosion_hazard_3b9a41dc",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_coastal_erosion_hazard_3b9a41dc",
+        "displayName": "Porirua District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Coastal Erosion Hazard"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(188,83,64,1.000)",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "regional_district_plans_hazards_coastal_erosion_hazard_3b9a41dc__outline",
+      "type": "line",
+      "source": "planning",
+      "source-layer": "regional_district_plans_hazards_coastal_erosion_hazard_3b9a41dc",
+      "layout": {
+        "visibility": "none"
+      },
+      "metadata": {
+        "logicalLayerId": "regional_district_plans_hazards_coastal_erosion_hazard_3b9a41dc",
+        "displayName": "Porirua District Plan 2025",
+        "groupPath": [
+          "Regional District Plans",
+          "Hazards",
+          "Coastal Erosion Hazard"
+        ]
+      },
+      "paint": {
+        "line-color": "rgba(188,83,64,1.000)",
+        "line-width": 1.9994999999999998,
+        "line-opacity": 0.6
+      }
+    }
+  ]
+}

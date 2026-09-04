@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wellington Region District Plans</title>
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.13.0/dist/maplibre-gl.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Wellington Region District Plans</h1>
+      <p>Regional planning index. Council plans remain authoritative.</p>
+    </div>
+    <button id="sidebar-toggle" type="button" aria-controls="sidebar" aria-expanded="true">Layers</button>
+  </header>
+  <main>
+    <aside id="sidebar">
+      <section class="controls" aria-label="Map controls">
+        <label for="basemap">Basemap</label>
+        <select id="basemap"></select>
+        <label for="opacity">Planning-layer opacity <output id="opacity-value">100%</output></label>
+        <input id="opacity" type="range" min="0" max="100" value="100">
+      </section>
+      <section>
+        <h2>Plan layers</h2>
+        <div id="layer-tree" class="tree" role="tree"></div>
+      </section>
+      <section>
+        <h2>Legend</h2>
+        <div id="legend"></div>
+      </section>
+    </aside>
+    <div id="map" aria-label="Interactive planning map"></div>
+    <div id="status" role="status" aria-live="polite">Loading map configuration…</div>
+  </main>
+  <script src="https://unpkg.com/maplibre-gl@5.13.0/dist/maplibre-gl.js"></script>
+  <script src="https://unpkg.com/pmtiles@4.5.0/dist/pmtiles.js"></script>
+  <script src="app.js?v=20260904-dark-default"></script>
+</body>
+</html>

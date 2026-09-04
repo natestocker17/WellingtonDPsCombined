@@ -1,0 +1,34 @@
+{
+  "pmtiles_url": "./data/wellington-district-plans.pmtiles",
+  "default_basemap": "carto-dark-matter",
+  "default_planning_opacity": 1.0,
+  "defaults_revision": 3,
+  "basemaps": [
+    {
+      "id": "nz-imagery",
+      "label": "NZ Imagery (Eagle / LINZ)",
+      "raster_url": "https://services1.arcgisonline.co.nz/arcgis/rest/services/Imagery/newzealand/MapServer/export?bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256%2C256&format=jpg&f=image",
+      "tile_size": 256,
+      "minzoom": 0,
+      "maxzoom": 22,
+      "attribution": "Imagery: Eagle Technology and LINZ"
+    },
+    {
+      "id": "openfreemap",
+      "label": "OpenFreeMap Liberty",
+      "style_url": "https://tiles.openfreemap.org/styles/liberty"
+    },
+    {
+      "id": "carto-dark-matter",
+      "label": "CARTO Dark Matter",
+      "style_url": "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json"
+    },
+    {
+      "id": "none",
+      "label": "No basemap",
+      "style_url": null
+    }
+  ],
+  "maplibre_js": "https://unpkg.com/maplibre-gl@5.13.0/dist/maplibre-gl.js",
+  "pmtiles_js": "https://unpkg.com/pmtiles@4.5.0/dist/pmtiles.js"
+}

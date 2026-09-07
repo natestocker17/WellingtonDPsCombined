@@ -34,7 +34,7 @@ h2 { margin: 0 0 9px; font-size: .92rem; }
 .tree summary { cursor: pointer; list-style-position: outside; }
 .tree summary::marker { color: var(--muted); }
 .tree input { flex: 0 0 auto; margin: 2px 2px 0 0; accent-color: var(--accent); }
-.tree .leaf { margin-left: 28px; }
+.tree .leaf { margin-left: 14px; }
 .tree label { cursor: pointer; overflow-wrap: anywhere; }
 #legend { font-size: .75rem; }
 .legend-layer { margin: 0 0 7px; }

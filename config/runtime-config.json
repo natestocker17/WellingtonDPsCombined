@@ -1,5 +1,42 @@
 {
   "pmtiles_url": "./data/wellington-district-plans.pmtiles",
+  "pmtiles_archives": [
+    {
+      "id": "zones",
+      "source_id": "planning-zones",
+      "url": "./data/wellington-district-plans-zones.pmtiles"
+    },
+    {
+      "id": "hazards",
+      "source_id": "planning-hazards",
+      "url": "./data/wellington-district-plans-hazards.pmtiles"
+    },
+    {
+      "id": "heritage-cultural-values",
+      "source_id": "planning-heritage-cultural-values",
+      "url": "./data/wellington-district-plans-heritage-cultural-values.pmtiles"
+    },
+    {
+      "id": "landscape-natural-environment",
+      "source_id": "planning-landscape-natural-environment",
+      "url": "./data/wellington-district-plans-landscape-natural-environment.pmtiles"
+    },
+    {
+      "id": "designations",
+      "source_id": "planning-designations",
+      "url": "./data/wellington-district-plans-designations.pmtiles"
+    },
+    {
+      "id": "infrastructure-transport",
+      "source_id": "planning-infrastructure-transport",
+      "url": "./data/wellington-district-plans-infrastructure-transport.pmtiles"
+    },
+    {
+      "id": "other-overlays",
+      "source_id": "planning-other-overlays",
+      "url": "./data/wellington-district-plans-other-overlays.pmtiles"
+    }
+  ],
   "default_basemap": "carto-dark-matter",
   "default_planning_opacity": 1.0,
   "defaults_revision": 3,

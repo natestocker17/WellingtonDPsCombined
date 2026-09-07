@@ -133,22 +133,42 @@
     }
 
     function installPlanningLayers() {
-      if (!map.getSource("planning")) {
-        const source = {...planningStyle.sources.planning};
-        source.url = "pmtiles://" + new URL(runtime.pmtiles_url, window.location.href).href;
-        map.addSource("planning", source);
+      try {
+        const configuredArchives = new Map((runtime.pmtiles_archives || [
+          {source_id: "planning", url: runtime.pmtiles_url},
+        ]).map(item => [item.source_id, item]));
+        for (const [sourceId, sourceDefinition] of Object.entries(planningStyle.sources || {})) {
+          if (map.getSource(sourceId)) continue;
+          const source = {...sourceDefinition};
+          const configuredUrl = configuredArchives.get(sourceId)?.url;
+          const styleUrl = String(source.url || "").replace(/^pmtiles:\/\//, "");
+          source.url = "pmtiles://" + new URL(configuredUrl || styleUrl, window.location.href).href;
+          map.addSource(sourceId, source);
+        }
+        for (const layer of planningStyle.layers) {
+          if (!map.getLayer(layer.id)) map.addLayer(structuredClone(layer));
+        }
+        leaves.forEach(applyLeafVisibility);
+        applyOpacity();
+        setStatus(`${leaves.length} planning layers loaded.`);
+        window.setTimeout(() => { if (!status.classList.contains("error")) setStatus(""); }, 2500);
+      } catch (error) {
+        console.error(error);
+        setStatus(`Planning layers could not be installed: ${error.message}`, true);
       }
-      for (const layer of planningStyle.layers) {
-        if (!map.getLayer(layer.id)) map.addLayer(structuredClone(layer));
-      }
-      leaves.forEach(applyLeafVisibility);
-      applyOpacity();
-      setStatus(`${leaves.length} planning layers loaded.`);
-      window.setTimeout(() => { if (!status.classList.contains("error")) setStatus(""); }, 2500);
     }
     map.on("style.load", installPlanningLayers);
     map.on("load", installPlanningLayers);
-    if (map.isStyleLoaded()) installPlanningLayers();
+    function installPlanningLayersWhenReady(attempt = 0) {
+      if (map.isStyleLoaded()) {
+        installPlanningLayers();
+      } else if (attempt < 100) {
+        window.setTimeout(() => installPlanningLayersWhenReady(attempt + 1), 100);
+      } else {
+        setStatus("Planning layers could not be installed because the basemap style did not finish loading.", true);
+      }
+    }
+    installPlanningLayersWhenReady();
     basemapSelect.addEventListener("change", () => {
       setStatus("Changing basemap…");
       writeSession("districtPlans.basemap", basemapSelect.value);

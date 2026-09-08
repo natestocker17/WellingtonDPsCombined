@@ -23,181 +23,6 @@
       "is_group": true,
       "children": [
         {
-          "id": "logical_regional_district_plans_zones_ab26969b",
-          "display_name": "Zones",
-          "is_group": true,
-          "children": [
-            {
-              "id": "logical_zones_airpz_a52e91cd",
-              "display_name": "Airport Zone",
-              "is_group": false,
-              "children": []
-            },
-            {
-              "id": "logical_zones_ccz_e50788da",
-              "display_name": "City Centre Zone",
-              "is_group": false,
-              "children": []
-            },
-            {
-              "id": "logical_zones_comz_2e82fc29",
-              "display_name": "Commercial Zone",
-              "is_group": false,
-              "children": []
-            },
-            {
-              "id": "logical_zones_fuz_b5fefdf9",
-              "display_name": "Future Urban Zone",
-              "is_group": false,
-              "children": []
-            },
-            {
-              "id": "logical_zones_giz_4ad53789",
-              "display_name": "General Industrial Zone",
-              "is_group": false,
-              "children": []
-            },
-            {
-              "id": "logical_zones_grz_818b6d4e",
-              "display_name": "General Residential Zone",
-              "is_group": false,
-              "children": []
-            },
-            {
-              "id": "logical_zones_gruz_8c3ef388",
-              "display_name": "General Rural Zone",
-              "is_group": false,
-              "children": []
-            },
-            {
-              "id": "logical_zones_hiz_ba480a0a",
-              "display_name": "Heavy Industrial Zone",
-              "is_group": false,
-              "children": []
-            },
-            {
-              "id": "logical_zones_hrz_4dbe0ee7",
-              "display_name": "High Density Residential Zone",
-              "is_group": false,
-              "children": []
-            },
-            {
-              "id": "logical_zones_hosz_1be7e29a",
-              "display_name": "Hospital Zone",
-              "is_group": false,
-              "children": []
-            },
-            {
-              "id": "logical_zones_lfrz_6bd64ab4",
-              "display_name": "Large Format Retail Zone",
-              "is_group": false,
-              "children": []
-            },
-            {
-              "id": "logical_zones_llrz_7ff3090b",
-              "display_name": "Large Lot Residential Zone",
-              "is_group": false,
-              "children": []
-            },
-            {
-              "id": "logical_zones_liz_692375d3",
-              "display_name": "Light Industrial Zone",
-              "is_group": false,
-              "children": []
-            },
-            {
-              "id": "logical_zones_lcz_c0433665",
-              "display_name": "Local Centre Zone",
-              "is_group": false,
-              "children": []
-            },
-            {
-              "id": "logical_zones_mrz_cd9ee588",
-              "display_name": "Medium Density Residential Zone",
-              "is_group": false,
-              "children": []
-            },
-            {
-              "id": "logical_zones_mcz_7ef208e3",
-              "display_name": "Metropolitan Centre Zone",
-              "is_group": false,
-              "children": []
-            },
-            {
-              "id": "logical_zones_muz_822e49b7",
-              "display_name": "Mixed Use Zone",
-              "is_group": false,
-              "children": []
-            },
-            {
-              "id": "logical_zones_nosz_ed1e8205",
-              "display_name": "Natural Open Space Zone",
-              "is_group": false,
-              "children": []
-            },
-            {
-              "id": "logical_zones_ncz_25a0e8c1",
-              "display_name": "Neighbourhood Centre Zone",
-              "is_group": false,
-              "children": []
-            },
-            {
-              "id": "logical_zones_dev1_93b6e5f9",
-              "display_name": "Ngārara Development Area",
-              "is_group": false,
-              "children": []
-            },
-            {
-              "id": "logical_zones_osz_80144e25",
-              "display_name": "Open Space Zone",
-              "is_group": false,
-              "children": []
-            },
-            {
-              "id": "logical_zones_rlz_5907481b",
-              "display_name": "Rural Lifestyle Zone",
-              "is_group": false,
-              "children": []
-            },
-            {
-              "id": "logical_zones_rproz_520bfb9b",
-              "display_name": "Rural Production Zone",
-              "is_group": false,
-              "children": []
-            },
-            {
-              "id": "logical_zones_setz_04f0ae4c",
-              "display_name": "Settlement Zone",
-              "is_group": false,
-              "children": []
-            },
-            {
-              "id": "logical_zones_sarz_23fb187a",
-              "display_name": "Sport and Active Recreation Zone",
-              "is_group": false,
-              "children": []
-            },
-            {
-              "id": "logical_zones_tcz_9ce3af11",
-              "display_name": "Town Centre Zone",
-              "is_group": false,
-              "children": []
-            },
-            {
-              "id": "logical_zones_unmapped_4d484db6",
-              "display_name": "Unmapped local zone — review required",
-              "is_group": false,
-              "children": []
-            },
-            {
-              "id": "logical_zones_dev2_751f1ab9",
-              "display_name": "Waikanae North Development Area",
-              "is_group": false,
-              "children": []
-            }
-          ]
-        },
-        {
           "id": "logical_regional_district_plans_hazards_e0a400a3",
           "display_name": "Hazards",
           "is_group": true,
@@ -1068,6 +893,181 @@
               "children": []
             }
           ]
+        },
+        {
+          "id": "logical_regional_district_plans_zones_ab26969b",
+          "display_name": "Zones",
+          "is_group": true,
+          "children": [
+            {
+              "id": "logical_zones_airpz_a52e91cd",
+              "display_name": "Airport Zone",
+              "is_group": false,
+              "children": []
+            },
+            {
+              "id": "logical_zones_ccz_e50788da",
+              "display_name": "City Centre Zone",
+              "is_group": false,
+              "children": []
+            },
+            {
+              "id": "logical_zones_comz_2e82fc29",
+              "display_name": "Commercial Zone",
+              "is_group": false,
+              "children": []
+            },
+            {
+              "id": "logical_zones_fuz_b5fefdf9",
+              "display_name": "Future Urban Zone",
+              "is_group": false,
+              "children": []
+            },
+            {
+              "id": "logical_zones_giz_4ad53789",
+              "display_name": "General Industrial Zone",
+              "is_group": false,
+              "children": []
+            },
+            {
+              "id": "logical_zones_grz_818b6d4e",
+              "display_name": "General Residential Zone",
+              "is_group": false,
+              "children": []
+            },
+            {
+              "id": "logical_zones_gruz_8c3ef388",
+              "display_name": "General Rural Zone",
+              "is_group": false,
+              "children": []
+            },
+            {
+              "id": "logical_zones_hiz_ba480a0a",
+              "display_name": "Heavy Industrial Zone",
+              "is_group": false,
+              "children": []
+            },
+            {
+              "id": "logical_zones_hrz_4dbe0ee7",
+              "display_name": "High Density Residential Zone",
+              "is_group": false,
+              "children": []
+            },
+            {
+              "id": "logical_zones_hosz_1be7e29a",
+              "display_name": "Hospital Zone",
+              "is_group": false,
+              "children": []
+            },
+            {
+              "id": "logical_zones_lfrz_6bd64ab4",
+              "display_name": "Large Format Retail Zone",
+              "is_group": false,
+              "children": []
+            },
+            {
+              "id": "logical_zones_llrz_7ff3090b",
+              "display_name": "Large Lot Residential Zone",
+              "is_group": false,
+              "children": []
+            },
+            {
+              "id": "logical_zones_liz_692375d3",
+              "display_name": "Light Industrial Zone",
+              "is_group": false,
+              "children": []
+            },
+            {
+              "id": "logical_zones_lcz_c0433665",
+              "display_name": "Local Centre Zone",
+              "is_group": false,
+              "children": []
+            },
+            {
+              "id": "logical_zones_mrz_cd9ee588",
+              "display_name": "Medium Density Residential Zone",
+              "is_group": false,
+              "children": []
+            },
+            {
+              "id": "logical_zones_mcz_7ef208e3",
+              "display_name": "Metropolitan Centre Zone",
+              "is_group": false,
+              "children": []
+            },
+            {
+              "id": "logical_zones_muz_822e49b7",
+              "display_name": "Mixed Use Zone",
+              "is_group": false,
+              "children": []
+            },
+            {
+              "id": "logical_zones_nosz_ed1e8205",
+              "display_name": "Natural Open Space Zone",
+              "is_group": false,
+              "children": []
+            },
+            {
+              "id": "logical_zones_ncz_25a0e8c1",
+              "display_name": "Neighbourhood Centre Zone",
+              "is_group": false,
+              "children": []
+            },
+            {
+              "id": "logical_zones_dev1_93b6e5f9",
+              "display_name": "Ngārara Development Area",
+              "is_group": false,
+              "children": []
+            },
+            {
+              "id": "logical_zones_osz_80144e25",
+              "display_name": "Open Space Zone",
+              "is_group": false,
+              "children": []
+            },
+            {
+              "id": "logical_zones_rlz_5907481b",
+              "display_name": "Rural Lifestyle Zone",
+              "is_group": false,
+              "children": []
+            },
+            {
+              "id": "logical_zones_rproz_520bfb9b",
+              "display_name": "Rural Production Zone",
+              "is_group": false,
+              "children": []
+            },
+            {
+              "id": "logical_zones_setz_04f0ae4c",
+              "display_name": "Settlement Zone",
+              "is_group": false,
+              "children": []
+            },
+            {
+              "id": "logical_zones_sarz_23fb187a",
+              "display_name": "Sport and Active Recreation Zone",
+              "is_group": false,
+              "children": []
+            },
+            {
+              "id": "logical_zones_tcz_9ce3af11",
+              "display_name": "Town Centre Zone",
+              "is_group": false,
+              "children": []
+            },
+            {
+              "id": "logical_zones_unmapped_4d484db6",
+              "display_name": "Unmapped local zone — review required",
+              "is_group": false,
+              "children": []
+            },
+            {
+              "id": "logical_zones_dev2_751f1ab9",
+              "display_name": "Waikanae North Development Area",
+              "is_group": false,
+              "children": []
+            }
+          ]
         }
       ]
     }
@@ -1092,13 +1092,13 @@
       "is_group": true,
       "is_feature_layer": false,
       "children": [
-        "logical_regional_district_plans_zones_ab26969b",
         "logical_regional_district_plans_hazards_e0a400a3",
         "logical_regional_district_plans_heritage_cultural_val_96e03812",
         "logical_regional_district_plans_landscape_natural_env_aa686ae1",
         "logical_regional_district_plans_designations_f3762d1d",
         "logical_regional_district_plans_infrastructure_transp_4e700e10",
-        "logical_regional_district_plans_other_overlays_e1778671"
+        "logical_regional_district_plans_other_overlays_e1778671",
+        "logical_regional_district_plans_zones_ab26969b"
       ],
       "web_included": true
     },

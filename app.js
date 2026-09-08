@@ -30,15 +30,19 @@
     const writeSession = (key, value) => {
       try { window.sessionStorage.setItem(key, JSON.stringify(value)); } catch (_error) { /* optional state */ }
     };
-    const savedVisibility = readSession("districtPlans.visibility", {});
+    const defaultsRevision = String(runtime.defaults_revision ?? 1);
+    const useConfiguredDefaults = String(readSession("districtPlans.defaultsRevision", "")) !== defaultsRevision;
+    const savedVisibility = useConfiguredDefaults ? {} : readSession("districtPlans.visibility", {});
+    const defaultVisibleGroups = new Set(runtime.default_visible_groups || []);
+    const isVisibleByDefault = node => defaultVisibleGroups.size
+      ? (node.group_path || []).some(group => defaultVisibleGroups.has(group))
+      : Boolean(node.effective_visible);
     const leafVisibility = new Map(leaves.map(node => [
       node.id,
       Object.prototype.hasOwnProperty.call(savedVisibility, node.id)
         ? Boolean(savedVisibility[node.id])
-        : Boolean(node.effective_visible),
+        : isVisibleByDefault(node),
     ]));
-    const defaultsRevision = String(runtime.defaults_revision ?? 1);
-    const useConfiguredDefaults = String(readSession("districtPlans.defaultsRevision", "")) !== defaultsRevision;
     let opacityFactor = Number(useConfiguredDefaults
       ? runtime.default_planning_opacity
       : readSession("districtPlans.opacity", runtime.default_planning_opacity));
@@ -49,7 +53,7 @@
     const initialBasemapId = runtime.basemaps.some(item => item.id === savedBasemapId)
       ? savedBasemapId
       : runtime.default_basemap;
-    const savedView = readSession("districtPlans.view", null);
+    const savedView = useConfiguredDefaults ? null : readSession("districtPlans.view", null);
 
     const blankStyle = {
       version: 8,

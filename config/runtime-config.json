@@ -4,37 +4,37 @@
     {
       "id": "zones",
       "source_id": "planning-zones",
-      "url": "./data/wellington-district-plans-zones.pmtiles"
+      "url": "./data/wellington-district-plans-zones.pmtiles?v=ea91eabfb68a"
     },
     {
       "id": "hazards",
       "source_id": "planning-hazards",
-      "url": "./data/wellington-district-plans-hazards.pmtiles"
+      "url": "./data/wellington-district-plans-hazards.pmtiles?v=90a0bb44140d"
     },
     {
       "id": "heritage-cultural-values",
       "source_id": "planning-heritage-cultural-values",
-      "url": "./data/wellington-district-plans-heritage-cultural-values.pmtiles"
+      "url": "./data/wellington-district-plans-heritage-cultural-values.pmtiles?v=3e19648d816b"
     },
     {
       "id": "landscape-natural-environment",
       "source_id": "planning-landscape-natural-environment",
-      "url": "./data/wellington-district-plans-landscape-natural-environment.pmtiles"
+      "url": "./data/wellington-district-plans-landscape-natural-environment.pmtiles?v=f8a4be910e9a"
     },
     {
       "id": "designations",
       "source_id": "planning-designations",
-      "url": "./data/wellington-district-plans-designations.pmtiles"
+      "url": "./data/wellington-district-plans-designations.pmtiles?v=97656e25211f"
     },
     {
       "id": "infrastructure-transport",
       "source_id": "planning-infrastructure-transport",
-      "url": "./data/wellington-district-plans-infrastructure-transport.pmtiles"
+      "url": "./data/wellington-district-plans-infrastructure-transport.pmtiles?v=5fbc37d01056"
     },
     {
       "id": "other-overlays",
       "source_id": "planning-other-overlays",
-      "url": "./data/wellington-district-plans-other-overlays.pmtiles"
+      "url": "./data/wellington-district-plans-other-overlays.pmtiles?v=39f991e6933f"
     }
   ],
   "default_basemap": "carto-dark-matter",

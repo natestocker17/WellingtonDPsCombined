@@ -42,7 +42,7 @@
   "default_visible_groups": [
     "Zones"
   ],
-  "defaults_revision": 4,
+  "defaults_revision": 5,
   "basemaps": [
     {
       "id": "nz-imagery",

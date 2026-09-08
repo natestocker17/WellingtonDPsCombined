@@ -10,7 +10,7 @@
       175.0601322564029,
       -41.13437931717089
     ],
-    "logicalLayers": 138,
+    "logicalLayers": 143,
     "physicalSourceLayers": 144
   },
   "sources": {
@@ -327,7 +327,7 @@
         ]
       },
       "paint": {
-        "fill-color": "rgba(168,0,132,1.000)",
+        "fill-color": "rgba(255,181,255,1.000)",
         "fill-opacity": 0.6,
         "fill-antialias": false
       },
@@ -1918,7 +1918,7 @@
         ]
       },
       "paint": {
-        "fill-color": "rgba(168,0,132,1.000)",
+        "fill-color": "rgba(255,181,255,1.000)",
         "fill-opacity": 0.6,
         "fill-antialias": false
       },
@@ -2436,7 +2436,7 @@
         ]
       },
       "paint": {
-        "fill-color": "rgba(168,0,132,1.000)",
+        "fill-color": "rgba(255,181,255,1.000)",
         "fill-opacity": 0.6,
         "fill-antialias": false
       },
@@ -2716,6 +2716,117 @@
       ]
     },
     {
+      "id": "regional_district_plans_zones_operative_kapiti_coast_d__airpz__fill",
+      "type": "fill",
+      "source": "planning-zones",
+      "source-layer": "regional_district_plans_zones_operative_kapiti_coast_d",
+      "layout": {
+        "visibility": "visible"
+      },
+      "metadata": {
+        "logicalLayerId": "logical_zones_airpz_a52e91cd",
+        "displayName": "Airport Zone",
+        "groupPath": [
+          "Regional District Plans",
+          "Zones"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(204,204,204,1.000)",
+        "fill-opacity": 0.6,
+        "fill-antialias": false
+      },
+      "filter": [
+        "==",
+        [
+          "to-string",
+          [
+            "coalesce",
+            [
+              "get",
+              "STD_CLASS"
+            ],
+            ""
+          ]
+        ],
+        "AIRPZ"
+      ]
+    },
+    {
+      "id": "regional_district_plans_zones_operative_kapiti_coast_d__fuz__fill",
+      "type": "fill",
+      "source": "planning-zones",
+      "source-layer": "regional_district_plans_zones_operative_kapiti_coast_d",
+      "layout": {
+        "visibility": "visible"
+      },
+      "metadata": {
+        "logicalLayerId": "logical_zones_fuz_b5fefdf9",
+        "displayName": "Future Urban Zone",
+        "groupPath": [
+          "Regional District Plans",
+          "Zones"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(204,204,204,1.000)",
+        "fill-opacity": 0.6,
+        "fill-antialias": false
+      },
+      "filter": [
+        "==",
+        [
+          "to-string",
+          [
+            "coalesce",
+            [
+              "get",
+              "STD_CLASS"
+            ],
+            ""
+          ]
+        ],
+        "FUZ"
+      ]
+    },
+    {
+      "id": "regional_district_plans_zones_operative_kapiti_coast_d__giz__fill",
+      "type": "fill",
+      "source": "planning-zones",
+      "source-layer": "regional_district_plans_zones_operative_kapiti_coast_d",
+      "layout": {
+        "visibility": "visible"
+      },
+      "metadata": {
+        "logicalLayerId": "logical_zones_giz_4ad53789",
+        "displayName": "General Industrial Zone",
+        "groupPath": [
+          "Regional District Plans",
+          "Zones"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(176,115,255,1.000)",
+        "fill-opacity": 0.6,
+        "fill-antialias": false
+      },
+      "filter": [
+        "==",
+        [
+          "to-string",
+          [
+            "coalesce",
+            [
+              "get",
+              "STD_CLASS"
+            ],
+            ""
+          ]
+        ],
+        "GIZ"
+      ]
+    },
+    {
       "id": "regional_district_plans_zones_operative_kapiti_coast_d__grz__fill",
       "type": "fill",
       "source": "planning-zones",
@@ -2750,6 +2861,43 @@
           ]
         ],
         "GRZ"
+      ]
+    },
+    {
+      "id": "regional_district_plans_zones_operative_kapiti_coast_d__gruz__fill",
+      "type": "fill",
+      "source": "planning-zones",
+      "source-layer": "regional_district_plans_zones_operative_kapiti_coast_d",
+      "layout": {
+        "visibility": "visible"
+      },
+      "metadata": {
+        "logicalLayerId": "logical_zones_gruz_8c3ef388",
+        "displayName": "General Rural Zone",
+        "groupPath": [
+          "Regional District Plans",
+          "Zones"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(181,187,125,1.000)",
+        "fill-opacity": 0.6,
+        "fill-antialias": false
+      },
+      "filter": [
+        "==",
+        [
+          "to-string",
+          [
+            "coalesce",
+            [
+              "get",
+              "STD_CLASS"
+            ],
+            ""
+          ]
+        ],
+        "GRUZ"
       ]
     },
     {
@@ -2790,6 +2938,154 @@
       ]
     },
     {
+      "id": "regional_district_plans_zones_operative_kapiti_coast_d__hosz__fill",
+      "type": "fill",
+      "source": "planning-zones",
+      "source-layer": "regional_district_plans_zones_operative_kapiti_coast_d",
+      "layout": {
+        "visibility": "visible"
+      },
+      "metadata": {
+        "logicalLayerId": "logical_zones_hosz_1be7e29a",
+        "displayName": "Hospital Zone",
+        "groupPath": [
+          "Regional District Plans",
+          "Zones"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(204,204,204,1.000)",
+        "fill-opacity": 0.6,
+        "fill-antialias": false
+      },
+      "filter": [
+        "==",
+        [
+          "to-string",
+          [
+            "coalesce",
+            [
+              "get",
+              "STD_CLASS"
+            ],
+            ""
+          ]
+        ],
+        "HOSZ"
+      ]
+    },
+    {
+      "id": "regional_district_plans_zones_operative_kapiti_coast_d__lcz__fill",
+      "type": "fill",
+      "source": "planning-zones",
+      "source-layer": "regional_district_plans_zones_operative_kapiti_coast_d",
+      "layout": {
+        "visibility": "visible"
+      },
+      "metadata": {
+        "logicalLayerId": "logical_zones_lcz_c0433665",
+        "displayName": "Local Centre Zone",
+        "groupPath": [
+          "Regional District Plans",
+          "Zones"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(245,143,148,1.000)",
+        "fill-opacity": 0.6,
+        "fill-antialias": false
+      },
+      "filter": [
+        "==",
+        [
+          "to-string",
+          [
+            "coalesce",
+            [
+              "get",
+              "STD_CLASS"
+            ],
+            ""
+          ]
+        ],
+        "LCZ"
+      ]
+    },
+    {
+      "id": "regional_district_plans_zones_operative_kapiti_coast_d__mcz__fill",
+      "type": "fill",
+      "source": "planning-zones",
+      "source-layer": "regional_district_plans_zones_operative_kapiti_coast_d",
+      "layout": {
+        "visibility": "visible"
+      },
+      "metadata": {
+        "logicalLayerId": "logical_zones_mcz_7ef208e3",
+        "displayName": "Metropolitan Centre Zone",
+        "groupPath": [
+          "Regional District Plans",
+          "Zones"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(255,181,255,1.000)",
+        "fill-opacity": 0.6,
+        "fill-antialias": false
+      },
+      "filter": [
+        "==",
+        [
+          "to-string",
+          [
+            "coalesce",
+            [
+              "get",
+              "STD_CLASS"
+            ],
+            ""
+          ]
+        ],
+        "MCZ"
+      ]
+    },
+    {
+      "id": "regional_district_plans_zones_operative_kapiti_coast_d__muz__fill",
+      "type": "fill",
+      "source": "planning-zones",
+      "source-layer": "regional_district_plans_zones_operative_kapiti_coast_d",
+      "layout": {
+        "visibility": "visible"
+      },
+      "metadata": {
+        "logicalLayerId": "logical_zones_muz_822e49b7",
+        "displayName": "Mixed Use Zone",
+        "groupPath": [
+          "Regional District Plans",
+          "Zones"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(230,0,169,1.000)",
+        "fill-opacity": 0.6,
+        "fill-antialias": false
+      },
+      "filter": [
+        "==",
+        [
+          "to-string",
+          [
+            "coalesce",
+            [
+              "get",
+              "STD_CLASS"
+            ],
+            ""
+          ]
+        ],
+        "MUZ"
+      ]
+    },
+    {
       "id": "regional_district_plans_zones_operative_kapiti_coast_d__nosz__fill",
       "type": "fill",
       "source": "planning-zones",
@@ -2824,6 +3120,43 @@
           ]
         ],
         "NOSZ"
+      ]
+    },
+    {
+      "id": "regional_district_plans_zones_operative_kapiti_coast_d__dev1__fill",
+      "type": "fill",
+      "source": "planning-zones",
+      "source-layer": "regional_district_plans_zones_operative_kapiti_coast_d",
+      "layout": {
+        "visibility": "visible"
+      },
+      "metadata": {
+        "logicalLayerId": "logical_zones_dev1_93b6e5f9",
+        "displayName": "Ngārara Development Area",
+        "groupPath": [
+          "Regional District Plans",
+          "Zones"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(237,240,252,1.000)",
+        "fill-opacity": 0.6,
+        "fill-antialias": false
+      },
+      "filter": [
+        "==",
+        [
+          "to-string",
+          [
+            "coalesce",
+            [
+              "get",
+              "STD_CLASS"
+            ],
+            ""
+          ]
+        ],
+        "DEV1"
       ]
     },
     {
@@ -2864,6 +3197,80 @@
       ]
     },
     {
+      "id": "regional_district_plans_zones_operative_kapiti_coast_d__rlz__fill",
+      "type": "fill",
+      "source": "planning-zones",
+      "source-layer": "regional_district_plans_zones_operative_kapiti_coast_d",
+      "layout": {
+        "visibility": "visible"
+      },
+      "metadata": {
+        "logicalLayerId": "logical_zones_rlz_5907481b",
+        "displayName": "Rural Lifestyle Zone",
+        "groupPath": [
+          "Regional District Plans",
+          "Zones"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(227,203,154,1.000)",
+        "fill-opacity": 0.6,
+        "fill-antialias": false
+      },
+      "filter": [
+        "==",
+        [
+          "to-string",
+          [
+            "coalesce",
+            [
+              "get",
+              "STD_CLASS"
+            ],
+            ""
+          ]
+        ],
+        "RLZ"
+      ]
+    },
+    {
+      "id": "regional_district_plans_zones_operative_kapiti_coast_d__rproz__fill",
+      "type": "fill",
+      "source": "planning-zones",
+      "source-layer": "regional_district_plans_zones_operative_kapiti_coast_d",
+      "layout": {
+        "visibility": "visible"
+      },
+      "metadata": {
+        "logicalLayerId": "logical_zones_rproz_520bfb9b",
+        "displayName": "Rural Production Zone",
+        "groupPath": [
+          "Regional District Plans",
+          "Zones"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(168,181,122,1.000)",
+        "fill-opacity": 0.6,
+        "fill-antialias": false
+      },
+      "filter": [
+        "==",
+        [
+          "to-string",
+          [
+            "coalesce",
+            [
+              "get",
+              "STD_CLASS"
+            ],
+            ""
+          ]
+        ],
+        "RPROZ"
+      ]
+    },
+    {
       "id": "regional_district_plans_zones_operative_kapiti_coast_d__tcz__fill",
       "type": "fill",
       "source": "planning-zones",
@@ -2901,7 +3308,7 @@
       ]
     },
     {
-      "id": "regional_district_plans_zones_operative_kapiti_coast_d__unmapped__fill",
+      "id": "regional_district_plans_zones_operative_kapiti_coast_d__dev2__fill",
       "type": "fill",
       "source": "planning-zones",
       "source-layer": "regional_district_plans_zones_operative_kapiti_coast_d",
@@ -2909,15 +3316,15 @@
         "visibility": "visible"
       },
       "metadata": {
-        "logicalLayerId": "logical_zones_unmapped_4d484db6",
-        "displayName": "Unmapped local zone — review required",
+        "logicalLayerId": "logical_zones_dev2_751f1ab9",
+        "displayName": "Waikanae North Development Area",
         "groupPath": [
           "Regional District Plans",
           "Zones"
         ]
       },
       "paint": {
-        "fill-color": "rgba(210,210,210,1.000)",
+        "fill-color": "rgba(237,240,252,1.000)",
         "fill-opacity": 0.6,
         "fill-antialias": false
       },
@@ -2934,7 +3341,7 @@
             ""
           ]
         ],
-        "UNMAPPED"
+        "DEV2"
       ]
     },
     {

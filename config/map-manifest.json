@@ -900,6 +900,12 @@
           "is_group": true,
           "children": [
             {
+              "id": "logical_zones_airpz_a52e91cd",
+              "display_name": "Airport Zone",
+              "is_group": false,
+              "children": []
+            },
+            {
               "id": "logical_zones_ccz_e50788da",
               "display_name": "City Centre Zone",
               "is_group": false,
@@ -908,6 +914,12 @@
             {
               "id": "logical_zones_comz_2e82fc29",
               "display_name": "Commercial Zone",
+              "is_group": false,
+              "children": []
+            },
+            {
+              "id": "logical_zones_fuz_b5fefdf9",
+              "display_name": "Future Urban Zone",
               "is_group": false,
               "children": []
             },
@@ -938,6 +950,12 @@
             {
               "id": "logical_zones_hrz_4dbe0ee7",
               "display_name": "High Density Residential Zone",
+              "is_group": false,
+              "children": []
+            },
+            {
+              "id": "logical_zones_hosz_1be7e29a",
+              "display_name": "Hospital Zone",
               "is_group": false,
               "children": []
             },
@@ -996,6 +1014,12 @@
               "children": []
             },
             {
+              "id": "logical_zones_dev1_93b6e5f9",
+              "display_name": "Ngārara Development Area",
+              "is_group": false,
+              "children": []
+            },
+            {
               "id": "logical_zones_osz_80144e25",
               "display_name": "Open Space Zone",
               "is_group": false,
@@ -1036,6 +1060,12 @@
               "display_name": "Unmapped local zone — review required",
               "is_group": false,
               "children": []
+            },
+            {
+              "id": "logical_zones_dev2_751f1ab9",
+              "display_name": "Waikanae North Development Area",
+              "is_group": false,
+              "children": []
             }
           ]
         }
@@ -1046,7 +1076,7 @@
     "groups": 46,
     "leaf_layers": 147,
     "feature_layers": 144,
-    "web_feature_layers": 138,
+    "web_feature_layers": 143,
     "broken_layers": 0,
     "physical_feature_layers": 144
   },
@@ -25476,13 +25506,16 @@
       "is_group": true,
       "is_feature_layer": false,
       "children": [
+        "logical_zones_airpz_a52e91cd",
         "logical_zones_ccz_e50788da",
         "logical_zones_comz_2e82fc29",
+        "logical_zones_fuz_b5fefdf9",
         "logical_zones_giz_4ad53789",
         "logical_zones_grz_818b6d4e",
         "logical_zones_gruz_8c3ef388",
         "logical_zones_hiz_ba480a0a",
         "logical_zones_hrz_4dbe0ee7",
+        "logical_zones_hosz_1be7e29a",
         "logical_zones_lfrz_6bd64ab4",
         "logical_zones_llrz_7ff3090b",
         "logical_zones_liz_692375d3",
@@ -25492,15 +25525,212 @@
         "logical_zones_muz_822e49b7",
         "logical_zones_nosz_ed1e8205",
         "logical_zones_ncz_25a0e8c1",
+        "logical_zones_dev1_93b6e5f9",
         "logical_zones_osz_80144e25",
         "logical_zones_rlz_5907481b",
         "logical_zones_rproz_520bfb9b",
         "logical_zones_setz_04f0ae4c",
         "logical_zones_sarz_23fb187a",
         "logical_zones_tcz_9ce3af11",
-        "logical_zones_unmapped_4d484db6"
+        "logical_zones_unmapped_4d484db6",
+        "logical_zones_dev2_751f1ab9"
       ],
       "web_included": true
+    },
+    {
+      "id": "logical_zones_airpz_a52e91cd",
+      "display_name": "Airport Zone",
+      "parent_id": "logical_regional_district_plans_zones_ab26969b",
+      "group_path": [
+        "Regional District Plans",
+        "Zones"
+      ],
+      "full_path": "Regional District Plans\\Zones\\Airport Zone",
+      "visible": true,
+      "effective_visible": true,
+      "minimum_scale": 0.0,
+      "maximum_scale": 0.0,
+      "transparency": 0.0,
+      "opacity": 1.0,
+      "is_group": false,
+      "is_feature_layer": true,
+      "geometry_type": "Polygon",
+      "children": [],
+      "style_layer_ids": [
+        "regional_district_plans_zones_operative_kapiti_coast_d__airpz__fill"
+      ],
+      "popup": {
+        "title": "Airport Zone",
+        "field_names": [
+          "REGION_ID",
+          "COUNCIL",
+          "COUNCIL_NM",
+          "PLAN_NAME",
+          "PLAN_VER",
+          "PLAN_STAT",
+          "STATUS_GRP",
+          "LEGAL_STAT",
+          "THEME",
+          "MAP_GROUP",
+          "TOPIC_ID",
+          "TOPIC_NAME",
+          "SUBTHEME",
+          "STD_CLASS",
+          "STD_LABEL",
+          "LOCAL_CLASS",
+          "LOCAL_NAME",
+          "LOCAL_ID",
+          "SRC_ITEM",
+          "SRC_LAYER",
+          "SRC_OID",
+          "SRC_URL",
+          "PLAN_URL",
+          "AS_OF",
+          "REFRESHED",
+          "QA_STATUS"
+        ],
+        "fields": [
+          {
+            "name": "REGION_ID",
+            "alias": "REGION_ID",
+            "type": "String"
+          },
+          {
+            "name": "COUNCIL",
+            "alias": "COUNCIL",
+            "type": "String"
+          },
+          {
+            "name": "COUNCIL_NM",
+            "alias": "COUNCIL_NM",
+            "type": "String"
+          },
+          {
+            "name": "PLAN_NAME",
+            "alias": "PLAN_NAME",
+            "type": "String"
+          },
+          {
+            "name": "PLAN_VER",
+            "alias": "PLAN_VER",
+            "type": "String"
+          },
+          {
+            "name": "PLAN_STAT",
+            "alias": "PLAN_STAT",
+            "type": "String"
+          },
+          {
+            "name": "STATUS_GRP",
+            "alias": "STATUS_GRP",
+            "type": "String"
+          },
+          {
+            "name": "LEGAL_STAT",
+            "alias": "LEGAL_STAT",
+            "type": "String"
+          },
+          {
+            "name": "THEME",
+            "alias": "THEME",
+            "type": "String"
+          },
+          {
+            "name": "MAP_GROUP",
+            "alias": "MAP_GROUP",
+            "type": "String"
+          },
+          {
+            "name": "TOPIC_ID",
+            "alias": "TOPIC_ID",
+            "type": "String"
+          },
+          {
+            "name": "TOPIC_NAME",
+            "alias": "TOPIC_NAME",
+            "type": "String"
+          },
+          {
+            "name": "SUBTHEME",
+            "alias": "SUBTHEME",
+            "type": "String"
+          },
+          {
+            "name": "STD_CLASS",
+            "alias": "STD_CLASS",
+            "type": "String"
+          },
+          {
+            "name": "STD_LABEL",
+            "alias": "STD_LABEL",
+            "type": "String"
+          },
+          {
+            "name": "LOCAL_CLASS",
+            "alias": "LOCAL_CLASS",
+            "type": "String"
+          },
+          {
+            "name": "LOCAL_NAME",
+            "alias": "LOCAL_NAME",
+            "type": "String"
+          },
+          {
+            "name": "LOCAL_ID",
+            "alias": "LOCAL_ID",
+            "type": "String"
+          },
+          {
+            "name": "SRC_ITEM",
+            "alias": "SRC_ITEM",
+            "type": "String"
+          },
+          {
+            "name": "SRC_LAYER",
+            "alias": "SRC_LAYER",
+            "type": "String"
+          },
+          {
+            "name": "SRC_OID",
+            "alias": "SRC_OID",
+            "type": "String"
+          },
+          {
+            "name": "SRC_URL",
+            "alias": "SRC_URL",
+            "type": "String"
+          },
+          {
+            "name": "PLAN_URL",
+            "alias": "PLAN_URL",
+            "type": "String"
+          },
+          {
+            "name": "AS_OF",
+            "alias": "AS_OF",
+            "type": "Date"
+          },
+          {
+            "name": "REFRESHED",
+            "alias": "REFRESHED",
+            "type": "Date"
+          },
+          {
+            "name": "QA_STATUS",
+            "alias": "QA_STATUS",
+            "type": "String"
+          }
+        ]
+      },
+      "web_included": true,
+      "legend": [
+        {
+          "label": "Airport Zone",
+          "geometry_type": "Polygon",
+          "color": "rgba(204,204,204,1.000)",
+          "outline_color": "rgba(204,204,204,1.000)"
+        }
+      ]
     },
     {
       "id": "logical_zones_ccz_e50788da",
@@ -25895,6 +26125,201 @@
       ]
     },
     {
+      "id": "logical_zones_fuz_b5fefdf9",
+      "display_name": "Future Urban Zone",
+      "parent_id": "logical_regional_district_plans_zones_ab26969b",
+      "group_path": [
+        "Regional District Plans",
+        "Zones"
+      ],
+      "full_path": "Regional District Plans\\Zones\\Future Urban Zone",
+      "visible": true,
+      "effective_visible": true,
+      "minimum_scale": 0.0,
+      "maximum_scale": 0.0,
+      "transparency": 0.0,
+      "opacity": 1.0,
+      "is_group": false,
+      "is_feature_layer": true,
+      "geometry_type": "Polygon",
+      "children": [],
+      "style_layer_ids": [
+        "regional_district_plans_zones_operative_kapiti_coast_d__fuz__fill"
+      ],
+      "popup": {
+        "title": "Future Urban Zone",
+        "field_names": [
+          "REGION_ID",
+          "COUNCIL",
+          "COUNCIL_NM",
+          "PLAN_NAME",
+          "PLAN_VER",
+          "PLAN_STAT",
+          "STATUS_GRP",
+          "LEGAL_STAT",
+          "THEME",
+          "MAP_GROUP",
+          "TOPIC_ID",
+          "TOPIC_NAME",
+          "SUBTHEME",
+          "STD_CLASS",
+          "STD_LABEL",
+          "LOCAL_CLASS",
+          "LOCAL_NAME",
+          "LOCAL_ID",
+          "SRC_ITEM",
+          "SRC_LAYER",
+          "SRC_OID",
+          "SRC_URL",
+          "PLAN_URL",
+          "AS_OF",
+          "REFRESHED",
+          "QA_STATUS"
+        ],
+        "fields": [
+          {
+            "name": "REGION_ID",
+            "alias": "REGION_ID",
+            "type": "String"
+          },
+          {
+            "name": "COUNCIL",
+            "alias": "COUNCIL",
+            "type": "String"
+          },
+          {
+            "name": "COUNCIL_NM",
+            "alias": "COUNCIL_NM",
+            "type": "String"
+          },
+          {
+            "name": "PLAN_NAME",
+            "alias": "PLAN_NAME",
+            "type": "String"
+          },
+          {
+            "name": "PLAN_VER",
+            "alias": "PLAN_VER",
+            "type": "String"
+          },
+          {
+            "name": "PLAN_STAT",
+            "alias": "PLAN_STAT",
+            "type": "String"
+          },
+          {
+            "name": "STATUS_GRP",
+            "alias": "STATUS_GRP",
+            "type": "String"
+          },
+          {
+            "name": "LEGAL_STAT",
+            "alias": "LEGAL_STAT",
+            "type": "String"
+          },
+          {
+            "name": "THEME",
+            "alias": "THEME",
+            "type": "String"
+          },
+          {
+            "name": "MAP_GROUP",
+            "alias": "MAP_GROUP",
+            "type": "String"
+          },
+          {
+            "name": "TOPIC_ID",
+            "alias": "TOPIC_ID",
+            "type": "String"
+          },
+          {
+            "name": "TOPIC_NAME",
+            "alias": "TOPIC_NAME",
+            "type": "String"
+          },
+          {
+            "name": "SUBTHEME",
+            "alias": "SUBTHEME",
+            "type": "String"
+          },
+          {
+            "name": "STD_CLASS",
+            "alias": "STD_CLASS",
+            "type": "String"
+          },
+          {
+            "name": "STD_LABEL",
+            "alias": "STD_LABEL",
+            "type": "String"
+          },
+          {
+            "name": "LOCAL_CLASS",
+            "alias": "LOCAL_CLASS",
+            "type": "String"
+          },
+          {
+            "name": "LOCAL_NAME",
+            "alias": "LOCAL_NAME",
+            "type": "String"
+          },
+          {
+            "name": "LOCAL_ID",
+            "alias": "LOCAL_ID",
+            "type": "String"
+          },
+          {
+            "name": "SRC_ITEM",
+            "alias": "SRC_ITEM",
+            "type": "String"
+          },
+          {
+            "name": "SRC_LAYER",
+            "alias": "SRC_LAYER",
+            "type": "String"
+          },
+          {
+            "name": "SRC_OID",
+            "alias": "SRC_OID",
+            "type": "String"
+          },
+          {
+            "name": "SRC_URL",
+            "alias": "SRC_URL",
+            "type": "String"
+          },
+          {
+            "name": "PLAN_URL",
+            "alias": "PLAN_URL",
+            "type": "String"
+          },
+          {
+            "name": "AS_OF",
+            "alias": "AS_OF",
+            "type": "Date"
+          },
+          {
+            "name": "REFRESHED",
+            "alias": "REFRESHED",
+            "type": "Date"
+          },
+          {
+            "name": "QA_STATUS",
+            "alias": "QA_STATUS",
+            "type": "String"
+          }
+        ]
+      },
+      "web_included": true,
+      "legend": [
+        {
+          "label": "Future Urban Zone",
+          "geometry_type": "Polygon",
+          "color": "rgba(204,204,204,1.000)",
+          "outline_color": "rgba(204,204,204,1.000)"
+        }
+      ]
+    },
+    {
       "id": "logical_zones_giz_4ad53789",
       "display_name": "General Industrial Zone",
       "parent_id": "logical_regional_district_plans_zones_ab26969b",
@@ -25918,7 +26343,8 @@
         "regional_district_plans_zones_upper_hutt_operative_dis__giz__fill",
         "regional_district_plans_zones_proposed_wairarapa_combi__giz__fill",
         "regional_district_plans_zones_proposed_lower_hutt_dist__giz__fill",
-        "regional_district_plans_zones_porirua_district_plan_20__giz__fill"
+        "regional_district_plans_zones_porirua_district_plan_20__giz__fill",
+        "regional_district_plans_zones_operative_kapiti_coast_d__giz__fill"
       ],
       "popup": {
         "title": "General Industrial Zone",
@@ -26314,7 +26740,8 @@
         "regional_district_plans_zones_upper_hutt_operative_dis__gruz__fill",
         "regional_district_plans_zones_proposed_wairarapa_combi__gruz__fill",
         "regional_district_plans_zones_proposed_lower_hutt_dist__gruz__fill",
-        "regional_district_plans_zones_porirua_district_plan_20__gruz__fill"
+        "regional_district_plans_zones_porirua_district_plan_20__gruz__fill",
+        "regional_district_plans_zones_operative_kapiti_coast_d__gruz__fill"
       ],
       "popup": {
         "title": "General Rural Zone",
@@ -26880,6 +27307,201 @@
           "geometry_type": "Polygon",
           "color": "rgba(255,181,97,1.000)",
           "outline_color": "rgba(255,181,97,1.000)"
+        }
+      ]
+    },
+    {
+      "id": "logical_zones_hosz_1be7e29a",
+      "display_name": "Hospital Zone",
+      "parent_id": "logical_regional_district_plans_zones_ab26969b",
+      "group_path": [
+        "Regional District Plans",
+        "Zones"
+      ],
+      "full_path": "Regional District Plans\\Zones\\Hospital Zone",
+      "visible": true,
+      "effective_visible": true,
+      "minimum_scale": 0.0,
+      "maximum_scale": 0.0,
+      "transparency": 0.0,
+      "opacity": 1.0,
+      "is_group": false,
+      "is_feature_layer": true,
+      "geometry_type": "Polygon",
+      "children": [],
+      "style_layer_ids": [
+        "regional_district_plans_zones_operative_kapiti_coast_d__hosz__fill"
+      ],
+      "popup": {
+        "title": "Hospital Zone",
+        "field_names": [
+          "REGION_ID",
+          "COUNCIL",
+          "COUNCIL_NM",
+          "PLAN_NAME",
+          "PLAN_VER",
+          "PLAN_STAT",
+          "STATUS_GRP",
+          "LEGAL_STAT",
+          "THEME",
+          "MAP_GROUP",
+          "TOPIC_ID",
+          "TOPIC_NAME",
+          "SUBTHEME",
+          "STD_CLASS",
+          "STD_LABEL",
+          "LOCAL_CLASS",
+          "LOCAL_NAME",
+          "LOCAL_ID",
+          "SRC_ITEM",
+          "SRC_LAYER",
+          "SRC_OID",
+          "SRC_URL",
+          "PLAN_URL",
+          "AS_OF",
+          "REFRESHED",
+          "QA_STATUS"
+        ],
+        "fields": [
+          {
+            "name": "REGION_ID",
+            "alias": "REGION_ID",
+            "type": "String"
+          },
+          {
+            "name": "COUNCIL",
+            "alias": "COUNCIL",
+            "type": "String"
+          },
+          {
+            "name": "COUNCIL_NM",
+            "alias": "COUNCIL_NM",
+            "type": "String"
+          },
+          {
+            "name": "PLAN_NAME",
+            "alias": "PLAN_NAME",
+            "type": "String"
+          },
+          {
+            "name": "PLAN_VER",
+            "alias": "PLAN_VER",
+            "type": "String"
+          },
+          {
+            "name": "PLAN_STAT",
+            "alias": "PLAN_STAT",
+            "type": "String"
+          },
+          {
+            "name": "STATUS_GRP",
+            "alias": "STATUS_GRP",
+            "type": "String"
+          },
+          {
+            "name": "LEGAL_STAT",
+            "alias": "LEGAL_STAT",
+            "type": "String"
+          },
+          {
+            "name": "THEME",
+            "alias": "THEME",
+            "type": "String"
+          },
+          {
+            "name": "MAP_GROUP",
+            "alias": "MAP_GROUP",
+            "type": "String"
+          },
+          {
+            "name": "TOPIC_ID",
+            "alias": "TOPIC_ID",
+            "type": "String"
+          },
+          {
+            "name": "TOPIC_NAME",
+            "alias": "TOPIC_NAME",
+            "type": "String"
+          },
+          {
+            "name": "SUBTHEME",
+            "alias": "SUBTHEME",
+            "type": "String"
+          },
+          {
+            "name": "STD_CLASS",
+            "alias": "STD_CLASS",
+            "type": "String"
+          },
+          {
+            "name": "STD_LABEL",
+            "alias": "STD_LABEL",
+            "type": "String"
+          },
+          {
+            "name": "LOCAL_CLASS",
+            "alias": "LOCAL_CLASS",
+            "type": "String"
+          },
+          {
+            "name": "LOCAL_NAME",
+            "alias": "LOCAL_NAME",
+            "type": "String"
+          },
+          {
+            "name": "LOCAL_ID",
+            "alias": "LOCAL_ID",
+            "type": "String"
+          },
+          {
+            "name": "SRC_ITEM",
+            "alias": "SRC_ITEM",
+            "type": "String"
+          },
+          {
+            "name": "SRC_LAYER",
+            "alias": "SRC_LAYER",
+            "type": "String"
+          },
+          {
+            "name": "SRC_OID",
+            "alias": "SRC_OID",
+            "type": "String"
+          },
+          {
+            "name": "SRC_URL",
+            "alias": "SRC_URL",
+            "type": "String"
+          },
+          {
+            "name": "PLAN_URL",
+            "alias": "PLAN_URL",
+            "type": "String"
+          },
+          {
+            "name": "AS_OF",
+            "alias": "AS_OF",
+            "type": "Date"
+          },
+          {
+            "name": "REFRESHED",
+            "alias": "REFRESHED",
+            "type": "Date"
+          },
+          {
+            "name": "QA_STATUS",
+            "alias": "QA_STATUS",
+            "type": "String"
+          }
+        ]
+      },
+      "web_included": true,
+      "legend": [
+        {
+          "label": "Hospital Zone",
+          "geometry_type": "Polygon",
+          "color": "rgba(204,204,204,1.000)",
+          "outline_color": "rgba(204,204,204,1.000)"
         }
       ]
     },
@@ -27492,7 +28114,8 @@
         "regional_district_plans_zones_wellington_city_2024_dis__lcz__fill",
         "regional_district_plans_zones_upper_hutt_operative_dis__lcz__fill",
         "regional_district_plans_zones_proposed_lower_hutt_dist__lcz__fill",
-        "regional_district_plans_zones_porirua_district_plan_20__lcz__fill"
+        "regional_district_plans_zones_porirua_district_plan_20__lcz__fill",
+        "regional_district_plans_zones_operative_kapiti_coast_d__lcz__fill"
       ],
       "popup": {
         "title": "Local Centre Zone",
@@ -27886,7 +28509,8 @@
       "style_layer_ids": [
         "regional_district_plans_zones_wellington_city_2024_dis__mcz__fill",
         "regional_district_plans_zones_proposed_lower_hutt_dist__mcz__fill",
-        "regional_district_plans_zones_porirua_district_plan_20__mcz__fill"
+        "regional_district_plans_zones_porirua_district_plan_20__mcz__fill",
+        "regional_district_plans_zones_operative_kapiti_coast_d__mcz__fill"
       ],
       "popup": {
         "title": "Metropolitan Centre Zone",
@@ -28056,8 +28680,8 @@
         {
           "label": "Metropolitan Centre Zone",
           "geometry_type": "Polygon",
-          "color": "rgba(168,0,132,1.000)",
-          "outline_color": "rgba(168,0,132,1.000)"
+          "color": "rgba(255,181,255,1.000)",
+          "outline_color": "rgba(255,181,255,1.000)"
         }
       ]
     },
@@ -28085,7 +28709,8 @@
         "regional_district_plans_zones_upper_hutt_operative_dis__muz__fill",
         "regional_district_plans_zones_proposed_wairarapa_combi__muz__fill",
         "regional_district_plans_zones_proposed_lower_hutt_dist__muz__fill",
-        "regional_district_plans_zones_porirua_district_plan_20__muz__fill"
+        "regional_district_plans_zones_porirua_district_plan_20__muz__fill",
+        "regional_district_plans_zones_operative_kapiti_coast_d__muz__fill"
       ],
       "popup": {
         "title": "Mixed Use Zone",
@@ -28658,6 +29283,201 @@
       ]
     },
     {
+      "id": "logical_zones_dev1_93b6e5f9",
+      "display_name": "Ngārara Development Area",
+      "parent_id": "logical_regional_district_plans_zones_ab26969b",
+      "group_path": [
+        "Regional District Plans",
+        "Zones"
+      ],
+      "full_path": "Regional District Plans\\Zones\\Ngārara Development Area",
+      "visible": true,
+      "effective_visible": true,
+      "minimum_scale": 0.0,
+      "maximum_scale": 0.0,
+      "transparency": 0.0,
+      "opacity": 1.0,
+      "is_group": false,
+      "is_feature_layer": true,
+      "geometry_type": "Polygon",
+      "children": [],
+      "style_layer_ids": [
+        "regional_district_plans_zones_operative_kapiti_coast_d__dev1__fill"
+      ],
+      "popup": {
+        "title": "Ngārara Development Area",
+        "field_names": [
+          "REGION_ID",
+          "COUNCIL",
+          "COUNCIL_NM",
+          "PLAN_NAME",
+          "PLAN_VER",
+          "PLAN_STAT",
+          "STATUS_GRP",
+          "LEGAL_STAT",
+          "THEME",
+          "MAP_GROUP",
+          "TOPIC_ID",
+          "TOPIC_NAME",
+          "SUBTHEME",
+          "STD_CLASS",
+          "STD_LABEL",
+          "LOCAL_CLASS",
+          "LOCAL_NAME",
+          "LOCAL_ID",
+          "SRC_ITEM",
+          "SRC_LAYER",
+          "SRC_OID",
+          "SRC_URL",
+          "PLAN_URL",
+          "AS_OF",
+          "REFRESHED",
+          "QA_STATUS"
+        ],
+        "fields": [
+          {
+            "name": "REGION_ID",
+            "alias": "REGION_ID",
+            "type": "String"
+          },
+          {
+            "name": "COUNCIL",
+            "alias": "COUNCIL",
+            "type": "String"
+          },
+          {
+            "name": "COUNCIL_NM",
+            "alias": "COUNCIL_NM",
+            "type": "String"
+          },
+          {
+            "name": "PLAN_NAME",
+            "alias": "PLAN_NAME",
+            "type": "String"
+          },
+          {
+            "name": "PLAN_VER",
+            "alias": "PLAN_VER",
+            "type": "String"
+          },
+          {
+            "name": "PLAN_STAT",
+            "alias": "PLAN_STAT",
+            "type": "String"
+          },
+          {
+            "name": "STATUS_GRP",
+            "alias": "STATUS_GRP",
+            "type": "String"
+          },
+          {
+            "name": "LEGAL_STAT",
+            "alias": "LEGAL_STAT",
+            "type": "String"
+          },
+          {
+            "name": "THEME",
+            "alias": "THEME",
+            "type": "String"
+          },
+          {
+            "name": "MAP_GROUP",
+            "alias": "MAP_GROUP",
+            "type": "String"
+          },
+          {
+            "name": "TOPIC_ID",
+            "alias": "TOPIC_ID",
+            "type": "String"
+          },
+          {
+            "name": "TOPIC_NAME",
+            "alias": "TOPIC_NAME",
+            "type": "String"
+          },
+          {
+            "name": "SUBTHEME",
+            "alias": "SUBTHEME",
+            "type": "String"
+          },
+          {
+            "name": "STD_CLASS",
+            "alias": "STD_CLASS",
+            "type": "String"
+          },
+          {
+            "name": "STD_LABEL",
+            "alias": "STD_LABEL",
+            "type": "String"
+          },
+          {
+            "name": "LOCAL_CLASS",
+            "alias": "LOCAL_CLASS",
+            "type": "String"
+          },
+          {
+            "name": "LOCAL_NAME",
+            "alias": "LOCAL_NAME",
+            "type": "String"
+          },
+          {
+            "name": "LOCAL_ID",
+            "alias": "LOCAL_ID",
+            "type": "String"
+          },
+          {
+            "name": "SRC_ITEM",
+            "alias": "SRC_ITEM",
+            "type": "String"
+          },
+          {
+            "name": "SRC_LAYER",
+            "alias": "SRC_LAYER",
+            "type": "String"
+          },
+          {
+            "name": "SRC_OID",
+            "alias": "SRC_OID",
+            "type": "String"
+          },
+          {
+            "name": "SRC_URL",
+            "alias": "SRC_URL",
+            "type": "String"
+          },
+          {
+            "name": "PLAN_URL",
+            "alias": "PLAN_URL",
+            "type": "String"
+          },
+          {
+            "name": "AS_OF",
+            "alias": "AS_OF",
+            "type": "Date"
+          },
+          {
+            "name": "REFRESHED",
+            "alias": "REFRESHED",
+            "type": "Date"
+          },
+          {
+            "name": "QA_STATUS",
+            "alias": "QA_STATUS",
+            "type": "String"
+          }
+        ]
+      },
+      "web_included": true,
+      "legend": [
+        {
+          "label": "Ngārara Development Area",
+          "geometry_type": "Polygon",
+          "color": "rgba(237,240,252,1.000)",
+          "outline_color": "rgba(237,240,252,1.000)"
+        }
+      ]
+    },
+    {
       "id": "logical_zones_osz_80144e25",
       "display_name": "Open Space Zone",
       "parent_id": "logical_regional_district_plans_zones_ab26969b",
@@ -28880,7 +29700,8 @@
         "regional_district_plans_zones_upper_hutt_operative_dis__rlz__fill",
         "regional_district_plans_zones_proposed_wairarapa_combi__rlz__fill",
         "regional_district_plans_zones_proposed_lower_hutt_dist__rlz__fill",
-        "regional_district_plans_zones_porirua_district_plan_20__rlz__fill"
+        "regional_district_plans_zones_porirua_district_plan_20__rlz__fill",
+        "regional_district_plans_zones_operative_kapiti_coast_d__rlz__fill"
       ],
       "popup": {
         "title": "Rural Lifestyle Zone",
@@ -29075,7 +29896,8 @@
       "geometry_type": "Polygon",
       "children": [],
       "style_layer_ids": [
-        "regional_district_plans_zones_upper_hutt_operative_dis__rproz__fill"
+        "regional_district_plans_zones_upper_hutt_operative_dis__rproz__fill",
+        "regional_district_plans_zones_operative_kapiti_coast_d__rproz__fill"
       ],
       "popup": {
         "title": "Rural Production Zone",
@@ -29867,7 +30689,6 @@
         "regional_district_plans_zones_proposed_wairarapa_combi__unmapped__fill",
         "regional_district_plans_zones_proposed_lower_hutt_dist__unmapped__fill",
         "regional_district_plans_zones_porirua_district_plan_20__unmapped__fill",
-        "regional_district_plans_zones_operative_kapiti_coast_d__unmapped__fill",
         "regional_district_plans_zones_operative_horowhenua_dis__unmapped__fill"
       ],
       "popup": {
@@ -30040,6 +30861,201 @@
           "geometry_type": "Polygon",
           "color": "rgba(210,210,210,1.000)",
           "outline_color": "rgba(210,210,210,1.000)"
+        }
+      ]
+    },
+    {
+      "id": "logical_zones_dev2_751f1ab9",
+      "display_name": "Waikanae North Development Area",
+      "parent_id": "logical_regional_district_plans_zones_ab26969b",
+      "group_path": [
+        "Regional District Plans",
+        "Zones"
+      ],
+      "full_path": "Regional District Plans\\Zones\\Waikanae North Development Area",
+      "visible": true,
+      "effective_visible": true,
+      "minimum_scale": 0.0,
+      "maximum_scale": 0.0,
+      "transparency": 0.0,
+      "opacity": 1.0,
+      "is_group": false,
+      "is_feature_layer": true,
+      "geometry_type": "Polygon",
+      "children": [],
+      "style_layer_ids": [
+        "regional_district_plans_zones_operative_kapiti_coast_d__dev2__fill"
+      ],
+      "popup": {
+        "title": "Waikanae North Development Area",
+        "field_names": [
+          "REGION_ID",
+          "COUNCIL",
+          "COUNCIL_NM",
+          "PLAN_NAME",
+          "PLAN_VER",
+          "PLAN_STAT",
+          "STATUS_GRP",
+          "LEGAL_STAT",
+          "THEME",
+          "MAP_GROUP",
+          "TOPIC_ID",
+          "TOPIC_NAME",
+          "SUBTHEME",
+          "STD_CLASS",
+          "STD_LABEL",
+          "LOCAL_CLASS",
+          "LOCAL_NAME",
+          "LOCAL_ID",
+          "SRC_ITEM",
+          "SRC_LAYER",
+          "SRC_OID",
+          "SRC_URL",
+          "PLAN_URL",
+          "AS_OF",
+          "REFRESHED",
+          "QA_STATUS"
+        ],
+        "fields": [
+          {
+            "name": "REGION_ID",
+            "alias": "REGION_ID",
+            "type": "String"
+          },
+          {
+            "name": "COUNCIL",
+            "alias": "COUNCIL",
+            "type": "String"
+          },
+          {
+            "name": "COUNCIL_NM",
+            "alias": "COUNCIL_NM",
+            "type": "String"
+          },
+          {
+            "name": "PLAN_NAME",
+            "alias": "PLAN_NAME",
+            "type": "String"
+          },
+          {
+            "name": "PLAN_VER",
+            "alias": "PLAN_VER",
+            "type": "String"
+          },
+          {
+            "name": "PLAN_STAT",
+            "alias": "PLAN_STAT",
+            "type": "String"
+          },
+          {
+            "name": "STATUS_GRP",
+            "alias": "STATUS_GRP",
+            "type": "String"
+          },
+          {
+            "name": "LEGAL_STAT",
+            "alias": "LEGAL_STAT",
+            "type": "String"
+          },
+          {
+            "name": "THEME",
+            "alias": "THEME",
+            "type": "String"
+          },
+          {
+            "name": "MAP_GROUP",
+            "alias": "MAP_GROUP",
+            "type": "String"
+          },
+          {
+            "name": "TOPIC_ID",
+            "alias": "TOPIC_ID",
+            "type": "String"
+          },
+          {
+            "name": "TOPIC_NAME",
+            "alias": "TOPIC_NAME",
+            "type": "String"
+          },
+          {
+            "name": "SUBTHEME",
+            "alias": "SUBTHEME",
+            "type": "String"
+          },
+          {
+            "name": "STD_CLASS",
+            "alias": "STD_CLASS",
+            "type": "String"
+          },
+          {
+            "name": "STD_LABEL",
+            "alias": "STD_LABEL",
+            "type": "String"
+          },
+          {
+            "name": "LOCAL_CLASS",
+            "alias": "LOCAL_CLASS",
+            "type": "String"
+          },
+          {
+            "name": "LOCAL_NAME",
+            "alias": "LOCAL_NAME",
+            "type": "String"
+          },
+          {
+            "name": "LOCAL_ID",
+            "alias": "LOCAL_ID",
+            "type": "String"
+          },
+          {
+            "name": "SRC_ITEM",
+            "alias": "SRC_ITEM",
+            "type": "String"
+          },
+          {
+            "name": "SRC_LAYER",
+            "alias": "SRC_LAYER",
+            "type": "String"
+          },
+          {
+            "name": "SRC_OID",
+            "alias": "SRC_OID",
+            "type": "String"
+          },
+          {
+            "name": "SRC_URL",
+            "alias": "SRC_URL",
+            "type": "String"
+          },
+          {
+            "name": "PLAN_URL",
+            "alias": "PLAN_URL",
+            "type": "String"
+          },
+          {
+            "name": "AS_OF",
+            "alias": "AS_OF",
+            "type": "Date"
+          },
+          {
+            "name": "REFRESHED",
+            "alias": "REFRESHED",
+            "type": "Date"
+          },
+          {
+            "name": "QA_STATUS",
+            "alias": "QA_STATUS",
+            "type": "String"
+          }
+        ]
+      },
+      "web_included": true,
+      "legend": [
+        {
+          "label": "Waikanae North Development Area",
+          "geometry_type": "Polygon",
+          "color": "rgba(237,240,252,1.000)",
+          "outline_color": "rgba(237,240,252,1.000)"
         }
       ]
     }

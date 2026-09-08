@@ -3345,7 +3345,7 @@
       ]
     },
     {
-      "id": "regional_district_plans_zones_operative_horowhenua_dis__unmapped__fill",
+      "id": "regional_district_plans_zones_operative_horowhenua_dis__comz__fill",
       "type": "fill",
       "source": "planning-zones",
       "source-layer": "regional_district_plans_zones_operative_horowhenua_dis",
@@ -3353,15 +3353,15 @@
         "visibility": "visible"
       },
       "metadata": {
-        "logicalLayerId": "logical_zones_unmapped_4d484db6",
-        "displayName": "Unmapped local zone — review required",
+        "logicalLayerId": "logical_zones_comz_2e82fc29",
+        "displayName": "Commercial Zone",
         "groupPath": [
           "Regional District Plans",
           "Zones"
         ]
       },
       "paint": {
-        "fill-color": "rgba(210,210,210,1.000)",
+        "fill-color": "rgba(227,97,117,1.000)",
         "fill-opacity": 0.6,
         "fill-antialias": false
       },
@@ -3378,7 +3378,192 @@
             ""
           ]
         ],
-        "UNMAPPED"
+        "COMZ"
+      ]
+    },
+    {
+      "id": "regional_district_plans_zones_operative_horowhenua_dis__giz__fill",
+      "type": "fill",
+      "source": "planning-zones",
+      "source-layer": "regional_district_plans_zones_operative_horowhenua_dis",
+      "layout": {
+        "visibility": "visible"
+      },
+      "metadata": {
+        "logicalLayerId": "logical_zones_giz_4ad53789",
+        "displayName": "General Industrial Zone",
+        "groupPath": [
+          "Regional District Plans",
+          "Zones"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(176,115,255,1.000)",
+        "fill-opacity": 0.6,
+        "fill-antialias": false
+      },
+      "filter": [
+        "==",
+        [
+          "to-string",
+          [
+            "coalesce",
+            [
+              "get",
+              "STD_CLASS"
+            ],
+            ""
+          ]
+        ],
+        "GIZ"
+      ]
+    },
+    {
+      "id": "regional_district_plans_zones_operative_horowhenua_dis__grz__fill",
+      "type": "fill",
+      "source": "planning-zones",
+      "source-layer": "regional_district_plans_zones_operative_horowhenua_dis",
+      "layout": {
+        "visibility": "visible"
+      },
+      "metadata": {
+        "logicalLayerId": "logical_zones_grz_818b6d4e",
+        "displayName": "General Residential Zone",
+        "groupPath": [
+          "Regional District Plans",
+          "Zones"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(245,245,122,1.000)",
+        "fill-opacity": 0.6,
+        "fill-antialias": false
+      },
+      "filter": [
+        "==",
+        [
+          "to-string",
+          [
+            "coalesce",
+            [
+              "get",
+              "STD_CLASS"
+            ],
+            ""
+          ]
+        ],
+        "GRZ"
+      ]
+    },
+    {
+      "id": "regional_district_plans_zones_operative_horowhenua_dis__gruz__fill",
+      "type": "fill",
+      "source": "planning-zones",
+      "source-layer": "regional_district_plans_zones_operative_horowhenua_dis",
+      "layout": {
+        "visibility": "visible"
+      },
+      "metadata": {
+        "logicalLayerId": "logical_zones_gruz_8c3ef388",
+        "displayName": "General Rural Zone",
+        "groupPath": [
+          "Regional District Plans",
+          "Zones"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(181,187,125,1.000)",
+        "fill-opacity": 0.6,
+        "fill-antialias": false
+      },
+      "filter": [
+        "==",
+        [
+          "to-string",
+          [
+            "coalesce",
+            [
+              "get",
+              "STD_CLASS"
+            ],
+            ""
+          ]
+        ],
+        "GRUZ"
+      ]
+    },
+    {
+      "id": "regional_district_plans_zones_operative_horowhenua_dis__llrz__fill",
+      "type": "fill",
+      "source": "planning-zones",
+      "source-layer": "regional_district_plans_zones_operative_horowhenua_dis",
+      "layout": {
+        "visibility": "visible"
+      },
+      "metadata": {
+        "logicalLayerId": "logical_zones_llrz_7ff3090b",
+        "displayName": "Large Lot Residential Zone",
+        "groupPath": [
+          "Regional District Plans",
+          "Zones"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(242,235,204,1.000)",
+        "fill-opacity": 0.6,
+        "fill-antialias": false
+      },
+      "filter": [
+        "==",
+        [
+          "to-string",
+          [
+            "coalesce",
+            [
+              "get",
+              "STD_CLASS"
+            ],
+            ""
+          ]
+        ],
+        "LLRZ"
+      ]
+    },
+    {
+      "id": "regional_district_plans_zones_operative_horowhenua_dis__osz__fill",
+      "type": "fill",
+      "source": "planning-zones",
+      "source-layer": "regional_district_plans_zones_operative_horowhenua_dis",
+      "layout": {
+        "visibility": "visible"
+      },
+      "metadata": {
+        "logicalLayerId": "logical_zones_osz_80144e25",
+        "displayName": "Open Space Zone",
+        "groupPath": [
+          "Regional District Plans",
+          "Zones"
+        ]
+      },
+      "paint": {
+        "fill-color": "rgba(187,240,156,1.000)",
+        "fill-opacity": 0.6,
+        "fill-antialias": false
+      },
+      "filter": [
+        "==",
+        [
+          "to-string",
+          [
+            "coalesce",
+            [
+              "get",
+              "STD_CLASS"
+            ],
+            ""
+          ]
+        ],
+        "OSZ"
       ]
     },
     {

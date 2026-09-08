@@ -25949,7 +25949,8 @@
       "geometry_type": "Polygon",
       "children": [],
       "style_layer_ids": [
-        "regional_district_plans_zones_upper_hutt_operative_dis__comz__fill"
+        "regional_district_plans_zones_upper_hutt_operative_dis__comz__fill",
+        "regional_district_plans_zones_operative_horowhenua_dis__comz__fill"
       ],
       "popup": {
         "title": "Commercial Zone",
@@ -26344,7 +26345,8 @@
         "regional_district_plans_zones_proposed_wairarapa_combi__giz__fill",
         "regional_district_plans_zones_proposed_lower_hutt_dist__giz__fill",
         "regional_district_plans_zones_porirua_district_plan_20__giz__fill",
-        "regional_district_plans_zones_operative_kapiti_coast_d__giz__fill"
+        "regional_district_plans_zones_operative_kapiti_coast_d__giz__fill",
+        "regional_district_plans_zones_operative_horowhenua_dis__giz__fill"
       ],
       "popup": {
         "title": "General Industrial Zone",
@@ -26541,7 +26543,8 @@
       "style_layer_ids": [
         "regional_district_plans_zones_upper_hutt_operative_dis__grz__fill",
         "regional_district_plans_zones_proposed_wairarapa_combi__grz__fill",
-        "regional_district_plans_zones_operative_kapiti_coast_d__grz__fill"
+        "regional_district_plans_zones_operative_kapiti_coast_d__grz__fill",
+        "regional_district_plans_zones_operative_horowhenua_dis__grz__fill"
       ],
       "popup": {
         "title": "General Residential Zone",
@@ -26741,7 +26744,8 @@
         "regional_district_plans_zones_proposed_wairarapa_combi__gruz__fill",
         "regional_district_plans_zones_proposed_lower_hutt_dist__gruz__fill",
         "regional_district_plans_zones_porirua_district_plan_20__gruz__fill",
-        "regional_district_plans_zones_operative_kapiti_coast_d__gruz__fill"
+        "regional_district_plans_zones_operative_kapiti_coast_d__gruz__fill",
+        "regional_district_plans_zones_operative_horowhenua_dis__gruz__fill"
       ],
       "popup": {
         "title": "General Rural Zone",
@@ -27721,7 +27725,8 @@
       "children": [],
       "style_layer_ids": [
         "regional_district_plans_zones_wellington_city_2024_dis__llrz__fill",
-        "regional_district_plans_zones_proposed_lower_hutt_dist__llrz__fill"
+        "regional_district_plans_zones_proposed_lower_hutt_dist__llrz__fill",
+        "regional_district_plans_zones_operative_horowhenua_dis__llrz__fill"
       ],
       "popup": {
         "title": "Large Lot Residential Zone",
@@ -29502,7 +29507,8 @@
         "regional_district_plans_zones_proposed_wairarapa_combi__osz__fill",
         "regional_district_plans_zones_proposed_lower_hutt_dist__osz__fill",
         "regional_district_plans_zones_porirua_district_plan_20__osz__fill",
-        "regional_district_plans_zones_operative_kapiti_coast_d__osz__fill"
+        "regional_district_plans_zones_operative_kapiti_coast_d__osz__fill",
+        "regional_district_plans_zones_operative_horowhenua_dis__osz__fill"
       ],
       "popup": {
         "title": "Open Space Zone",
@@ -30688,8 +30694,7 @@
         "regional_district_plans_zones_upper_hutt_operative_dis__unmapped__fill",
         "regional_district_plans_zones_proposed_wairarapa_combi__unmapped__fill",
         "regional_district_plans_zones_proposed_lower_hutt_dist__unmapped__fill",
-        "regional_district_plans_zones_porirua_district_plan_20__unmapped__fill",
-        "regional_district_plans_zones_operative_horowhenua_dis__unmapped__fill"
+        "regional_district_plans_zones_porirua_district_plan_20__unmapped__fill"
       ],
       "popup": {
         "title": "Unmapped local zone — review required",

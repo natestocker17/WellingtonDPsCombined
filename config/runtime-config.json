@@ -37,7 +37,7 @@
       "url": "./data/wellington-district-plans-other-overlays.pmtiles?v=39f991e6933f"
     }
   ],
-  "default_basemap": "nz-imagery",
+  "default_basemap": "carto-dark-matter",
   "default_planning_opacity": 1.0,
   "default_visible_groups": [
     "Zones"

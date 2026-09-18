@@ -59,7 +59,7 @@
       version: 8,
       name: "No basemap",
       sources: {},
-      layers: [{id: "page-background", type: "background", paint: {"background-color": "#eef1f3"}}],
+      layers: [{id: "page-background", type: "background", paint: {"background-color": "#101820"}}],
     };
     const basemapSelect = document.getElementById("basemap");
     for (const item of runtime.basemaps) {
@@ -87,7 +87,7 @@
             },
           },
           layers: [
-            {id: "page-background", type: "background", paint: {"background-color": "#eef1f3"}},
+            {id: "page-background", type: "background", paint: {"background-color": "#101820"}},
             {id: "basemap-raster", type: "raster", source: "basemap-raster"},
           ],
         };
@@ -126,12 +126,10 @@
         if (!map.getLayer(layer.id)) continue;
         const property = {fill: "fill-opacity", line: "line-opacity", circle: "circle-opacity", symbol: "text-opacity"}[layer.type];
         if (property) {
-          const original = layer.paint?.[property] ?? 1;
-          if (typeof original === "number") map.setPaintProperty(layer.id, property, original * opacityFactor);
+          map.setPaintProperty(layer.id, property, opacityFactor);
         }
         if (layer.type === "circle") {
-          const originalStroke = layer.paint?.["circle-stroke-opacity"] ?? 1;
-          if (typeof originalStroke === "number") map.setPaintProperty(layer.id, "circle-stroke-opacity", originalStroke * opacityFactor);
+          map.setPaintProperty(layer.id, "circle-stroke-opacity", opacityFactor);
         }
       }
     }
@@ -229,7 +227,7 @@
       if (!node.web_included) return null;
       if (node.is_group) {
         const details = document.createElement("details");
-        details.open = depth < 2;
+        details.open = false;
         const summary = document.createElement("summary");
         const checkbox = checkboxFor(node);
         const label = document.createElement("span");
@@ -301,12 +299,24 @@
       applyOpacity();
       writeSession("districtPlans.opacity", opacityFactor);
     });
-    document.getElementById("sidebar-toggle").addEventListener("click", event => {
-      const sidebar = document.getElementById("sidebar");
+    const sidebar = document.getElementById("sidebar");
+    const sidebarToggle = document.getElementById("sidebar-toggle");
+    const mobileLayout = window.matchMedia("(max-width: 760px)");
+    function syncSidebarState() {
+      if (!mobileLayout.matches) sidebar.classList.remove("closed");
+      const closed = mobileLayout.matches && sidebar.classList.contains("closed");
+      sidebar.inert = closed;
+      sidebar.setAttribute("aria-hidden", String(closed));
+      sidebarToggle.setAttribute("aria-expanded", String(!closed));
+    }
+    sidebarToggle.addEventListener("click", event => {
       sidebar.classList.toggle("closed");
-      event.currentTarget.setAttribute("aria-expanded", String(!sidebar.classList.contains("closed")));
+      syncSidebarState();
+      if (sidebar.classList.contains("closed")) event.currentTarget.focus();
       window.setTimeout(() => map.resize(), 220);
     });
+    mobileLayout.addEventListener("change", syncSidebarState);
+    syncSidebarState();
 
     map.on("click", event => {
       const visibleIds = leaves.flatMap(node => leafVisibility.get(node.id) ? (node.style_layer_ids || []) : []).filter(id => map.getLayer(id));

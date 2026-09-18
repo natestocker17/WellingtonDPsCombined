@@ -4,45 +4,45 @@
     {
       "id": "zones",
       "source_id": "planning-zones",
-      "url": "./data/wellington-district-plans-zones.pmtiles?v=ea91eabfb68a"
+      "url": "./data/wellington-district-plans-zones.pmtiles?v=b2cf13145d5c"
     },
     {
       "id": "hazards",
       "source_id": "planning-hazards",
-      "url": "./data/wellington-district-plans-hazards.pmtiles?v=90a0bb44140d"
+      "url": "./data/wellington-district-plans-hazards.pmtiles?v=c62491ce0512"
     },
     {
       "id": "heritage-cultural-values",
       "source_id": "planning-heritage-cultural-values",
-      "url": "./data/wellington-district-plans-heritage-cultural-values.pmtiles?v=3e19648d816b"
+      "url": "./data/wellington-district-plans-heritage-cultural-values.pmtiles?v=4e2d293975d2"
     },
     {
       "id": "landscape-natural-environment",
       "source_id": "planning-landscape-natural-environment",
-      "url": "./data/wellington-district-plans-landscape-natural-environment.pmtiles?v=f8a4be910e9a"
+      "url": "./data/wellington-district-plans-landscape-natural-environment.pmtiles?v=136011e34b20"
     },
     {
       "id": "designations",
       "source_id": "planning-designations",
-      "url": "./data/wellington-district-plans-designations.pmtiles?v=97656e25211f"
+      "url": "./data/wellington-district-plans-designations.pmtiles?v=798a433ef002"
     },
     {
       "id": "infrastructure-transport",
       "source_id": "planning-infrastructure-transport",
-      "url": "./data/wellington-district-plans-infrastructure-transport.pmtiles?v=5fbc37d01056"
+      "url": "./data/wellington-district-plans-infrastructure-transport.pmtiles?v=58aeb11be922"
     },
     {
       "id": "other-overlays",
       "source_id": "planning-other-overlays",
-      "url": "./data/wellington-district-plans-other-overlays.pmtiles?v=39f991e6933f"
+      "url": "./data/wellington-district-plans-other-overlays.pmtiles?v=174dbffd9617"
     }
   ],
-  "default_basemap": "carto-dark-matter",
+  "default_basemap": "nz-imagery",
   "default_planning_opacity": 1.0,
   "default_visible_groups": [
     "Zones"
   ],
-  "defaults_revision": 5,
+  "defaults_revision": 6,
   "basemaps": [
     {
       "id": "nz-imagery",
@@ -59,9 +59,9 @@
       "style_url": "https://tiles.openfreemap.org/styles/liberty"
     },
     {
-      "id": "carto-dark-matter",
-      "label": "CARTO Dark Matter",
-      "style_url": "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json"
+      "id": "openfreemap-dark",
+      "label": "OpenFreeMap Dark",
+      "style_url": "https://tiles.openfreemap.org/styles/dark"
     },
     {
       "id": "none",

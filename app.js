@@ -227,7 +227,7 @@
       if (!node.web_included) return null;
       if (node.is_group) {
         const details = document.createElement("details");
-        details.open = false;
+        details.open = node.parent_id === null && node.display_name === "Regional District Plans";
         const summary = document.createElement("summary");
         const checkbox = checkboxFor(node);
         const label = document.createElement("span");

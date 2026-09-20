@@ -318,6 +318,43 @@
     mobileLayout.addEventListener("change", syncSidebarState);
     syncSidebarState();
 
+    const main = document.querySelector("main");
+    const featurePanel = document.getElementById("feature-panel");
+    const featurePanelTitle = document.getElementById("feature-panel-title");
+    const featurePanelContent = document.getElementById("feature-panel-content");
+    const featurePanelClose = document.getElementById("feature-panel-close");
+    function closeFeaturePanel(returnFocus = false) {
+      featurePanel.hidden = true;
+      main.classList.remove("feature-panel-open");
+      window.setTimeout(() => map.resize(), 0);
+      if (returnFocus) map.getCanvas().focus();
+    }
+    function showFeaturePanel(node, feature) {
+      const rows = (node.popup?.fields || []).map(field => {
+        const value = feature.properties?.[field.name];
+        if (value === null || value === undefined || value === "") return "";
+        const rendered = /^https?:\/\//i.test(String(value))
+          ? `<a href="${escapeHtml(value)}" target="_blank" rel="noopener">${escapeHtml(value)}</a>`
+          : escapeHtml(value);
+        return `<tr><th scope="row">${escapeHtml(field.alias)}</th><td>${rendered}</td></tr>`;
+      }).join("");
+      featurePanelTitle.textContent = node.display_name;
+      featurePanelContent.innerHTML = `<table class="feature-grid">${rows || "<tr><td>No attributes available.</td></tr>"}</table>`;
+      featurePanel.hidden = false;
+      main.classList.add("feature-panel-open");
+      featurePanel.scrollTop = 0;
+      window.setTimeout(() => map.resize(), 0);
+    }
+    featurePanelClose.addEventListener("click", () => closeFeaturePanel(true));
+    featurePanel.addEventListener("keydown", event => {
+      if (event.key === "Escape") closeFeaturePanel(true);
+    });
+    sidebarToggle.addEventListener("click", () => {
+      if (mobileLayout.matches && !sidebar.classList.contains("closed") && !featurePanel.hidden) {
+        closeFeaturePanel();
+      }
+    });
+
     map.on("click", event => {
       const visibleIds = leaves.flatMap(node => leafVisibility.get(node.id) ? (node.style_layer_ids || []) : []).filter(id => map.getLayer(id));
       if (!visibleIds.length) return;
@@ -326,15 +363,7 @@
       const logicalId = map.getLayer(feature.layer.id)?.metadata?.logicalLayerId;
       const node = nodes.get(logicalId);
       if (!node) return;
-      const rows = (node.popup?.fields || []).map(field => {
-        const value = feature.properties?.[field.name];
-        if (value === null || value === undefined || value === "") return "";
-        const rendered = /^https?:\/\//i.test(String(value))
-          ? `<a href="${escapeHtml(value)}" target="_blank" rel="noopener">${escapeHtml(value)}</a>`
-          : escapeHtml(value);
-        return `<tr><th>${escapeHtml(field.alias)}</th><td>${rendered}</td></tr>`;
-      }).join("");
-      new maplibregl.Popup().setLngLat(event.lngLat).setHTML(`<h3>${escapeHtml(node.display_name)}</h3><table class="popup-grid">${rows || "<tr><td>No attributes available.</td></tr>"}</table>`).addTo(map);
+      showFeaturePanel(node, feature);
     });
     map.on("mousemove", event => {
       const visibleIds = leaves.flatMap(node => leafVisibility.get(node.id) ? (node.style_layer_ids || []) : []).filter(id => map.getLayer(id));

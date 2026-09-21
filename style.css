@@ -40,15 +40,15 @@ h2 { margin: 0 0 9px; font-size: .92rem; }
 .tree > details { margin-left: 0; }
 .tree summary, .tree .leaf { min-height: 27px; display: flex; align-items: flex-start; gap: 5px; font-size: .79rem; line-height: 1.25; }
 .tree summary { cursor: pointer; list-style-position: outside; border-radius: 3px; }
-.tree summary:hover, .legend-layer summary:hover { background: rgba(106,184,217,.08); }
+.tree summary:hover { background: rgba(106,184,217,.08); }
 .tree input { flex: 0 0 auto; margin: 2px 2px 0 0; accent-color: var(--accent); }
 .tree .leaf { margin-left: 14px; }
 .tree .leaf::before { content: ""; width: 10px; flex: 0 0 10px; }
 .tree label { cursor: pointer; overflow-wrap: anywhere; }
 #legend { font-size: .75rem; }
-.legend-layer { margin: 0 0 7px; }
-.legend-layer summary { cursor: pointer; font-weight: 650; }
-.legend-item { display: grid; grid-template-columns: 21px 1fr; gap: 7px; align-items: center; margin: 5px 0 5px 13px; }
+.legend-row { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 7px; align-items: center; min-height: 24px; margin-left: 13px; }
+.legend-symbols { min-width: 21px; display: flex; align-items: center; gap: 3px; }
+.legend-label { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .swatch { width: 19px; height: 13px; border: 1px solid #6e777b; border-radius: 1px; }
 .swatch.line { height: 0; border-width: 2px 0 0; }
 .swatch.point { width: 12px; height: 12px; margin-left: 3px; border-radius: 50%; }
@@ -69,9 +69,9 @@ h2 { margin: 0 0 9px; font-size: .92rem; }
 }
 
 /* Flex summaries need an explicit disclosure marker in every browser. */
-.tree summary, .legend-layer summary { list-style: none; }
+.tree summary { list-style: none; }
 summary::-webkit-details-marker { display: none; }
-.tree summary::before, .legend-layer summary::before { content: "\203A"; color: var(--muted); display: inline-block; width: 10px; flex: 0 0 10px; transition: transform .12s; }
+.tree summary::before { content: "\203A"; color: var(--muted); display: inline-block; width: 10px; flex: 0 0 10px; transition: transform .12s; }
 details[open] > summary::before { transform: rotate(90deg); }
 summary:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .maplibregl-ctrl-group, .maplibregl-ctrl-attrib { background: var(--panel); color: var(--ink); }

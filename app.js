@@ -113,6 +113,67 @@
     const map = new maplibregl.Map(mapOptions);
     map.addControl(new maplibregl.NavigationControl(), "top-right");
     map.addControl(new maplibregl.ScaleControl({unit: "metric"}), "bottom-right");
+    const selectionSourceId = "feature-selection";
+    const emptySelection = () => ({type: "FeatureCollection", features: []});
+    let selectedFeatureData = emptySelection();
+
+    function installSelectionLayers() {
+      if (!map.getSource(selectionSourceId)) {
+        map.addSource(selectionSourceId, {type: "geojson", data: selectedFeatureData});
+      }
+      const layers = [
+        {
+          id: "feature-selection-fill",
+          type: "fill",
+          source: selectionSourceId,
+          paint: {"fill-color": "#ffdd57", "fill-opacity": 0.16},
+        },
+        {
+          id: "feature-selection-casing",
+          type: "line",
+          source: selectionSourceId,
+          layout: {"line-cap": "round", "line-join": "round"},
+          paint: {"line-color": "#111c26", "line-width": 7, "line-opacity": 0.9},
+        },
+        {
+          id: "feature-selection-outline",
+          type: "line",
+          source: selectionSourceId,
+          layout: {"line-cap": "round", "line-join": "round"},
+          paint: {"line-color": "#ffdd57", "line-width": 4},
+        },
+        {
+          id: "feature-selection-point",
+          type: "circle",
+          source: selectionSourceId,
+          paint: {
+            "circle-radius": 8,
+            "circle-color": "#ffdd57",
+            "circle-opacity": 0.35,
+            "circle-stroke-color": "#ffdd57",
+            "circle-stroke-width": 3,
+          },
+        },
+      ];
+      for (const layer of layers) {
+        if (!map.getLayer(layer.id)) map.addLayer(layer);
+      }
+    }
+
+    function setSelectedFeature(feature) {
+      selectedFeatureData = {
+        type: "FeatureCollection",
+        features: [{type: "Feature", geometry: structuredClone(feature.geometry), properties: {}}],
+      };
+      installSelectionLayers();
+      map.getSource(selectionSourceId).setData(selectedFeatureData);
+    }
+
+    function clearSelectedFeature() {
+      selectedFeatureData = emptySelection();
+      const source = map.getSource(selectionSourceId);
+      if (source) source.setData(selectedFeatureData);
+    }
 
     function applyLeafVisibility(node) {
       const visibility = leafVisibility.get(node.id) ? "visible" : "none";
@@ -150,6 +211,7 @@
         for (const layer of planningStyle.layers) {
           if (!map.getLayer(layer.id)) map.addLayer(structuredClone(layer));
         }
+        installSelectionLayers();
         leaves.forEach(applyLeafVisibility);
         applyOpacity();
         setStatus(`${leaves.length} planning layers loaded.`);
@@ -266,24 +328,24 @@
       const legend = document.getElementById("legend");
       legend.replaceChildren();
       for (const node of leaves.filter(item => leafVisibility.get(item.id))) {
-        const details = document.createElement("details");
-        details.className = "legend-layer";
-        const summary = document.createElement("summary");
-        summary.textContent = node.display_name;
-        details.append(summary);
+        const row = document.createElement("div");
+        row.className = "legend-row";
+        row.title = node.display_name;
+        const symbols = document.createElement("span");
+        symbols.className = "legend-symbols";
+        symbols.setAttribute("aria-hidden", "true");
         for (const item of node.legend || []) {
-          const row = document.createElement("div");
-          row.className = "legend-item";
           const swatch = document.createElement("span");
           swatch.className = "swatch " + (item.geometry_type === "Polyline" ? "line" : ["Point", "Multipoint"].includes(item.geometry_type) ? "point" : "polygon");
           swatch.style.background = item.color;
           swatch.style.borderColor = item.outline_color || item.color;
-          const text = document.createElement("span");
-          text.textContent = item.label;
-          row.append(swatch, text);
-          details.append(row);
+          symbols.append(swatch);
         }
-        legend.append(details);
+        const text = document.createElement("span");
+        text.className = "legend-label";
+        text.textContent = node.display_name;
+        row.append(symbols, text);
+        legend.append(row);
       }
       if (!legend.children.length) legend.textContent = "No visible planning layers.";
     }
@@ -326,6 +388,7 @@
     function closeFeaturePanel(returnFocus = false) {
       featurePanel.hidden = true;
       main.classList.remove("feature-panel-open");
+      clearSelectedFeature();
       window.setTimeout(() => map.resize(), 0);
       if (returnFocus) map.getCanvas().focus();
     }
@@ -363,6 +426,7 @@
       const logicalId = map.getLayer(feature.layer.id)?.metadata?.logicalLayerId;
       const node = nodes.get(logicalId);
       if (!node) return;
+      setSelectedFeature(feature);
       showFeaturePanel(node, feature);
     });
     map.on("mousemove", event => {

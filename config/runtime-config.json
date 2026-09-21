@@ -4,37 +4,37 @@
     {
       "id": "zones",
       "source_id": "planning-zones",
-      "url": "./data/wellington-district-plans-zones.pmtiles?v=ab7f9f8e638e"
+      "url": "./data/wellington-district-plans-zones.pmtiles?v=c1d2c37b9047"
     },
     {
       "id": "hazards",
       "source_id": "planning-hazards",
-      "url": "./data/wellington-district-plans-hazards.pmtiles?v=c62491ce0512"
+      "url": "./data/wellington-district-plans-hazards.pmtiles?v=00ca6e4059b0"
     },
     {
       "id": "heritage-cultural-values",
       "source_id": "planning-heritage-cultural-values",
-      "url": "./data/wellington-district-plans-heritage-cultural-values.pmtiles?v=4e2d293975d2"
+      "url": "./data/wellington-district-plans-heritage-cultural-values.pmtiles?v=58525b05e499"
     },
     {
       "id": "landscape-natural-environment",
       "source_id": "planning-landscape-natural-environment",
-      "url": "./data/wellington-district-plans-landscape-natural-environment.pmtiles?v=136011e34b20"
+      "url": "./data/wellington-district-plans-landscape-natural-environment.pmtiles?v=64936f8cbf48"
     },
     {
       "id": "designations",
       "source_id": "planning-designations",
-      "url": "./data/wellington-district-plans-designations.pmtiles?v=798a433ef002"
+      "url": "./data/wellington-district-plans-designations.pmtiles?v=1644ccd08410"
     },
     {
       "id": "infrastructure-transport",
       "source_id": "planning-infrastructure-transport",
-      "url": "./data/wellington-district-plans-infrastructure-transport.pmtiles?v=58aeb11be922"
+      "url": "./data/wellington-district-plans-infrastructure-transport.pmtiles?v=76d06c3ca77f"
     },
     {
       "id": "other-overlays",
       "source_id": "planning-other-overlays",
-      "url": "./data/wellington-district-plans-other-overlays.pmtiles?v=174dbffd9617"
+      "url": "./data/wellington-district-plans-other-overlays.pmtiles?v=797cf28dd4d7"
     }
   ],
   "default_basemap": "nz-imagery",

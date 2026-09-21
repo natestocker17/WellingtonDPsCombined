@@ -152,6 +152,7 @@
           id: "feature-selection-point",
           type: "circle",
           source: selectionSourceId,
+          filter: ["==", ["geometry-type"], "Point"],
           paint: {
             "circle-radius": 8,
             "circle-color": "#ffdd57",

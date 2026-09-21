@@ -42,12 +42,55 @@
   "default_visible_groups": [
     "Zones"
   ],
+  "popup_fields": [
+    {
+      "name": "PLAN_NAME",
+      "alias": "District Plan"
+    },
+    {
+      "name": "PLAN_URL",
+      "alias": "District Plan URL"
+    },
+    {
+      "name": "LEGAL_STAT",
+      "alias": "Legal status"
+    },
+    {
+      "name": "SRC_LAYER",
+      "alias": "Source layer"
+    },
+    {
+      "name": "LOCAL_NAME",
+      "alias": "Original DP class"
+    },
+    {
+      "name": "TOPIC_NAME",
+      "alias": "Standardised topic"
+    },
+    {
+      "name": "ZONE_GROUP",
+      "alias": "Standardised zone group"
+    },
+    {
+      "name": "STD_CLASS",
+      "alias": "Standardised class"
+    },
+    {
+      "name": "SUBCLASS",
+      "alias": "Standardised subclass"
+    },
+    {
+      "name": "QA_STATUS",
+      "alias": "QA status"
+    }
+  ],
   "defaults_revision": 7,
   "basemaps": [
     {
       "id": "nz-imagery",
       "label": "NZ Imagery (Eagle / LINZ)",
       "raster_url": "https://services1.arcgisonline.co.nz/arcgis/rest/services/Imagery/newzealand/MapServer/export?bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256%2C256&format=jpg&f=image",
+      "cache_bust_on_load": true,
       "tile_size": 256,
       "minzoom": 0,
       "maxzoom": 22,

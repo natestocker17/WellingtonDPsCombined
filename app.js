@@ -61,6 +61,7 @@
       sources: {},
       layers: [{id: "page-background", type: "background", paint: {"background-color": "#101820"}}],
     };
+    const basemapLoadToken = Date.now().toString(36);
     const basemapSelect = document.getElementById("basemap");
     for (const item of runtime.basemaps) {
       const option = document.createElement("option");
@@ -73,13 +74,16 @@
       const item = runtime.basemaps.find(candidate => candidate.id === id);
       if (item?.style_url) return item.style_url;
       if (item?.raster_url) {
+        const rasterUrl = item.cache_bust_on_load
+          ? `${item.raster_url}${item.raster_url.includes("?") ? "&" : "?"}mapLoad=${basemapLoadToken}`
+          : item.raster_url;
         return {
           version: 8,
           name: item.label,
           sources: {
             "basemap-raster": {
               type: "raster",
-              tiles: [item.raster_url],
+              tiles: [rasterUrl],
               tileSize: item.tile_size || 256,
               minzoom: item.minzoom ?? 0,
               maxzoom: item.maxzoom ?? 22,
@@ -415,7 +419,8 @@
       if (returnFocus) map.getCanvas().focus();
     }
     function showFeaturePanel(node, feature) {
-      const rows = (node.popup?.fields || []).map(field => {
+      const popupFields = runtime.popup_fields?.length ? runtime.popup_fields : (node.popup?.fields || []);
+      const rows = popupFields.map(field => {
         const value = feature.properties?.[field.name];
         if (value === null || value === undefined || value === "") return "";
         const rendered = /^https?:\/\//i.test(String(value))

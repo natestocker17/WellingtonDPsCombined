@@ -29435,47 +29435,21 @@
       "popup": {
         "title": "City Centre Zone",
         "field_names": [
-          "REGION_ID",
-          "COUNCIL",
           "COUNCIL_NM",
           "PLAN_NAME",
-          "PLAN_VER",
-          "PLAN_STAT",
-          "STATUS_GRP",
           "LEGAL_STAT",
-          "THEME",
-          "MAP_GROUP",
-          "TOPIC_ID",
           "TOPIC_NAME",
-          "SUBTHEME",
           "STD_CLASS",
-          "STD_LABEL",
-          "LOCAL_CLASS",
           "LOCAL_NAME",
           "LOCAL_ID",
-          "SRC_ITEM",
           "SRC_LAYER",
-          "SRC_OID",
-          "SRC_URL",
           "PLAN_URL",
-          "AS_OF",
-          "REFRESHED",
           "QA_STATUS",
           "SUBCLASS_ID",
           "SUBCLASS",
           "ZONE_GROUP"
         ],
         "fields": [
-          {
-            "name": "REGION_ID",
-            "alias": "REGION_ID",
-            "type": "String"
-          },
-          {
-            "name": "COUNCIL",
-            "alias": "COUNCIL",
-            "type": "String"
-          },
           {
             "name": "COUNCIL_NM",
             "alias": "COUNCIL_NM",
@@ -29487,38 +29461,8 @@
             "type": "String"
           },
           {
-            "name": "PLAN_VER",
-            "alias": "PLAN_VER",
-            "type": "String"
-          },
-          {
-            "name": "PLAN_STAT",
-            "alias": "PLAN_STAT",
-            "type": "String"
-          },
-          {
-            "name": "STATUS_GRP",
-            "alias": "STATUS_GRP",
-            "type": "String"
-          },
-          {
             "name": "LEGAL_STAT",
             "alias": "LEGAL_STAT",
-            "type": "String"
-          },
-          {
-            "name": "THEME",
-            "alias": "THEME",
-            "type": "String"
-          },
-          {
-            "name": "MAP_GROUP",
-            "alias": "MAP_GROUP",
-            "type": "String"
-          },
-          {
-            "name": "TOPIC_ID",
-            "alias": "TOPIC_ID",
             "type": "String"
           },
           {
@@ -29527,23 +29471,8 @@
             "type": "String"
           },
           {
-            "name": "SUBTHEME",
-            "alias": "SUBTHEME",
-            "type": "String"
-          },
-          {
             "name": "STD_CLASS",
             "alias": "STD_CLASS",
-            "type": "String"
-          },
-          {
-            "name": "STD_LABEL",
-            "alias": "STD_LABEL",
-            "type": "String"
-          },
-          {
-            "name": "LOCAL_CLASS",
-            "alias": "LOCAL_CLASS",
             "type": "String"
           },
           {
@@ -29557,39 +29486,14 @@
             "type": "String"
           },
           {
-            "name": "SRC_ITEM",
-            "alias": "SRC_ITEM",
-            "type": "String"
-          },
-          {
             "name": "SRC_LAYER",
             "alias": "SRC_LAYER",
-            "type": "String"
-          },
-          {
-            "name": "SRC_OID",
-            "alias": "SRC_OID",
-            "type": "String"
-          },
-          {
-            "name": "SRC_URL",
-            "alias": "SRC_URL",
             "type": "String"
           },
           {
             "name": "PLAN_URL",
             "alias": "PLAN_URL",
             "type": "String"
-          },
-          {
-            "name": "AS_OF",
-            "alias": "AS_OF",
-            "type": "Date"
-          },
-          {
-            "name": "REFRESHED",
-            "alias": "REFRESHED",
-            "type": "Date"
           },
           {
             "name": "QA_STATUS",
@@ -29649,47 +29553,21 @@
       "popup": {
         "title": "Commercial Zone",
         "field_names": [
-          "REGION_ID",
-          "COUNCIL",
           "COUNCIL_NM",
           "PLAN_NAME",
-          "PLAN_VER",
-          "PLAN_STAT",
-          "STATUS_GRP",
           "LEGAL_STAT",
-          "THEME",
-          "MAP_GROUP",
-          "TOPIC_ID",
           "TOPIC_NAME",
-          "SUBTHEME",
           "STD_CLASS",
-          "STD_LABEL",
-          "LOCAL_CLASS",
           "LOCAL_NAME",
           "LOCAL_ID",
-          "SRC_ITEM",
           "SRC_LAYER",
-          "SRC_OID",
-          "SRC_URL",
           "PLAN_URL",
-          "AS_OF",
-          "REFRESHED",
           "QA_STATUS",
           "SUBCLASS_ID",
           "SUBCLASS",
           "ZONE_GROUP"
         ],
         "fields": [
-          {
-            "name": "REGION_ID",
-            "alias": "REGION_ID",
-            "type": "String"
-          },
-          {
-            "name": "COUNCIL",
-            "alias": "COUNCIL",
-            "type": "String"
-          },
           {
             "name": "COUNCIL_NM",
             "alias": "COUNCIL_NM",
@@ -29701,38 +29579,8 @@
             "type": "String"
           },
           {
-            "name": "PLAN_VER",
-            "alias": "PLAN_VER",
-            "type": "String"
-          },
-          {
-            "name": "PLAN_STAT",
-            "alias": "PLAN_STAT",
-            "type": "String"
-          },
-          {
-            "name": "STATUS_GRP",
-            "alias": "STATUS_GRP",
-            "type": "String"
-          },
-          {
             "name": "LEGAL_STAT",
             "alias": "LEGAL_STAT",
-            "type": "String"
-          },
-          {
-            "name": "THEME",
-            "alias": "THEME",
-            "type": "String"
-          },
-          {
-            "name": "MAP_GROUP",
-            "alias": "MAP_GROUP",
-            "type": "String"
-          },
-          {
-            "name": "TOPIC_ID",
-            "alias": "TOPIC_ID",
             "type": "String"
           },
           {
@@ -29741,23 +29589,8 @@
             "type": "String"
           },
           {
-            "name": "SUBTHEME",
-            "alias": "SUBTHEME",
-            "type": "String"
-          },
-          {
             "name": "STD_CLASS",
             "alias": "STD_CLASS",
-            "type": "String"
-          },
-          {
-            "name": "STD_LABEL",
-            "alias": "STD_LABEL",
-            "type": "String"
-          },
-          {
-            "name": "LOCAL_CLASS",
-            "alias": "LOCAL_CLASS",
             "type": "String"
           },
           {
@@ -29771,39 +29604,14 @@
             "type": "String"
           },
           {
-            "name": "SRC_ITEM",
-            "alias": "SRC_ITEM",
-            "type": "String"
-          },
-          {
             "name": "SRC_LAYER",
             "alias": "SRC_LAYER",
-            "type": "String"
-          },
-          {
-            "name": "SRC_OID",
-            "alias": "SRC_OID",
-            "type": "String"
-          },
-          {
-            "name": "SRC_URL",
-            "alias": "SRC_URL",
             "type": "String"
           },
           {
             "name": "PLAN_URL",
             "alias": "PLAN_URL",
             "type": "String"
-          },
-          {
-            "name": "AS_OF",
-            "alias": "AS_OF",
-            "type": "Date"
-          },
-          {
-            "name": "REFRESHED",
-            "alias": "REFRESHED",
-            "type": "Date"
           },
           {
             "name": "QA_STATUS",
@@ -29863,47 +29671,21 @@
       "popup": {
         "title": "Large Format Retail Zone",
         "field_names": [
-          "REGION_ID",
-          "COUNCIL",
           "COUNCIL_NM",
           "PLAN_NAME",
-          "PLAN_VER",
-          "PLAN_STAT",
-          "STATUS_GRP",
           "LEGAL_STAT",
-          "THEME",
-          "MAP_GROUP",
-          "TOPIC_ID",
           "TOPIC_NAME",
-          "SUBTHEME",
           "STD_CLASS",
-          "STD_LABEL",
-          "LOCAL_CLASS",
           "LOCAL_NAME",
           "LOCAL_ID",
-          "SRC_ITEM",
           "SRC_LAYER",
-          "SRC_OID",
-          "SRC_URL",
           "PLAN_URL",
-          "AS_OF",
-          "REFRESHED",
           "QA_STATUS",
           "SUBCLASS_ID",
           "SUBCLASS",
           "ZONE_GROUP"
         ],
         "fields": [
-          {
-            "name": "REGION_ID",
-            "alias": "REGION_ID",
-            "type": "String"
-          },
-          {
-            "name": "COUNCIL",
-            "alias": "COUNCIL",
-            "type": "String"
-          },
           {
             "name": "COUNCIL_NM",
             "alias": "COUNCIL_NM",
@@ -29915,38 +29697,8 @@
             "type": "String"
           },
           {
-            "name": "PLAN_VER",
-            "alias": "PLAN_VER",
-            "type": "String"
-          },
-          {
-            "name": "PLAN_STAT",
-            "alias": "PLAN_STAT",
-            "type": "String"
-          },
-          {
-            "name": "STATUS_GRP",
-            "alias": "STATUS_GRP",
-            "type": "String"
-          },
-          {
             "name": "LEGAL_STAT",
             "alias": "LEGAL_STAT",
-            "type": "String"
-          },
-          {
-            "name": "THEME",
-            "alias": "THEME",
-            "type": "String"
-          },
-          {
-            "name": "MAP_GROUP",
-            "alias": "MAP_GROUP",
-            "type": "String"
-          },
-          {
-            "name": "TOPIC_ID",
-            "alias": "TOPIC_ID",
             "type": "String"
           },
           {
@@ -29955,23 +29707,8 @@
             "type": "String"
           },
           {
-            "name": "SUBTHEME",
-            "alias": "SUBTHEME",
-            "type": "String"
-          },
-          {
             "name": "STD_CLASS",
             "alias": "STD_CLASS",
-            "type": "String"
-          },
-          {
-            "name": "STD_LABEL",
-            "alias": "STD_LABEL",
-            "type": "String"
-          },
-          {
-            "name": "LOCAL_CLASS",
-            "alias": "LOCAL_CLASS",
             "type": "String"
           },
           {
@@ -29985,39 +29722,14 @@
             "type": "String"
           },
           {
-            "name": "SRC_ITEM",
-            "alias": "SRC_ITEM",
-            "type": "String"
-          },
-          {
             "name": "SRC_LAYER",
             "alias": "SRC_LAYER",
-            "type": "String"
-          },
-          {
-            "name": "SRC_OID",
-            "alias": "SRC_OID",
-            "type": "String"
-          },
-          {
-            "name": "SRC_URL",
-            "alias": "SRC_URL",
             "type": "String"
           },
           {
             "name": "PLAN_URL",
             "alias": "PLAN_URL",
             "type": "String"
-          },
-          {
-            "name": "AS_OF",
-            "alias": "AS_OF",
-            "type": "Date"
-          },
-          {
-            "name": "REFRESHED",
-            "alias": "REFRESHED",
-            "type": "Date"
           },
           {
             "name": "QA_STATUS",
@@ -30077,47 +29789,21 @@
       "popup": {
         "title": "Local Centre Zone",
         "field_names": [
-          "REGION_ID",
-          "COUNCIL",
           "COUNCIL_NM",
           "PLAN_NAME",
-          "PLAN_VER",
-          "PLAN_STAT",
-          "STATUS_GRP",
           "LEGAL_STAT",
-          "THEME",
-          "MAP_GROUP",
-          "TOPIC_ID",
           "TOPIC_NAME",
-          "SUBTHEME",
           "STD_CLASS",
-          "STD_LABEL",
-          "LOCAL_CLASS",
           "LOCAL_NAME",
           "LOCAL_ID",
-          "SRC_ITEM",
           "SRC_LAYER",
-          "SRC_OID",
-          "SRC_URL",
           "PLAN_URL",
-          "AS_OF",
-          "REFRESHED",
           "QA_STATUS",
           "SUBCLASS_ID",
           "SUBCLASS",
           "ZONE_GROUP"
         ],
         "fields": [
-          {
-            "name": "REGION_ID",
-            "alias": "REGION_ID",
-            "type": "String"
-          },
-          {
-            "name": "COUNCIL",
-            "alias": "COUNCIL",
-            "type": "String"
-          },
           {
             "name": "COUNCIL_NM",
             "alias": "COUNCIL_NM",
@@ -30129,38 +29815,8 @@
             "type": "String"
           },
           {
-            "name": "PLAN_VER",
-            "alias": "PLAN_VER",
-            "type": "String"
-          },
-          {
-            "name": "PLAN_STAT",
-            "alias": "PLAN_STAT",
-            "type": "String"
-          },
-          {
-            "name": "STATUS_GRP",
-            "alias": "STATUS_GRP",
-            "type": "String"
-          },
-          {
             "name": "LEGAL_STAT",
             "alias": "LEGAL_STAT",
-            "type": "String"
-          },
-          {
-            "name": "THEME",
-            "alias": "THEME",
-            "type": "String"
-          },
-          {
-            "name": "MAP_GROUP",
-            "alias": "MAP_GROUP",
-            "type": "String"
-          },
-          {
-            "name": "TOPIC_ID",
-            "alias": "TOPIC_ID",
             "type": "String"
           },
           {
@@ -30169,23 +29825,8 @@
             "type": "String"
           },
           {
-            "name": "SUBTHEME",
-            "alias": "SUBTHEME",
-            "type": "String"
-          },
-          {
             "name": "STD_CLASS",
             "alias": "STD_CLASS",
-            "type": "String"
-          },
-          {
-            "name": "STD_LABEL",
-            "alias": "STD_LABEL",
-            "type": "String"
-          },
-          {
-            "name": "LOCAL_CLASS",
-            "alias": "LOCAL_CLASS",
             "type": "String"
           },
           {
@@ -30199,39 +29840,14 @@
             "type": "String"
           },
           {
-            "name": "SRC_ITEM",
-            "alias": "SRC_ITEM",
-            "type": "String"
-          },
-          {
             "name": "SRC_LAYER",
             "alias": "SRC_LAYER",
-            "type": "String"
-          },
-          {
-            "name": "SRC_OID",
-            "alias": "SRC_OID",
-            "type": "String"
-          },
-          {
-            "name": "SRC_URL",
-            "alias": "SRC_URL",
             "type": "String"
           },
           {
             "name": "PLAN_URL",
             "alias": "PLAN_URL",
             "type": "String"
-          },
-          {
-            "name": "AS_OF",
-            "alias": "AS_OF",
-            "type": "Date"
-          },
-          {
-            "name": "REFRESHED",
-            "alias": "REFRESHED",
-            "type": "Date"
           },
           {
             "name": "QA_STATUS",
@@ -30291,47 +29907,21 @@
       "popup": {
         "title": "Metropolitan Centre Zone",
         "field_names": [
-          "REGION_ID",
-          "COUNCIL",
           "COUNCIL_NM",
           "PLAN_NAME",
-          "PLAN_VER",
-          "PLAN_STAT",
-          "STATUS_GRP",
           "LEGAL_STAT",
-          "THEME",
-          "MAP_GROUP",
-          "TOPIC_ID",
           "TOPIC_NAME",
-          "SUBTHEME",
           "STD_CLASS",
-          "STD_LABEL",
-          "LOCAL_CLASS",
           "LOCAL_NAME",
           "LOCAL_ID",
-          "SRC_ITEM",
           "SRC_LAYER",
-          "SRC_OID",
-          "SRC_URL",
           "PLAN_URL",
-          "AS_OF",
-          "REFRESHED",
           "QA_STATUS",
           "SUBCLASS_ID",
           "SUBCLASS",
           "ZONE_GROUP"
         ],
         "fields": [
-          {
-            "name": "REGION_ID",
-            "alias": "REGION_ID",
-            "type": "String"
-          },
-          {
-            "name": "COUNCIL",
-            "alias": "COUNCIL",
-            "type": "String"
-          },
           {
             "name": "COUNCIL_NM",
             "alias": "COUNCIL_NM",
@@ -30343,38 +29933,8 @@
             "type": "String"
           },
           {
-            "name": "PLAN_VER",
-            "alias": "PLAN_VER",
-            "type": "String"
-          },
-          {
-            "name": "PLAN_STAT",
-            "alias": "PLAN_STAT",
-            "type": "String"
-          },
-          {
-            "name": "STATUS_GRP",
-            "alias": "STATUS_GRP",
-            "type": "String"
-          },
-          {
             "name": "LEGAL_STAT",
             "alias": "LEGAL_STAT",
-            "type": "String"
-          },
-          {
-            "name": "THEME",
-            "alias": "THEME",
-            "type": "String"
-          },
-          {
-            "name": "MAP_GROUP",
-            "alias": "MAP_GROUP",
-            "type": "String"
-          },
-          {
-            "name": "TOPIC_ID",
-            "alias": "TOPIC_ID",
             "type": "String"
           },
           {
@@ -30383,23 +29943,8 @@
             "type": "String"
           },
           {
-            "name": "SUBTHEME",
-            "alias": "SUBTHEME",
-            "type": "String"
-          },
-          {
             "name": "STD_CLASS",
             "alias": "STD_CLASS",
-            "type": "String"
-          },
-          {
-            "name": "STD_LABEL",
-            "alias": "STD_LABEL",
-            "type": "String"
-          },
-          {
-            "name": "LOCAL_CLASS",
-            "alias": "LOCAL_CLASS",
             "type": "String"
           },
           {
@@ -30413,39 +29958,14 @@
             "type": "String"
           },
           {
-            "name": "SRC_ITEM",
-            "alias": "SRC_ITEM",
-            "type": "String"
-          },
-          {
             "name": "SRC_LAYER",
             "alias": "SRC_LAYER",
-            "type": "String"
-          },
-          {
-            "name": "SRC_OID",
-            "alias": "SRC_OID",
-            "type": "String"
-          },
-          {
-            "name": "SRC_URL",
-            "alias": "SRC_URL",
             "type": "String"
           },
           {
             "name": "PLAN_URL",
             "alias": "PLAN_URL",
             "type": "String"
-          },
-          {
-            "name": "AS_OF",
-            "alias": "AS_OF",
-            "type": "Date"
-          },
-          {
-            "name": "REFRESHED",
-            "alias": "REFRESHED",
-            "type": "Date"
           },
           {
             "name": "QA_STATUS",
@@ -30505,47 +30025,21 @@
       "popup": {
         "title": "Mixed Use Zone",
         "field_names": [
-          "REGION_ID",
-          "COUNCIL",
           "COUNCIL_NM",
           "PLAN_NAME",
-          "PLAN_VER",
-          "PLAN_STAT",
-          "STATUS_GRP",
           "LEGAL_STAT",
-          "THEME",
-          "MAP_GROUP",
-          "TOPIC_ID",
           "TOPIC_NAME",
-          "SUBTHEME",
           "STD_CLASS",
-          "STD_LABEL",
-          "LOCAL_CLASS",
           "LOCAL_NAME",
           "LOCAL_ID",
-          "SRC_ITEM",
           "SRC_LAYER",
-          "SRC_OID",
-          "SRC_URL",
           "PLAN_URL",
-          "AS_OF",
-          "REFRESHED",
           "QA_STATUS",
           "SUBCLASS_ID",
           "SUBCLASS",
           "ZONE_GROUP"
         ],
         "fields": [
-          {
-            "name": "REGION_ID",
-            "alias": "REGION_ID",
-            "type": "String"
-          },
-          {
-            "name": "COUNCIL",
-            "alias": "COUNCIL",
-            "type": "String"
-          },
           {
             "name": "COUNCIL_NM",
             "alias": "COUNCIL_NM",
@@ -30557,38 +30051,8 @@
             "type": "String"
           },
           {
-            "name": "PLAN_VER",
-            "alias": "PLAN_VER",
-            "type": "String"
-          },
-          {
-            "name": "PLAN_STAT",
-            "alias": "PLAN_STAT",
-            "type": "String"
-          },
-          {
-            "name": "STATUS_GRP",
-            "alias": "STATUS_GRP",
-            "type": "String"
-          },
-          {
             "name": "LEGAL_STAT",
             "alias": "LEGAL_STAT",
-            "type": "String"
-          },
-          {
-            "name": "THEME",
-            "alias": "THEME",
-            "type": "String"
-          },
-          {
-            "name": "MAP_GROUP",
-            "alias": "MAP_GROUP",
-            "type": "String"
-          },
-          {
-            "name": "TOPIC_ID",
-            "alias": "TOPIC_ID",
             "type": "String"
           },
           {
@@ -30597,23 +30061,8 @@
             "type": "String"
           },
           {
-            "name": "SUBTHEME",
-            "alias": "SUBTHEME",
-            "type": "String"
-          },
-          {
             "name": "STD_CLASS",
             "alias": "STD_CLASS",
-            "type": "String"
-          },
-          {
-            "name": "STD_LABEL",
-            "alias": "STD_LABEL",
-            "type": "String"
-          },
-          {
-            "name": "LOCAL_CLASS",
-            "alias": "LOCAL_CLASS",
             "type": "String"
           },
           {
@@ -30627,39 +30076,14 @@
             "type": "String"
           },
           {
-            "name": "SRC_ITEM",
-            "alias": "SRC_ITEM",
-            "type": "String"
-          },
-          {
             "name": "SRC_LAYER",
             "alias": "SRC_LAYER",
-            "type": "String"
-          },
-          {
-            "name": "SRC_OID",
-            "alias": "SRC_OID",
-            "type": "String"
-          },
-          {
-            "name": "SRC_URL",
-            "alias": "SRC_URL",
             "type": "String"
           },
           {
             "name": "PLAN_URL",
             "alias": "PLAN_URL",
             "type": "String"
-          },
-          {
-            "name": "AS_OF",
-            "alias": "AS_OF",
-            "type": "Date"
-          },
-          {
-            "name": "REFRESHED",
-            "alias": "REFRESHED",
-            "type": "Date"
           },
           {
             "name": "QA_STATUS",
@@ -30719,47 +30143,21 @@
       "popup": {
         "title": "Neighbourhood Centre Zone",
         "field_names": [
-          "REGION_ID",
-          "COUNCIL",
           "COUNCIL_NM",
           "PLAN_NAME",
-          "PLAN_VER",
-          "PLAN_STAT",
-          "STATUS_GRP",
           "LEGAL_STAT",
-          "THEME",
-          "MAP_GROUP",
-          "TOPIC_ID",
           "TOPIC_NAME",
-          "SUBTHEME",
           "STD_CLASS",
-          "STD_LABEL",
-          "LOCAL_CLASS",
           "LOCAL_NAME",
           "LOCAL_ID",
-          "SRC_ITEM",
           "SRC_LAYER",
-          "SRC_OID",
-          "SRC_URL",
           "PLAN_URL",
-          "AS_OF",
-          "REFRESHED",
           "QA_STATUS",
           "SUBCLASS_ID",
           "SUBCLASS",
           "ZONE_GROUP"
         ],
         "fields": [
-          {
-            "name": "REGION_ID",
-            "alias": "REGION_ID",
-            "type": "String"
-          },
-          {
-            "name": "COUNCIL",
-            "alias": "COUNCIL",
-            "type": "String"
-          },
           {
             "name": "COUNCIL_NM",
             "alias": "COUNCIL_NM",
@@ -30771,38 +30169,8 @@
             "type": "String"
           },
           {
-            "name": "PLAN_VER",
-            "alias": "PLAN_VER",
-            "type": "String"
-          },
-          {
-            "name": "PLAN_STAT",
-            "alias": "PLAN_STAT",
-            "type": "String"
-          },
-          {
-            "name": "STATUS_GRP",
-            "alias": "STATUS_GRP",
-            "type": "String"
-          },
-          {
             "name": "LEGAL_STAT",
             "alias": "LEGAL_STAT",
-            "type": "String"
-          },
-          {
-            "name": "THEME",
-            "alias": "THEME",
-            "type": "String"
-          },
-          {
-            "name": "MAP_GROUP",
-            "alias": "MAP_GROUP",
-            "type": "String"
-          },
-          {
-            "name": "TOPIC_ID",
-            "alias": "TOPIC_ID",
             "type": "String"
           },
           {
@@ -30811,23 +30179,8 @@
             "type": "String"
           },
           {
-            "name": "SUBTHEME",
-            "alias": "SUBTHEME",
-            "type": "String"
-          },
-          {
             "name": "STD_CLASS",
             "alias": "STD_CLASS",
-            "type": "String"
-          },
-          {
-            "name": "STD_LABEL",
-            "alias": "STD_LABEL",
-            "type": "String"
-          },
-          {
-            "name": "LOCAL_CLASS",
-            "alias": "LOCAL_CLASS",
             "type": "String"
           },
           {
@@ -30841,39 +30194,14 @@
             "type": "String"
           },
           {
-            "name": "SRC_ITEM",
-            "alias": "SRC_ITEM",
-            "type": "String"
-          },
-          {
             "name": "SRC_LAYER",
             "alias": "SRC_LAYER",
-            "type": "String"
-          },
-          {
-            "name": "SRC_OID",
-            "alias": "SRC_OID",
-            "type": "String"
-          },
-          {
-            "name": "SRC_URL",
-            "alias": "SRC_URL",
             "type": "String"
           },
           {
             "name": "PLAN_URL",
             "alias": "PLAN_URL",
             "type": "String"
-          },
-          {
-            "name": "AS_OF",
-            "alias": "AS_OF",
-            "type": "Date"
-          },
-          {
-            "name": "REFRESHED",
-            "alias": "REFRESHED",
-            "type": "Date"
           },
           {
             "name": "QA_STATUS",
@@ -30933,47 +30261,21 @@
       "popup": {
         "title": "Town Centre Zone",
         "field_names": [
-          "REGION_ID",
-          "COUNCIL",
           "COUNCIL_NM",
           "PLAN_NAME",
-          "PLAN_VER",
-          "PLAN_STAT",
-          "STATUS_GRP",
           "LEGAL_STAT",
-          "THEME",
-          "MAP_GROUP",
-          "TOPIC_ID",
           "TOPIC_NAME",
-          "SUBTHEME",
           "STD_CLASS",
-          "STD_LABEL",
-          "LOCAL_CLASS",
           "LOCAL_NAME",
           "LOCAL_ID",
-          "SRC_ITEM",
           "SRC_LAYER",
-          "SRC_OID",
-          "SRC_URL",
           "PLAN_URL",
-          "AS_OF",
-          "REFRESHED",
           "QA_STATUS",
           "SUBCLASS_ID",
           "SUBCLASS",
           "ZONE_GROUP"
         ],
         "fields": [
-          {
-            "name": "REGION_ID",
-            "alias": "REGION_ID",
-            "type": "String"
-          },
-          {
-            "name": "COUNCIL",
-            "alias": "COUNCIL",
-            "type": "String"
-          },
           {
             "name": "COUNCIL_NM",
             "alias": "COUNCIL_NM",
@@ -30985,38 +30287,8 @@
             "type": "String"
           },
           {
-            "name": "PLAN_VER",
-            "alias": "PLAN_VER",
-            "type": "String"
-          },
-          {
-            "name": "PLAN_STAT",
-            "alias": "PLAN_STAT",
-            "type": "String"
-          },
-          {
-            "name": "STATUS_GRP",
-            "alias": "STATUS_GRP",
-            "type": "String"
-          },
-          {
             "name": "LEGAL_STAT",
             "alias": "LEGAL_STAT",
-            "type": "String"
-          },
-          {
-            "name": "THEME",
-            "alias": "THEME",
-            "type": "String"
-          },
-          {
-            "name": "MAP_GROUP",
-            "alias": "MAP_GROUP",
-            "type": "String"
-          },
-          {
-            "name": "TOPIC_ID",
-            "alias": "TOPIC_ID",
             "type": "String"
           },
           {
@@ -31025,23 +30297,8 @@
             "type": "String"
           },
           {
-            "name": "SUBTHEME",
-            "alias": "SUBTHEME",
-            "type": "String"
-          },
-          {
             "name": "STD_CLASS",
             "alias": "STD_CLASS",
-            "type": "String"
-          },
-          {
-            "name": "STD_LABEL",
-            "alias": "STD_LABEL",
-            "type": "String"
-          },
-          {
-            "name": "LOCAL_CLASS",
-            "alias": "LOCAL_CLASS",
             "type": "String"
           },
           {
@@ -31055,39 +30312,14 @@
             "type": "String"
           },
           {
-            "name": "SRC_ITEM",
-            "alias": "SRC_ITEM",
-            "type": "String"
-          },
-          {
             "name": "SRC_LAYER",
             "alias": "SRC_LAYER",
-            "type": "String"
-          },
-          {
-            "name": "SRC_OID",
-            "alias": "SRC_OID",
-            "type": "String"
-          },
-          {
-            "name": "SRC_URL",
-            "alias": "SRC_URL",
             "type": "String"
           },
           {
             "name": "PLAN_URL",
             "alias": "PLAN_URL",
             "type": "String"
-          },
-          {
-            "name": "AS_OF",
-            "alias": "AS_OF",
-            "type": "Date"
-          },
-          {
-            "name": "REFRESHED",
-            "alias": "REFRESHED",
-            "type": "Date"
           },
           {
             "name": "QA_STATUS",
@@ -31167,47 +30399,21 @@
       "popup": {
         "title": "General Industrial Zone",
         "field_names": [
-          "REGION_ID",
-          "COUNCIL",
           "COUNCIL_NM",
           "PLAN_NAME",
-          "PLAN_VER",
-          "PLAN_STAT",
-          "STATUS_GRP",
           "LEGAL_STAT",
-          "THEME",
-          "MAP_GROUP",
-          "TOPIC_ID",
           "TOPIC_NAME",
-          "SUBTHEME",
           "STD_CLASS",
-          "STD_LABEL",
-          "LOCAL_CLASS",
           "LOCAL_NAME",
           "LOCAL_ID",
-          "SRC_ITEM",
           "SRC_LAYER",
-          "SRC_OID",
-          "SRC_URL",
           "PLAN_URL",
-          "AS_OF",
-          "REFRESHED",
           "QA_STATUS",
           "SUBCLASS_ID",
           "SUBCLASS",
           "ZONE_GROUP"
         ],
         "fields": [
-          {
-            "name": "REGION_ID",
-            "alias": "REGION_ID",
-            "type": "String"
-          },
-          {
-            "name": "COUNCIL",
-            "alias": "COUNCIL",
-            "type": "String"
-          },
           {
             "name": "COUNCIL_NM",
             "alias": "COUNCIL_NM",
@@ -31219,38 +30425,8 @@
             "type": "String"
           },
           {
-            "name": "PLAN_VER",
-            "alias": "PLAN_VER",
-            "type": "String"
-          },
-          {
-            "name": "PLAN_STAT",
-            "alias": "PLAN_STAT",
-            "type": "String"
-          },
-          {
-            "name": "STATUS_GRP",
-            "alias": "STATUS_GRP",
-            "type": "String"
-          },
-          {
             "name": "LEGAL_STAT",
             "alias": "LEGAL_STAT",
-            "type": "String"
-          },
-          {
-            "name": "THEME",
-            "alias": "THEME",
-            "type": "String"
-          },
-          {
-            "name": "MAP_GROUP",
-            "alias": "MAP_GROUP",
-            "type": "String"
-          },
-          {
-            "name": "TOPIC_ID",
-            "alias": "TOPIC_ID",
             "type": "String"
           },
           {
@@ -31259,23 +30435,8 @@
             "type": "String"
           },
           {
-            "name": "SUBTHEME",
-            "alias": "SUBTHEME",
-            "type": "String"
-          },
-          {
             "name": "STD_CLASS",
             "alias": "STD_CLASS",
-            "type": "String"
-          },
-          {
-            "name": "STD_LABEL",
-            "alias": "STD_LABEL",
-            "type": "String"
-          },
-          {
-            "name": "LOCAL_CLASS",
-            "alias": "LOCAL_CLASS",
             "type": "String"
           },
           {
@@ -31289,39 +30450,14 @@
             "type": "String"
           },
           {
-            "name": "SRC_ITEM",
-            "alias": "SRC_ITEM",
-            "type": "String"
-          },
-          {
             "name": "SRC_LAYER",
             "alias": "SRC_LAYER",
-            "type": "String"
-          },
-          {
-            "name": "SRC_OID",
-            "alias": "SRC_OID",
-            "type": "String"
-          },
-          {
-            "name": "SRC_URL",
-            "alias": "SRC_URL",
             "type": "String"
           },
           {
             "name": "PLAN_URL",
             "alias": "PLAN_URL",
             "type": "String"
-          },
-          {
-            "name": "AS_OF",
-            "alias": "AS_OF",
-            "type": "Date"
-          },
-          {
-            "name": "REFRESHED",
-            "alias": "REFRESHED",
-            "type": "Date"
           },
           {
             "name": "QA_STATUS",
@@ -31381,47 +30517,21 @@
       "popup": {
         "title": "Heavy Industrial Zone",
         "field_names": [
-          "REGION_ID",
-          "COUNCIL",
           "COUNCIL_NM",
           "PLAN_NAME",
-          "PLAN_VER",
-          "PLAN_STAT",
-          "STATUS_GRP",
           "LEGAL_STAT",
-          "THEME",
-          "MAP_GROUP",
-          "TOPIC_ID",
           "TOPIC_NAME",
-          "SUBTHEME",
           "STD_CLASS",
-          "STD_LABEL",
-          "LOCAL_CLASS",
           "LOCAL_NAME",
           "LOCAL_ID",
-          "SRC_ITEM",
           "SRC_LAYER",
-          "SRC_OID",
-          "SRC_URL",
           "PLAN_URL",
-          "AS_OF",
-          "REFRESHED",
           "QA_STATUS",
           "SUBCLASS_ID",
           "SUBCLASS",
           "ZONE_GROUP"
         ],
         "fields": [
-          {
-            "name": "REGION_ID",
-            "alias": "REGION_ID",
-            "type": "String"
-          },
-          {
-            "name": "COUNCIL",
-            "alias": "COUNCIL",
-            "type": "String"
-          },
           {
             "name": "COUNCIL_NM",
             "alias": "COUNCIL_NM",
@@ -31433,38 +30543,8 @@
             "type": "String"
           },
           {
-            "name": "PLAN_VER",
-            "alias": "PLAN_VER",
-            "type": "String"
-          },
-          {
-            "name": "PLAN_STAT",
-            "alias": "PLAN_STAT",
-            "type": "String"
-          },
-          {
-            "name": "STATUS_GRP",
-            "alias": "STATUS_GRP",
-            "type": "String"
-          },
-          {
             "name": "LEGAL_STAT",
             "alias": "LEGAL_STAT",
-            "type": "String"
-          },
-          {
-            "name": "THEME",
-            "alias": "THEME",
-            "type": "String"
-          },
-          {
-            "name": "MAP_GROUP",
-            "alias": "MAP_GROUP",
-            "type": "String"
-          },
-          {
-            "name": "TOPIC_ID",
-            "alias": "TOPIC_ID",
             "type": "String"
           },
           {
@@ -31473,23 +30553,8 @@
             "type": "String"
           },
           {
-            "name": "SUBTHEME",
-            "alias": "SUBTHEME",
-            "type": "String"
-          },
-          {
             "name": "STD_CLASS",
             "alias": "STD_CLASS",
-            "type": "String"
-          },
-          {
-            "name": "STD_LABEL",
-            "alias": "STD_LABEL",
-            "type": "String"
-          },
-          {
-            "name": "LOCAL_CLASS",
-            "alias": "LOCAL_CLASS",
             "type": "String"
           },
           {
@@ -31503,39 +30568,14 @@
             "type": "String"
           },
           {
-            "name": "SRC_ITEM",
-            "alias": "SRC_ITEM",
-            "type": "String"
-          },
-          {
             "name": "SRC_LAYER",
             "alias": "SRC_LAYER",
-            "type": "String"
-          },
-          {
-            "name": "SRC_OID",
-            "alias": "SRC_OID",
-            "type": "String"
-          },
-          {
-            "name": "SRC_URL",
-            "alias": "SRC_URL",
             "type": "String"
           },
           {
             "name": "PLAN_URL",
             "alias": "PLAN_URL",
             "type": "String"
-          },
-          {
-            "name": "AS_OF",
-            "alias": "AS_OF",
-            "type": "Date"
-          },
-          {
-            "name": "REFRESHED",
-            "alias": "REFRESHED",
-            "type": "Date"
           },
           {
             "name": "QA_STATUS",
@@ -31595,47 +30635,21 @@
       "popup": {
         "title": "Light Industrial Zone",
         "field_names": [
-          "REGION_ID",
-          "COUNCIL",
           "COUNCIL_NM",
           "PLAN_NAME",
-          "PLAN_VER",
-          "PLAN_STAT",
-          "STATUS_GRP",
           "LEGAL_STAT",
-          "THEME",
-          "MAP_GROUP",
-          "TOPIC_ID",
           "TOPIC_NAME",
-          "SUBTHEME",
           "STD_CLASS",
-          "STD_LABEL",
-          "LOCAL_CLASS",
           "LOCAL_NAME",
           "LOCAL_ID",
-          "SRC_ITEM",
           "SRC_LAYER",
-          "SRC_OID",
-          "SRC_URL",
           "PLAN_URL",
-          "AS_OF",
-          "REFRESHED",
           "QA_STATUS",
           "SUBCLASS_ID",
           "SUBCLASS",
           "ZONE_GROUP"
         ],
         "fields": [
-          {
-            "name": "REGION_ID",
-            "alias": "REGION_ID",
-            "type": "String"
-          },
-          {
-            "name": "COUNCIL",
-            "alias": "COUNCIL",
-            "type": "String"
-          },
           {
             "name": "COUNCIL_NM",
             "alias": "COUNCIL_NM",
@@ -31647,38 +30661,8 @@
             "type": "String"
           },
           {
-            "name": "PLAN_VER",
-            "alias": "PLAN_VER",
-            "type": "String"
-          },
-          {
-            "name": "PLAN_STAT",
-            "alias": "PLAN_STAT",
-            "type": "String"
-          },
-          {
-            "name": "STATUS_GRP",
-            "alias": "STATUS_GRP",
-            "type": "String"
-          },
-          {
             "name": "LEGAL_STAT",
             "alias": "LEGAL_STAT",
-            "type": "String"
-          },
-          {
-            "name": "THEME",
-            "alias": "THEME",
-            "type": "String"
-          },
-          {
-            "name": "MAP_GROUP",
-            "alias": "MAP_GROUP",
-            "type": "String"
-          },
-          {
-            "name": "TOPIC_ID",
-            "alias": "TOPIC_ID",
             "type": "String"
           },
           {
@@ -31687,23 +30671,8 @@
             "type": "String"
           },
           {
-            "name": "SUBTHEME",
-            "alias": "SUBTHEME",
-            "type": "String"
-          },
-          {
             "name": "STD_CLASS",
             "alias": "STD_CLASS",
-            "type": "String"
-          },
-          {
-            "name": "STD_LABEL",
-            "alias": "STD_LABEL",
-            "type": "String"
-          },
-          {
-            "name": "LOCAL_CLASS",
-            "alias": "LOCAL_CLASS",
             "type": "String"
           },
           {
@@ -31717,39 +30686,14 @@
             "type": "String"
           },
           {
-            "name": "SRC_ITEM",
-            "alias": "SRC_ITEM",
-            "type": "String"
-          },
-          {
             "name": "SRC_LAYER",
             "alias": "SRC_LAYER",
-            "type": "String"
-          },
-          {
-            "name": "SRC_OID",
-            "alias": "SRC_OID",
-            "type": "String"
-          },
-          {
-            "name": "SRC_URL",
-            "alias": "SRC_URL",
             "type": "String"
           },
           {
             "name": "PLAN_URL",
             "alias": "PLAN_URL",
             "type": "String"
-          },
-          {
-            "name": "AS_OF",
-            "alias": "AS_OF",
-            "type": "Date"
-          },
-          {
-            "name": "REFRESHED",
-            "alias": "REFRESHED",
-            "type": "Date"
           },
           {
             "name": "QA_STATUS",
@@ -31829,47 +30773,21 @@
       "popup": {
         "title": "Natural Open Space Zone",
         "field_names": [
-          "REGION_ID",
-          "COUNCIL",
           "COUNCIL_NM",
           "PLAN_NAME",
-          "PLAN_VER",
-          "PLAN_STAT",
-          "STATUS_GRP",
           "LEGAL_STAT",
-          "THEME",
-          "MAP_GROUP",
-          "TOPIC_ID",
           "TOPIC_NAME",
-          "SUBTHEME",
           "STD_CLASS",
-          "STD_LABEL",
-          "LOCAL_CLASS",
           "LOCAL_NAME",
           "LOCAL_ID",
-          "SRC_ITEM",
           "SRC_LAYER",
-          "SRC_OID",
-          "SRC_URL",
           "PLAN_URL",
-          "AS_OF",
-          "REFRESHED",
           "QA_STATUS",
           "SUBCLASS_ID",
           "SUBCLASS",
           "ZONE_GROUP"
         ],
         "fields": [
-          {
-            "name": "REGION_ID",
-            "alias": "REGION_ID",
-            "type": "String"
-          },
-          {
-            "name": "COUNCIL",
-            "alias": "COUNCIL",
-            "type": "String"
-          },
           {
             "name": "COUNCIL_NM",
             "alias": "COUNCIL_NM",
@@ -31881,38 +30799,8 @@
             "type": "String"
           },
           {
-            "name": "PLAN_VER",
-            "alias": "PLAN_VER",
-            "type": "String"
-          },
-          {
-            "name": "PLAN_STAT",
-            "alias": "PLAN_STAT",
-            "type": "String"
-          },
-          {
-            "name": "STATUS_GRP",
-            "alias": "STATUS_GRP",
-            "type": "String"
-          },
-          {
             "name": "LEGAL_STAT",
             "alias": "LEGAL_STAT",
-            "type": "String"
-          },
-          {
-            "name": "THEME",
-            "alias": "THEME",
-            "type": "String"
-          },
-          {
-            "name": "MAP_GROUP",
-            "alias": "MAP_GROUP",
-            "type": "String"
-          },
-          {
-            "name": "TOPIC_ID",
-            "alias": "TOPIC_ID",
             "type": "String"
           },
           {
@@ -31921,23 +30809,8 @@
             "type": "String"
           },
           {
-            "name": "SUBTHEME",
-            "alias": "SUBTHEME",
-            "type": "String"
-          },
-          {
             "name": "STD_CLASS",
             "alias": "STD_CLASS",
-            "type": "String"
-          },
-          {
-            "name": "STD_LABEL",
-            "alias": "STD_LABEL",
-            "type": "String"
-          },
-          {
-            "name": "LOCAL_CLASS",
-            "alias": "LOCAL_CLASS",
             "type": "String"
           },
           {
@@ -31951,39 +30824,14 @@
             "type": "String"
           },
           {
-            "name": "SRC_ITEM",
-            "alias": "SRC_ITEM",
-            "type": "String"
-          },
-          {
             "name": "SRC_LAYER",
             "alias": "SRC_LAYER",
-            "type": "String"
-          },
-          {
-            "name": "SRC_OID",
-            "alias": "SRC_OID",
-            "type": "String"
-          },
-          {
-            "name": "SRC_URL",
-            "alias": "SRC_URL",
             "type": "String"
           },
           {
             "name": "PLAN_URL",
             "alias": "PLAN_URL",
             "type": "String"
-          },
-          {
-            "name": "AS_OF",
-            "alias": "AS_OF",
-            "type": "Date"
-          },
-          {
-            "name": "REFRESHED",
-            "alias": "REFRESHED",
-            "type": "Date"
           },
           {
             "name": "QA_STATUS",
@@ -32043,47 +30891,21 @@
       "popup": {
         "title": "Open Space Zone",
         "field_names": [
-          "REGION_ID",
-          "COUNCIL",
           "COUNCIL_NM",
           "PLAN_NAME",
-          "PLAN_VER",
-          "PLAN_STAT",
-          "STATUS_GRP",
           "LEGAL_STAT",
-          "THEME",
-          "MAP_GROUP",
-          "TOPIC_ID",
           "TOPIC_NAME",
-          "SUBTHEME",
           "STD_CLASS",
-          "STD_LABEL",
-          "LOCAL_CLASS",
           "LOCAL_NAME",
           "LOCAL_ID",
-          "SRC_ITEM",
           "SRC_LAYER",
-          "SRC_OID",
-          "SRC_URL",
           "PLAN_URL",
-          "AS_OF",
-          "REFRESHED",
           "QA_STATUS",
           "SUBCLASS_ID",
           "SUBCLASS",
           "ZONE_GROUP"
         ],
         "fields": [
-          {
-            "name": "REGION_ID",
-            "alias": "REGION_ID",
-            "type": "String"
-          },
-          {
-            "name": "COUNCIL",
-            "alias": "COUNCIL",
-            "type": "String"
-          },
           {
             "name": "COUNCIL_NM",
             "alias": "COUNCIL_NM",
@@ -32095,38 +30917,8 @@
             "type": "String"
           },
           {
-            "name": "PLAN_VER",
-            "alias": "PLAN_VER",
-            "type": "String"
-          },
-          {
-            "name": "PLAN_STAT",
-            "alias": "PLAN_STAT",
-            "type": "String"
-          },
-          {
-            "name": "STATUS_GRP",
-            "alias": "STATUS_GRP",
-            "type": "String"
-          },
-          {
             "name": "LEGAL_STAT",
             "alias": "LEGAL_STAT",
-            "type": "String"
-          },
-          {
-            "name": "THEME",
-            "alias": "THEME",
-            "type": "String"
-          },
-          {
-            "name": "MAP_GROUP",
-            "alias": "MAP_GROUP",
-            "type": "String"
-          },
-          {
-            "name": "TOPIC_ID",
-            "alias": "TOPIC_ID",
             "type": "String"
           },
           {
@@ -32135,23 +30927,8 @@
             "type": "String"
           },
           {
-            "name": "SUBTHEME",
-            "alias": "SUBTHEME",
-            "type": "String"
-          },
-          {
             "name": "STD_CLASS",
             "alias": "STD_CLASS",
-            "type": "String"
-          },
-          {
-            "name": "STD_LABEL",
-            "alias": "STD_LABEL",
-            "type": "String"
-          },
-          {
-            "name": "LOCAL_CLASS",
-            "alias": "LOCAL_CLASS",
             "type": "String"
           },
           {
@@ -32165,39 +30942,14 @@
             "type": "String"
           },
           {
-            "name": "SRC_ITEM",
-            "alias": "SRC_ITEM",
-            "type": "String"
-          },
-          {
             "name": "SRC_LAYER",
             "alias": "SRC_LAYER",
-            "type": "String"
-          },
-          {
-            "name": "SRC_OID",
-            "alias": "SRC_OID",
-            "type": "String"
-          },
-          {
-            "name": "SRC_URL",
-            "alias": "SRC_URL",
             "type": "String"
           },
           {
             "name": "PLAN_URL",
             "alias": "PLAN_URL",
             "type": "String"
-          },
-          {
-            "name": "AS_OF",
-            "alias": "AS_OF",
-            "type": "Date"
-          },
-          {
-            "name": "REFRESHED",
-            "alias": "REFRESHED",
-            "type": "Date"
           },
           {
             "name": "QA_STATUS",
@@ -32257,47 +31009,21 @@
       "popup": {
         "title": "Sport and Active Recreation Zone",
         "field_names": [
-          "REGION_ID",
-          "COUNCIL",
           "COUNCIL_NM",
           "PLAN_NAME",
-          "PLAN_VER",
-          "PLAN_STAT",
-          "STATUS_GRP",
           "LEGAL_STAT",
-          "THEME",
-          "MAP_GROUP",
-          "TOPIC_ID",
           "TOPIC_NAME",
-          "SUBTHEME",
           "STD_CLASS",
-          "STD_LABEL",
-          "LOCAL_CLASS",
           "LOCAL_NAME",
           "LOCAL_ID",
-          "SRC_ITEM",
           "SRC_LAYER",
-          "SRC_OID",
-          "SRC_URL",
           "PLAN_URL",
-          "AS_OF",
-          "REFRESHED",
           "QA_STATUS",
           "SUBCLASS_ID",
           "SUBCLASS",
           "ZONE_GROUP"
         ],
         "fields": [
-          {
-            "name": "REGION_ID",
-            "alias": "REGION_ID",
-            "type": "String"
-          },
-          {
-            "name": "COUNCIL",
-            "alias": "COUNCIL",
-            "type": "String"
-          },
           {
             "name": "COUNCIL_NM",
             "alias": "COUNCIL_NM",
@@ -32309,38 +31035,8 @@
             "type": "String"
           },
           {
-            "name": "PLAN_VER",
-            "alias": "PLAN_VER",
-            "type": "String"
-          },
-          {
-            "name": "PLAN_STAT",
-            "alias": "PLAN_STAT",
-            "type": "String"
-          },
-          {
-            "name": "STATUS_GRP",
-            "alias": "STATUS_GRP",
-            "type": "String"
-          },
-          {
             "name": "LEGAL_STAT",
             "alias": "LEGAL_STAT",
-            "type": "String"
-          },
-          {
-            "name": "THEME",
-            "alias": "THEME",
-            "type": "String"
-          },
-          {
-            "name": "MAP_GROUP",
-            "alias": "MAP_GROUP",
-            "type": "String"
-          },
-          {
-            "name": "TOPIC_ID",
-            "alias": "TOPIC_ID",
             "type": "String"
           },
           {
@@ -32349,23 +31045,8 @@
             "type": "String"
           },
           {
-            "name": "SUBTHEME",
-            "alias": "SUBTHEME",
-            "type": "String"
-          },
-          {
             "name": "STD_CLASS",
             "alias": "STD_CLASS",
-            "type": "String"
-          },
-          {
-            "name": "STD_LABEL",
-            "alias": "STD_LABEL",
-            "type": "String"
-          },
-          {
-            "name": "LOCAL_CLASS",
-            "alias": "LOCAL_CLASS",
             "type": "String"
           },
           {
@@ -32379,39 +31060,14 @@
             "type": "String"
           },
           {
-            "name": "SRC_ITEM",
-            "alias": "SRC_ITEM",
-            "type": "String"
-          },
-          {
             "name": "SRC_LAYER",
             "alias": "SRC_LAYER",
-            "type": "String"
-          },
-          {
-            "name": "SRC_OID",
-            "alias": "SRC_OID",
-            "type": "String"
-          },
-          {
-            "name": "SRC_URL",
-            "alias": "SRC_URL",
             "type": "String"
           },
           {
             "name": "PLAN_URL",
             "alias": "PLAN_URL",
             "type": "String"
-          },
-          {
-            "name": "AS_OF",
-            "alias": "AS_OF",
-            "type": "Date"
-          },
-          {
-            "name": "REFRESHED",
-            "alias": "REFRESHED",
-            "type": "Date"
           },
           {
             "name": "QA_STATUS",
@@ -32492,47 +31148,21 @@
       "popup": {
         "title": "General Residential Zone",
         "field_names": [
-          "REGION_ID",
-          "COUNCIL",
           "COUNCIL_NM",
           "PLAN_NAME",
-          "PLAN_VER",
-          "PLAN_STAT",
-          "STATUS_GRP",
           "LEGAL_STAT",
-          "THEME",
-          "MAP_GROUP",
-          "TOPIC_ID",
           "TOPIC_NAME",
-          "SUBTHEME",
           "STD_CLASS",
-          "STD_LABEL",
-          "LOCAL_CLASS",
           "LOCAL_NAME",
           "LOCAL_ID",
-          "SRC_ITEM",
           "SRC_LAYER",
-          "SRC_OID",
-          "SRC_URL",
           "PLAN_URL",
-          "AS_OF",
-          "REFRESHED",
           "QA_STATUS",
           "SUBCLASS_ID",
           "SUBCLASS",
           "ZONE_GROUP"
         ],
         "fields": [
-          {
-            "name": "REGION_ID",
-            "alias": "REGION_ID",
-            "type": "String"
-          },
-          {
-            "name": "COUNCIL",
-            "alias": "COUNCIL",
-            "type": "String"
-          },
           {
             "name": "COUNCIL_NM",
             "alias": "COUNCIL_NM",
@@ -32544,38 +31174,8 @@
             "type": "String"
           },
           {
-            "name": "PLAN_VER",
-            "alias": "PLAN_VER",
-            "type": "String"
-          },
-          {
-            "name": "PLAN_STAT",
-            "alias": "PLAN_STAT",
-            "type": "String"
-          },
-          {
-            "name": "STATUS_GRP",
-            "alias": "STATUS_GRP",
-            "type": "String"
-          },
-          {
             "name": "LEGAL_STAT",
             "alias": "LEGAL_STAT",
-            "type": "String"
-          },
-          {
-            "name": "THEME",
-            "alias": "THEME",
-            "type": "String"
-          },
-          {
-            "name": "MAP_GROUP",
-            "alias": "MAP_GROUP",
-            "type": "String"
-          },
-          {
-            "name": "TOPIC_ID",
-            "alias": "TOPIC_ID",
             "type": "String"
           },
           {
@@ -32584,23 +31184,8 @@
             "type": "String"
           },
           {
-            "name": "SUBTHEME",
-            "alias": "SUBTHEME",
-            "type": "String"
-          },
-          {
             "name": "STD_CLASS",
             "alias": "STD_CLASS",
-            "type": "String"
-          },
-          {
-            "name": "STD_LABEL",
-            "alias": "STD_LABEL",
-            "type": "String"
-          },
-          {
-            "name": "LOCAL_CLASS",
-            "alias": "LOCAL_CLASS",
             "type": "String"
           },
           {
@@ -32614,39 +31199,14 @@
             "type": "String"
           },
           {
-            "name": "SRC_ITEM",
-            "alias": "SRC_ITEM",
-            "type": "String"
-          },
-          {
             "name": "SRC_LAYER",
             "alias": "SRC_LAYER",
-            "type": "String"
-          },
-          {
-            "name": "SRC_OID",
-            "alias": "SRC_OID",
-            "type": "String"
-          },
-          {
-            "name": "SRC_URL",
-            "alias": "SRC_URL",
             "type": "String"
           },
           {
             "name": "PLAN_URL",
             "alias": "PLAN_URL",
             "type": "String"
-          },
-          {
-            "name": "AS_OF",
-            "alias": "AS_OF",
-            "type": "Date"
-          },
-          {
-            "name": "REFRESHED",
-            "alias": "REFRESHED",
-            "type": "Date"
           },
           {
             "name": "QA_STATUS",
@@ -32706,47 +31266,21 @@
       "popup": {
         "title": "High Density Residential Zone",
         "field_names": [
-          "REGION_ID",
-          "COUNCIL",
           "COUNCIL_NM",
           "PLAN_NAME",
-          "PLAN_VER",
-          "PLAN_STAT",
-          "STATUS_GRP",
           "LEGAL_STAT",
-          "THEME",
-          "MAP_GROUP",
-          "TOPIC_ID",
           "TOPIC_NAME",
-          "SUBTHEME",
           "STD_CLASS",
-          "STD_LABEL",
-          "LOCAL_CLASS",
           "LOCAL_NAME",
           "LOCAL_ID",
-          "SRC_ITEM",
           "SRC_LAYER",
-          "SRC_OID",
-          "SRC_URL",
           "PLAN_URL",
-          "AS_OF",
-          "REFRESHED",
           "QA_STATUS",
           "SUBCLASS_ID",
           "SUBCLASS",
           "ZONE_GROUP"
         ],
         "fields": [
-          {
-            "name": "REGION_ID",
-            "alias": "REGION_ID",
-            "type": "String"
-          },
-          {
-            "name": "COUNCIL",
-            "alias": "COUNCIL",
-            "type": "String"
-          },
           {
             "name": "COUNCIL_NM",
             "alias": "COUNCIL_NM",
@@ -32758,38 +31292,8 @@
             "type": "String"
           },
           {
-            "name": "PLAN_VER",
-            "alias": "PLAN_VER",
-            "type": "String"
-          },
-          {
-            "name": "PLAN_STAT",
-            "alias": "PLAN_STAT",
-            "type": "String"
-          },
-          {
-            "name": "STATUS_GRP",
-            "alias": "STATUS_GRP",
-            "type": "String"
-          },
-          {
             "name": "LEGAL_STAT",
             "alias": "LEGAL_STAT",
-            "type": "String"
-          },
-          {
-            "name": "THEME",
-            "alias": "THEME",
-            "type": "String"
-          },
-          {
-            "name": "MAP_GROUP",
-            "alias": "MAP_GROUP",
-            "type": "String"
-          },
-          {
-            "name": "TOPIC_ID",
-            "alias": "TOPIC_ID",
             "type": "String"
           },
           {
@@ -32798,23 +31302,8 @@
             "type": "String"
           },
           {
-            "name": "SUBTHEME",
-            "alias": "SUBTHEME",
-            "type": "String"
-          },
-          {
             "name": "STD_CLASS",
             "alias": "STD_CLASS",
-            "type": "String"
-          },
-          {
-            "name": "STD_LABEL",
-            "alias": "STD_LABEL",
-            "type": "String"
-          },
-          {
-            "name": "LOCAL_CLASS",
-            "alias": "LOCAL_CLASS",
             "type": "String"
           },
           {
@@ -32828,39 +31317,14 @@
             "type": "String"
           },
           {
-            "name": "SRC_ITEM",
-            "alias": "SRC_ITEM",
-            "type": "String"
-          },
-          {
             "name": "SRC_LAYER",
             "alias": "SRC_LAYER",
-            "type": "String"
-          },
-          {
-            "name": "SRC_OID",
-            "alias": "SRC_OID",
-            "type": "String"
-          },
-          {
-            "name": "SRC_URL",
-            "alias": "SRC_URL",
             "type": "String"
           },
           {
             "name": "PLAN_URL",
             "alias": "PLAN_URL",
             "type": "String"
-          },
-          {
-            "name": "AS_OF",
-            "alias": "AS_OF",
-            "type": "Date"
-          },
-          {
-            "name": "REFRESHED",
-            "alias": "REFRESHED",
-            "type": "Date"
           },
           {
             "name": "QA_STATUS",
@@ -32920,47 +31384,21 @@
       "popup": {
         "title": "Large Lot Residential Zone",
         "field_names": [
-          "REGION_ID",
-          "COUNCIL",
           "COUNCIL_NM",
           "PLAN_NAME",
-          "PLAN_VER",
-          "PLAN_STAT",
-          "STATUS_GRP",
           "LEGAL_STAT",
-          "THEME",
-          "MAP_GROUP",
-          "TOPIC_ID",
           "TOPIC_NAME",
-          "SUBTHEME",
           "STD_CLASS",
-          "STD_LABEL",
-          "LOCAL_CLASS",
           "LOCAL_NAME",
           "LOCAL_ID",
-          "SRC_ITEM",
           "SRC_LAYER",
-          "SRC_OID",
-          "SRC_URL",
           "PLAN_URL",
-          "AS_OF",
-          "REFRESHED",
           "QA_STATUS",
           "SUBCLASS_ID",
           "SUBCLASS",
           "ZONE_GROUP"
         ],
         "fields": [
-          {
-            "name": "REGION_ID",
-            "alias": "REGION_ID",
-            "type": "String"
-          },
-          {
-            "name": "COUNCIL",
-            "alias": "COUNCIL",
-            "type": "String"
-          },
           {
             "name": "COUNCIL_NM",
             "alias": "COUNCIL_NM",
@@ -32972,38 +31410,8 @@
             "type": "String"
           },
           {
-            "name": "PLAN_VER",
-            "alias": "PLAN_VER",
-            "type": "String"
-          },
-          {
-            "name": "PLAN_STAT",
-            "alias": "PLAN_STAT",
-            "type": "String"
-          },
-          {
-            "name": "STATUS_GRP",
-            "alias": "STATUS_GRP",
-            "type": "String"
-          },
-          {
             "name": "LEGAL_STAT",
             "alias": "LEGAL_STAT",
-            "type": "String"
-          },
-          {
-            "name": "THEME",
-            "alias": "THEME",
-            "type": "String"
-          },
-          {
-            "name": "MAP_GROUP",
-            "alias": "MAP_GROUP",
-            "type": "String"
-          },
-          {
-            "name": "TOPIC_ID",
-            "alias": "TOPIC_ID",
             "type": "String"
           },
           {
@@ -33012,23 +31420,8 @@
             "type": "String"
           },
           {
-            "name": "SUBTHEME",
-            "alias": "SUBTHEME",
-            "type": "String"
-          },
-          {
             "name": "STD_CLASS",
             "alias": "STD_CLASS",
-            "type": "String"
-          },
-          {
-            "name": "STD_LABEL",
-            "alias": "STD_LABEL",
-            "type": "String"
-          },
-          {
-            "name": "LOCAL_CLASS",
-            "alias": "LOCAL_CLASS",
             "type": "String"
           },
           {
@@ -33042,39 +31435,14 @@
             "type": "String"
           },
           {
-            "name": "SRC_ITEM",
-            "alias": "SRC_ITEM",
-            "type": "String"
-          },
-          {
             "name": "SRC_LAYER",
             "alias": "SRC_LAYER",
-            "type": "String"
-          },
-          {
-            "name": "SRC_OID",
-            "alias": "SRC_OID",
-            "type": "String"
-          },
-          {
-            "name": "SRC_URL",
-            "alias": "SRC_URL",
             "type": "String"
           },
           {
             "name": "PLAN_URL",
             "alias": "PLAN_URL",
             "type": "String"
-          },
-          {
-            "name": "AS_OF",
-            "alias": "AS_OF",
-            "type": "Date"
-          },
-          {
-            "name": "REFRESHED",
-            "alias": "REFRESHED",
-            "type": "Date"
           },
           {
             "name": "QA_STATUS",
@@ -33134,47 +31502,21 @@
       "popup": {
         "title": "Medium Density Residential Zone",
         "field_names": [
-          "REGION_ID",
-          "COUNCIL",
           "COUNCIL_NM",
           "PLAN_NAME",
-          "PLAN_VER",
-          "PLAN_STAT",
-          "STATUS_GRP",
           "LEGAL_STAT",
-          "THEME",
-          "MAP_GROUP",
-          "TOPIC_ID",
           "TOPIC_NAME",
-          "SUBTHEME",
           "STD_CLASS",
-          "STD_LABEL",
-          "LOCAL_CLASS",
           "LOCAL_NAME",
           "LOCAL_ID",
-          "SRC_ITEM",
           "SRC_LAYER",
-          "SRC_OID",
-          "SRC_URL",
           "PLAN_URL",
-          "AS_OF",
-          "REFRESHED",
           "QA_STATUS",
           "SUBCLASS_ID",
           "SUBCLASS",
           "ZONE_GROUP"
         ],
         "fields": [
-          {
-            "name": "REGION_ID",
-            "alias": "REGION_ID",
-            "type": "String"
-          },
-          {
-            "name": "COUNCIL",
-            "alias": "COUNCIL",
-            "type": "String"
-          },
           {
             "name": "COUNCIL_NM",
             "alias": "COUNCIL_NM",
@@ -33186,38 +31528,8 @@
             "type": "String"
           },
           {
-            "name": "PLAN_VER",
-            "alias": "PLAN_VER",
-            "type": "String"
-          },
-          {
-            "name": "PLAN_STAT",
-            "alias": "PLAN_STAT",
-            "type": "String"
-          },
-          {
-            "name": "STATUS_GRP",
-            "alias": "STATUS_GRP",
-            "type": "String"
-          },
-          {
             "name": "LEGAL_STAT",
             "alias": "LEGAL_STAT",
-            "type": "String"
-          },
-          {
-            "name": "THEME",
-            "alias": "THEME",
-            "type": "String"
-          },
-          {
-            "name": "MAP_GROUP",
-            "alias": "MAP_GROUP",
-            "type": "String"
-          },
-          {
-            "name": "TOPIC_ID",
-            "alias": "TOPIC_ID",
             "type": "String"
           },
           {
@@ -33226,23 +31538,8 @@
             "type": "String"
           },
           {
-            "name": "SUBTHEME",
-            "alias": "SUBTHEME",
-            "type": "String"
-          },
-          {
             "name": "STD_CLASS",
             "alias": "STD_CLASS",
-            "type": "String"
-          },
-          {
-            "name": "STD_LABEL",
-            "alias": "STD_LABEL",
-            "type": "String"
-          },
-          {
-            "name": "LOCAL_CLASS",
-            "alias": "LOCAL_CLASS",
             "type": "String"
           },
           {
@@ -33256,39 +31553,14 @@
             "type": "String"
           },
           {
-            "name": "SRC_ITEM",
-            "alias": "SRC_ITEM",
-            "type": "String"
-          },
-          {
             "name": "SRC_LAYER",
             "alias": "SRC_LAYER",
-            "type": "String"
-          },
-          {
-            "name": "SRC_OID",
-            "alias": "SRC_OID",
-            "type": "String"
-          },
-          {
-            "name": "SRC_URL",
-            "alias": "SRC_URL",
             "type": "String"
           },
           {
             "name": "PLAN_URL",
             "alias": "PLAN_URL",
             "type": "String"
-          },
-          {
-            "name": "AS_OF",
-            "alias": "AS_OF",
-            "type": "Date"
-          },
-          {
-            "name": "REFRESHED",
-            "alias": "REFRESHED",
-            "type": "Date"
           },
           {
             "name": "QA_STATUS",
@@ -33369,47 +31641,21 @@
       "popup": {
         "title": "General Rural Zone",
         "field_names": [
-          "REGION_ID",
-          "COUNCIL",
           "COUNCIL_NM",
           "PLAN_NAME",
-          "PLAN_VER",
-          "PLAN_STAT",
-          "STATUS_GRP",
           "LEGAL_STAT",
-          "THEME",
-          "MAP_GROUP",
-          "TOPIC_ID",
           "TOPIC_NAME",
-          "SUBTHEME",
           "STD_CLASS",
-          "STD_LABEL",
-          "LOCAL_CLASS",
           "LOCAL_NAME",
           "LOCAL_ID",
-          "SRC_ITEM",
           "SRC_LAYER",
-          "SRC_OID",
-          "SRC_URL",
           "PLAN_URL",
-          "AS_OF",
-          "REFRESHED",
           "QA_STATUS",
           "SUBCLASS_ID",
           "SUBCLASS",
           "ZONE_GROUP"
         ],
         "fields": [
-          {
-            "name": "REGION_ID",
-            "alias": "REGION_ID",
-            "type": "String"
-          },
-          {
-            "name": "COUNCIL",
-            "alias": "COUNCIL",
-            "type": "String"
-          },
           {
             "name": "COUNCIL_NM",
             "alias": "COUNCIL_NM",
@@ -33421,38 +31667,8 @@
             "type": "String"
           },
           {
-            "name": "PLAN_VER",
-            "alias": "PLAN_VER",
-            "type": "String"
-          },
-          {
-            "name": "PLAN_STAT",
-            "alias": "PLAN_STAT",
-            "type": "String"
-          },
-          {
-            "name": "STATUS_GRP",
-            "alias": "STATUS_GRP",
-            "type": "String"
-          },
-          {
             "name": "LEGAL_STAT",
             "alias": "LEGAL_STAT",
-            "type": "String"
-          },
-          {
-            "name": "THEME",
-            "alias": "THEME",
-            "type": "String"
-          },
-          {
-            "name": "MAP_GROUP",
-            "alias": "MAP_GROUP",
-            "type": "String"
-          },
-          {
-            "name": "TOPIC_ID",
-            "alias": "TOPIC_ID",
             "type": "String"
           },
           {
@@ -33461,23 +31677,8 @@
             "type": "String"
           },
           {
-            "name": "SUBTHEME",
-            "alias": "SUBTHEME",
-            "type": "String"
-          },
-          {
             "name": "STD_CLASS",
             "alias": "STD_CLASS",
-            "type": "String"
-          },
-          {
-            "name": "STD_LABEL",
-            "alias": "STD_LABEL",
-            "type": "String"
-          },
-          {
-            "name": "LOCAL_CLASS",
-            "alias": "LOCAL_CLASS",
             "type": "String"
           },
           {
@@ -33491,39 +31692,14 @@
             "type": "String"
           },
           {
-            "name": "SRC_ITEM",
-            "alias": "SRC_ITEM",
-            "type": "String"
-          },
-          {
             "name": "SRC_LAYER",
             "alias": "SRC_LAYER",
-            "type": "String"
-          },
-          {
-            "name": "SRC_OID",
-            "alias": "SRC_OID",
-            "type": "String"
-          },
-          {
-            "name": "SRC_URL",
-            "alias": "SRC_URL",
             "type": "String"
           },
           {
             "name": "PLAN_URL",
             "alias": "PLAN_URL",
             "type": "String"
-          },
-          {
-            "name": "AS_OF",
-            "alias": "AS_OF",
-            "type": "Date"
-          },
-          {
-            "name": "REFRESHED",
-            "alias": "REFRESHED",
-            "type": "Date"
           },
           {
             "name": "QA_STATUS",
@@ -33583,47 +31759,21 @@
       "popup": {
         "title": "Rural Lifestyle Zone",
         "field_names": [
-          "REGION_ID",
-          "COUNCIL",
           "COUNCIL_NM",
           "PLAN_NAME",
-          "PLAN_VER",
-          "PLAN_STAT",
-          "STATUS_GRP",
           "LEGAL_STAT",
-          "THEME",
-          "MAP_GROUP",
-          "TOPIC_ID",
           "TOPIC_NAME",
-          "SUBTHEME",
           "STD_CLASS",
-          "STD_LABEL",
-          "LOCAL_CLASS",
           "LOCAL_NAME",
           "LOCAL_ID",
-          "SRC_ITEM",
           "SRC_LAYER",
-          "SRC_OID",
-          "SRC_URL",
           "PLAN_URL",
-          "AS_OF",
-          "REFRESHED",
           "QA_STATUS",
           "SUBCLASS_ID",
           "SUBCLASS",
           "ZONE_GROUP"
         ],
         "fields": [
-          {
-            "name": "REGION_ID",
-            "alias": "REGION_ID",
-            "type": "String"
-          },
-          {
-            "name": "COUNCIL",
-            "alias": "COUNCIL",
-            "type": "String"
-          },
           {
             "name": "COUNCIL_NM",
             "alias": "COUNCIL_NM",
@@ -33635,38 +31785,8 @@
             "type": "String"
           },
           {
-            "name": "PLAN_VER",
-            "alias": "PLAN_VER",
-            "type": "String"
-          },
-          {
-            "name": "PLAN_STAT",
-            "alias": "PLAN_STAT",
-            "type": "String"
-          },
-          {
-            "name": "STATUS_GRP",
-            "alias": "STATUS_GRP",
-            "type": "String"
-          },
-          {
             "name": "LEGAL_STAT",
             "alias": "LEGAL_STAT",
-            "type": "String"
-          },
-          {
-            "name": "THEME",
-            "alias": "THEME",
-            "type": "String"
-          },
-          {
-            "name": "MAP_GROUP",
-            "alias": "MAP_GROUP",
-            "type": "String"
-          },
-          {
-            "name": "TOPIC_ID",
-            "alias": "TOPIC_ID",
             "type": "String"
           },
           {
@@ -33675,23 +31795,8 @@
             "type": "String"
           },
           {
-            "name": "SUBTHEME",
-            "alias": "SUBTHEME",
-            "type": "String"
-          },
-          {
             "name": "STD_CLASS",
             "alias": "STD_CLASS",
-            "type": "String"
-          },
-          {
-            "name": "STD_LABEL",
-            "alias": "STD_LABEL",
-            "type": "String"
-          },
-          {
-            "name": "LOCAL_CLASS",
-            "alias": "LOCAL_CLASS",
             "type": "String"
           },
           {
@@ -33705,39 +31810,14 @@
             "type": "String"
           },
           {
-            "name": "SRC_ITEM",
-            "alias": "SRC_ITEM",
-            "type": "String"
-          },
-          {
             "name": "SRC_LAYER",
             "alias": "SRC_LAYER",
-            "type": "String"
-          },
-          {
-            "name": "SRC_OID",
-            "alias": "SRC_OID",
-            "type": "String"
-          },
-          {
-            "name": "SRC_URL",
-            "alias": "SRC_URL",
             "type": "String"
           },
           {
             "name": "PLAN_URL",
             "alias": "PLAN_URL",
             "type": "String"
-          },
-          {
-            "name": "AS_OF",
-            "alias": "AS_OF",
-            "type": "Date"
-          },
-          {
-            "name": "REFRESHED",
-            "alias": "REFRESHED",
-            "type": "Date"
           },
           {
             "name": "QA_STATUS",
@@ -33797,47 +31877,21 @@
       "popup": {
         "title": "Rural Production Zone",
         "field_names": [
-          "REGION_ID",
-          "COUNCIL",
           "COUNCIL_NM",
           "PLAN_NAME",
-          "PLAN_VER",
-          "PLAN_STAT",
-          "STATUS_GRP",
           "LEGAL_STAT",
-          "THEME",
-          "MAP_GROUP",
-          "TOPIC_ID",
           "TOPIC_NAME",
-          "SUBTHEME",
           "STD_CLASS",
-          "STD_LABEL",
-          "LOCAL_CLASS",
           "LOCAL_NAME",
           "LOCAL_ID",
-          "SRC_ITEM",
           "SRC_LAYER",
-          "SRC_OID",
-          "SRC_URL",
           "PLAN_URL",
-          "AS_OF",
-          "REFRESHED",
           "QA_STATUS",
           "SUBCLASS_ID",
           "SUBCLASS",
           "ZONE_GROUP"
         ],
         "fields": [
-          {
-            "name": "REGION_ID",
-            "alias": "REGION_ID",
-            "type": "String"
-          },
-          {
-            "name": "COUNCIL",
-            "alias": "COUNCIL",
-            "type": "String"
-          },
           {
             "name": "COUNCIL_NM",
             "alias": "COUNCIL_NM",
@@ -33849,38 +31903,8 @@
             "type": "String"
           },
           {
-            "name": "PLAN_VER",
-            "alias": "PLAN_VER",
-            "type": "String"
-          },
-          {
-            "name": "PLAN_STAT",
-            "alias": "PLAN_STAT",
-            "type": "String"
-          },
-          {
-            "name": "STATUS_GRP",
-            "alias": "STATUS_GRP",
-            "type": "String"
-          },
-          {
             "name": "LEGAL_STAT",
             "alias": "LEGAL_STAT",
-            "type": "String"
-          },
-          {
-            "name": "THEME",
-            "alias": "THEME",
-            "type": "String"
-          },
-          {
-            "name": "MAP_GROUP",
-            "alias": "MAP_GROUP",
-            "type": "String"
-          },
-          {
-            "name": "TOPIC_ID",
-            "alias": "TOPIC_ID",
             "type": "String"
           },
           {
@@ -33889,23 +31913,8 @@
             "type": "String"
           },
           {
-            "name": "SUBTHEME",
-            "alias": "SUBTHEME",
-            "type": "String"
-          },
-          {
             "name": "STD_CLASS",
             "alias": "STD_CLASS",
-            "type": "String"
-          },
-          {
-            "name": "STD_LABEL",
-            "alias": "STD_LABEL",
-            "type": "String"
-          },
-          {
-            "name": "LOCAL_CLASS",
-            "alias": "LOCAL_CLASS",
             "type": "String"
           },
           {
@@ -33919,39 +31928,14 @@
             "type": "String"
           },
           {
-            "name": "SRC_ITEM",
-            "alias": "SRC_ITEM",
-            "type": "String"
-          },
-          {
             "name": "SRC_LAYER",
             "alias": "SRC_LAYER",
-            "type": "String"
-          },
-          {
-            "name": "SRC_OID",
-            "alias": "SRC_OID",
-            "type": "String"
-          },
-          {
-            "name": "SRC_URL",
-            "alias": "SRC_URL",
             "type": "String"
           },
           {
             "name": "PLAN_URL",
             "alias": "PLAN_URL",
             "type": "String"
-          },
-          {
-            "name": "AS_OF",
-            "alias": "AS_OF",
-            "type": "Date"
-          },
-          {
-            "name": "REFRESHED",
-            "alias": "REFRESHED",
-            "type": "Date"
           },
           {
             "name": "QA_STATUS",
@@ -34011,47 +31995,21 @@
       "popup": {
         "title": "Settlement Zone",
         "field_names": [
-          "REGION_ID",
-          "COUNCIL",
           "COUNCIL_NM",
           "PLAN_NAME",
-          "PLAN_VER",
-          "PLAN_STAT",
-          "STATUS_GRP",
           "LEGAL_STAT",
-          "THEME",
-          "MAP_GROUP",
-          "TOPIC_ID",
           "TOPIC_NAME",
-          "SUBTHEME",
           "STD_CLASS",
-          "STD_LABEL",
-          "LOCAL_CLASS",
           "LOCAL_NAME",
           "LOCAL_ID",
-          "SRC_ITEM",
           "SRC_LAYER",
-          "SRC_OID",
-          "SRC_URL",
           "PLAN_URL",
-          "AS_OF",
-          "REFRESHED",
           "QA_STATUS",
           "SUBCLASS_ID",
           "SUBCLASS",
           "ZONE_GROUP"
         ],
         "fields": [
-          {
-            "name": "REGION_ID",
-            "alias": "REGION_ID",
-            "type": "String"
-          },
-          {
-            "name": "COUNCIL",
-            "alias": "COUNCIL",
-            "type": "String"
-          },
           {
             "name": "COUNCIL_NM",
             "alias": "COUNCIL_NM",
@@ -34063,38 +32021,8 @@
             "type": "String"
           },
           {
-            "name": "PLAN_VER",
-            "alias": "PLAN_VER",
-            "type": "String"
-          },
-          {
-            "name": "PLAN_STAT",
-            "alias": "PLAN_STAT",
-            "type": "String"
-          },
-          {
-            "name": "STATUS_GRP",
-            "alias": "STATUS_GRP",
-            "type": "String"
-          },
-          {
             "name": "LEGAL_STAT",
             "alias": "LEGAL_STAT",
-            "type": "String"
-          },
-          {
-            "name": "THEME",
-            "alias": "THEME",
-            "type": "String"
-          },
-          {
-            "name": "MAP_GROUP",
-            "alias": "MAP_GROUP",
-            "type": "String"
-          },
-          {
-            "name": "TOPIC_ID",
-            "alias": "TOPIC_ID",
             "type": "String"
           },
           {
@@ -34103,23 +32031,8 @@
             "type": "String"
           },
           {
-            "name": "SUBTHEME",
-            "alias": "SUBTHEME",
-            "type": "String"
-          },
-          {
             "name": "STD_CLASS",
             "alias": "STD_CLASS",
-            "type": "String"
-          },
-          {
-            "name": "STD_LABEL",
-            "alias": "STD_LABEL",
-            "type": "String"
-          },
-          {
-            "name": "LOCAL_CLASS",
-            "alias": "LOCAL_CLASS",
             "type": "String"
           },
           {
@@ -34133,39 +32046,14 @@
             "type": "String"
           },
           {
-            "name": "SRC_ITEM",
-            "alias": "SRC_ITEM",
-            "type": "String"
-          },
-          {
             "name": "SRC_LAYER",
             "alias": "SRC_LAYER",
-            "type": "String"
-          },
-          {
-            "name": "SRC_OID",
-            "alias": "SRC_OID",
-            "type": "String"
-          },
-          {
-            "name": "SRC_URL",
-            "alias": "SRC_URL",
             "type": "String"
           },
           {
             "name": "PLAN_URL",
             "alias": "PLAN_URL",
             "type": "String"
-          },
-          {
-            "name": "AS_OF",
-            "alias": "AS_OF",
-            "type": "Date"
-          },
-          {
-            "name": "REFRESHED",
-            "alias": "REFRESHED",
-            "type": "Date"
           },
           {
             "name": "QA_STATUS",
@@ -34254,47 +32142,21 @@
       "popup": {
         "title": "Airport Zone",
         "field_names": [
-          "REGION_ID",
-          "COUNCIL",
           "COUNCIL_NM",
           "PLAN_NAME",
-          "PLAN_VER",
-          "PLAN_STAT",
-          "STATUS_GRP",
           "LEGAL_STAT",
-          "THEME",
-          "MAP_GROUP",
-          "TOPIC_ID",
           "TOPIC_NAME",
-          "SUBTHEME",
           "STD_CLASS",
-          "STD_LABEL",
-          "LOCAL_CLASS",
           "LOCAL_NAME",
           "LOCAL_ID",
-          "SRC_ITEM",
           "SRC_LAYER",
-          "SRC_OID",
-          "SRC_URL",
           "PLAN_URL",
-          "AS_OF",
-          "REFRESHED",
           "QA_STATUS",
           "SUBCLASS_ID",
           "SUBCLASS",
           "ZONE_GROUP"
         ],
         "fields": [
-          {
-            "name": "REGION_ID",
-            "alias": "REGION_ID",
-            "type": "String"
-          },
-          {
-            "name": "COUNCIL",
-            "alias": "COUNCIL",
-            "type": "String"
-          },
           {
             "name": "COUNCIL_NM",
             "alias": "COUNCIL_NM",
@@ -34306,38 +32168,8 @@
             "type": "String"
           },
           {
-            "name": "PLAN_VER",
-            "alias": "PLAN_VER",
-            "type": "String"
-          },
-          {
-            "name": "PLAN_STAT",
-            "alias": "PLAN_STAT",
-            "type": "String"
-          },
-          {
-            "name": "STATUS_GRP",
-            "alias": "STATUS_GRP",
-            "type": "String"
-          },
-          {
             "name": "LEGAL_STAT",
             "alias": "LEGAL_STAT",
-            "type": "String"
-          },
-          {
-            "name": "THEME",
-            "alias": "THEME",
-            "type": "String"
-          },
-          {
-            "name": "MAP_GROUP",
-            "alias": "MAP_GROUP",
-            "type": "String"
-          },
-          {
-            "name": "TOPIC_ID",
-            "alias": "TOPIC_ID",
             "type": "String"
           },
           {
@@ -34346,23 +32178,8 @@
             "type": "String"
           },
           {
-            "name": "SUBTHEME",
-            "alias": "SUBTHEME",
-            "type": "String"
-          },
-          {
             "name": "STD_CLASS",
             "alias": "STD_CLASS",
-            "type": "String"
-          },
-          {
-            "name": "STD_LABEL",
-            "alias": "STD_LABEL",
-            "type": "String"
-          },
-          {
-            "name": "LOCAL_CLASS",
-            "alias": "LOCAL_CLASS",
             "type": "String"
           },
           {
@@ -34376,39 +32193,14 @@
             "type": "String"
           },
           {
-            "name": "SRC_ITEM",
-            "alias": "SRC_ITEM",
-            "type": "String"
-          },
-          {
             "name": "SRC_LAYER",
             "alias": "SRC_LAYER",
-            "type": "String"
-          },
-          {
-            "name": "SRC_OID",
-            "alias": "SRC_OID",
-            "type": "String"
-          },
-          {
-            "name": "SRC_URL",
-            "alias": "SRC_URL",
             "type": "String"
           },
           {
             "name": "PLAN_URL",
             "alias": "PLAN_URL",
             "type": "String"
-          },
-          {
-            "name": "AS_OF",
-            "alias": "AS_OF",
-            "type": "Date"
-          },
-          {
-            "name": "REFRESHED",
-            "alias": "REFRESHED",
-            "type": "Date"
           },
           {
             "name": "QA_STATUS",
@@ -34468,47 +32260,21 @@
       "popup": {
         "title": "Corrections Zone",
         "field_names": [
-          "REGION_ID",
-          "COUNCIL",
           "COUNCIL_NM",
           "PLAN_NAME",
-          "PLAN_VER",
-          "PLAN_STAT",
-          "STATUS_GRP",
           "LEGAL_STAT",
-          "THEME",
-          "MAP_GROUP",
-          "TOPIC_ID",
           "TOPIC_NAME",
-          "SUBTHEME",
           "STD_CLASS",
-          "STD_LABEL",
-          "LOCAL_CLASS",
           "LOCAL_NAME",
           "LOCAL_ID",
-          "SRC_ITEM",
           "SRC_LAYER",
-          "SRC_OID",
-          "SRC_URL",
           "PLAN_URL",
-          "AS_OF",
-          "REFRESHED",
           "QA_STATUS",
           "SUBCLASS_ID",
           "SUBCLASS",
           "ZONE_GROUP"
         ],
         "fields": [
-          {
-            "name": "REGION_ID",
-            "alias": "REGION_ID",
-            "type": "String"
-          },
-          {
-            "name": "COUNCIL",
-            "alias": "COUNCIL",
-            "type": "String"
-          },
           {
             "name": "COUNCIL_NM",
             "alias": "COUNCIL_NM",
@@ -34520,38 +32286,8 @@
             "type": "String"
           },
           {
-            "name": "PLAN_VER",
-            "alias": "PLAN_VER",
-            "type": "String"
-          },
-          {
-            "name": "PLAN_STAT",
-            "alias": "PLAN_STAT",
-            "type": "String"
-          },
-          {
-            "name": "STATUS_GRP",
-            "alias": "STATUS_GRP",
-            "type": "String"
-          },
-          {
             "name": "LEGAL_STAT",
             "alias": "LEGAL_STAT",
-            "type": "String"
-          },
-          {
-            "name": "THEME",
-            "alias": "THEME",
-            "type": "String"
-          },
-          {
-            "name": "MAP_GROUP",
-            "alias": "MAP_GROUP",
-            "type": "String"
-          },
-          {
-            "name": "TOPIC_ID",
-            "alias": "TOPIC_ID",
             "type": "String"
           },
           {
@@ -34560,23 +32296,8 @@
             "type": "String"
           },
           {
-            "name": "SUBTHEME",
-            "alias": "SUBTHEME",
-            "type": "String"
-          },
-          {
             "name": "STD_CLASS",
             "alias": "STD_CLASS",
-            "type": "String"
-          },
-          {
-            "name": "STD_LABEL",
-            "alias": "STD_LABEL",
-            "type": "String"
-          },
-          {
-            "name": "LOCAL_CLASS",
-            "alias": "LOCAL_CLASS",
             "type": "String"
           },
           {
@@ -34590,39 +32311,14 @@
             "type": "String"
           },
           {
-            "name": "SRC_ITEM",
-            "alias": "SRC_ITEM",
-            "type": "String"
-          },
-          {
             "name": "SRC_LAYER",
             "alias": "SRC_LAYER",
-            "type": "String"
-          },
-          {
-            "name": "SRC_OID",
-            "alias": "SRC_OID",
-            "type": "String"
-          },
-          {
-            "name": "SRC_URL",
-            "alias": "SRC_URL",
             "type": "String"
           },
           {
             "name": "PLAN_URL",
             "alias": "PLAN_URL",
             "type": "String"
-          },
-          {
-            "name": "AS_OF",
-            "alias": "AS_OF",
-            "type": "Date"
-          },
-          {
-            "name": "REFRESHED",
-            "alias": "REFRESHED",
-            "type": "Date"
           },
           {
             "name": "QA_STATUS",
@@ -34682,47 +32378,21 @@
       "popup": {
         "title": "Future Urban Zone",
         "field_names": [
-          "REGION_ID",
-          "COUNCIL",
           "COUNCIL_NM",
           "PLAN_NAME",
-          "PLAN_VER",
-          "PLAN_STAT",
-          "STATUS_GRP",
           "LEGAL_STAT",
-          "THEME",
-          "MAP_GROUP",
-          "TOPIC_ID",
           "TOPIC_NAME",
-          "SUBTHEME",
           "STD_CLASS",
-          "STD_LABEL",
-          "LOCAL_CLASS",
           "LOCAL_NAME",
           "LOCAL_ID",
-          "SRC_ITEM",
           "SRC_LAYER",
-          "SRC_OID",
-          "SRC_URL",
           "PLAN_URL",
-          "AS_OF",
-          "REFRESHED",
           "QA_STATUS",
           "SUBCLASS_ID",
           "SUBCLASS",
           "ZONE_GROUP"
         ],
         "fields": [
-          {
-            "name": "REGION_ID",
-            "alias": "REGION_ID",
-            "type": "String"
-          },
-          {
-            "name": "COUNCIL",
-            "alias": "COUNCIL",
-            "type": "String"
-          },
           {
             "name": "COUNCIL_NM",
             "alias": "COUNCIL_NM",
@@ -34734,38 +32404,8 @@
             "type": "String"
           },
           {
-            "name": "PLAN_VER",
-            "alias": "PLAN_VER",
-            "type": "String"
-          },
-          {
-            "name": "PLAN_STAT",
-            "alias": "PLAN_STAT",
-            "type": "String"
-          },
-          {
-            "name": "STATUS_GRP",
-            "alias": "STATUS_GRP",
-            "type": "String"
-          },
-          {
             "name": "LEGAL_STAT",
             "alias": "LEGAL_STAT",
-            "type": "String"
-          },
-          {
-            "name": "THEME",
-            "alias": "THEME",
-            "type": "String"
-          },
-          {
-            "name": "MAP_GROUP",
-            "alias": "MAP_GROUP",
-            "type": "String"
-          },
-          {
-            "name": "TOPIC_ID",
-            "alias": "TOPIC_ID",
             "type": "String"
           },
           {
@@ -34774,23 +32414,8 @@
             "type": "String"
           },
           {
-            "name": "SUBTHEME",
-            "alias": "SUBTHEME",
-            "type": "String"
-          },
-          {
             "name": "STD_CLASS",
             "alias": "STD_CLASS",
-            "type": "String"
-          },
-          {
-            "name": "STD_LABEL",
-            "alias": "STD_LABEL",
-            "type": "String"
-          },
-          {
-            "name": "LOCAL_CLASS",
-            "alias": "LOCAL_CLASS",
             "type": "String"
           },
           {
@@ -34804,39 +32429,14 @@
             "type": "String"
           },
           {
-            "name": "SRC_ITEM",
-            "alias": "SRC_ITEM",
-            "type": "String"
-          },
-          {
             "name": "SRC_LAYER",
             "alias": "SRC_LAYER",
-            "type": "String"
-          },
-          {
-            "name": "SRC_OID",
-            "alias": "SRC_OID",
-            "type": "String"
-          },
-          {
-            "name": "SRC_URL",
-            "alias": "SRC_URL",
             "type": "String"
           },
           {
             "name": "PLAN_URL",
             "alias": "PLAN_URL",
             "type": "String"
-          },
-          {
-            "name": "AS_OF",
-            "alias": "AS_OF",
-            "type": "Date"
-          },
-          {
-            "name": "REFRESHED",
-            "alias": "REFRESHED",
-            "type": "Date"
           },
           {
             "name": "QA_STATUS",
@@ -34896,47 +32496,21 @@
       "popup": {
         "title": "Hospital Zone",
         "field_names": [
-          "REGION_ID",
-          "COUNCIL",
           "COUNCIL_NM",
           "PLAN_NAME",
-          "PLAN_VER",
-          "PLAN_STAT",
-          "STATUS_GRP",
           "LEGAL_STAT",
-          "THEME",
-          "MAP_GROUP",
-          "TOPIC_ID",
           "TOPIC_NAME",
-          "SUBTHEME",
           "STD_CLASS",
-          "STD_LABEL",
-          "LOCAL_CLASS",
           "LOCAL_NAME",
           "LOCAL_ID",
-          "SRC_ITEM",
           "SRC_LAYER",
-          "SRC_OID",
-          "SRC_URL",
           "PLAN_URL",
-          "AS_OF",
-          "REFRESHED",
           "QA_STATUS",
           "SUBCLASS_ID",
           "SUBCLASS",
           "ZONE_GROUP"
         ],
         "fields": [
-          {
-            "name": "REGION_ID",
-            "alias": "REGION_ID",
-            "type": "String"
-          },
-          {
-            "name": "COUNCIL",
-            "alias": "COUNCIL",
-            "type": "String"
-          },
           {
             "name": "COUNCIL_NM",
             "alias": "COUNCIL_NM",
@@ -34948,38 +32522,8 @@
             "type": "String"
           },
           {
-            "name": "PLAN_VER",
-            "alias": "PLAN_VER",
-            "type": "String"
-          },
-          {
-            "name": "PLAN_STAT",
-            "alias": "PLAN_STAT",
-            "type": "String"
-          },
-          {
-            "name": "STATUS_GRP",
-            "alias": "STATUS_GRP",
-            "type": "String"
-          },
-          {
             "name": "LEGAL_STAT",
             "alias": "LEGAL_STAT",
-            "type": "String"
-          },
-          {
-            "name": "THEME",
-            "alias": "THEME",
-            "type": "String"
-          },
-          {
-            "name": "MAP_GROUP",
-            "alias": "MAP_GROUP",
-            "type": "String"
-          },
-          {
-            "name": "TOPIC_ID",
-            "alias": "TOPIC_ID",
             "type": "String"
           },
           {
@@ -34988,23 +32532,8 @@
             "type": "String"
           },
           {
-            "name": "SUBTHEME",
-            "alias": "SUBTHEME",
-            "type": "String"
-          },
-          {
             "name": "STD_CLASS",
             "alias": "STD_CLASS",
-            "type": "String"
-          },
-          {
-            "name": "STD_LABEL",
-            "alias": "STD_LABEL",
-            "type": "String"
-          },
-          {
-            "name": "LOCAL_CLASS",
-            "alias": "LOCAL_CLASS",
             "type": "String"
           },
           {
@@ -35018,39 +32547,14 @@
             "type": "String"
           },
           {
-            "name": "SRC_ITEM",
-            "alias": "SRC_ITEM",
-            "type": "String"
-          },
-          {
             "name": "SRC_LAYER",
             "alias": "SRC_LAYER",
-            "type": "String"
-          },
-          {
-            "name": "SRC_OID",
-            "alias": "SRC_OID",
-            "type": "String"
-          },
-          {
-            "name": "SRC_URL",
-            "alias": "SRC_URL",
             "type": "String"
           },
           {
             "name": "PLAN_URL",
             "alias": "PLAN_URL",
             "type": "String"
-          },
-          {
-            "name": "AS_OF",
-            "alias": "AS_OF",
-            "type": "Date"
-          },
-          {
-            "name": "REFRESHED",
-            "alias": "REFRESHED",
-            "type": "Date"
           },
           {
             "name": "QA_STATUS",
@@ -35110,47 +32614,21 @@
       "popup": {
         "title": "Māori Purpose Zone",
         "field_names": [
-          "REGION_ID",
-          "COUNCIL",
           "COUNCIL_NM",
           "PLAN_NAME",
-          "PLAN_VER",
-          "PLAN_STAT",
-          "STATUS_GRP",
           "LEGAL_STAT",
-          "THEME",
-          "MAP_GROUP",
-          "TOPIC_ID",
           "TOPIC_NAME",
-          "SUBTHEME",
           "STD_CLASS",
-          "STD_LABEL",
-          "LOCAL_CLASS",
           "LOCAL_NAME",
           "LOCAL_ID",
-          "SRC_ITEM",
           "SRC_LAYER",
-          "SRC_OID",
-          "SRC_URL",
           "PLAN_URL",
-          "AS_OF",
-          "REFRESHED",
           "QA_STATUS",
           "SUBCLASS_ID",
           "SUBCLASS",
           "ZONE_GROUP"
         ],
         "fields": [
-          {
-            "name": "REGION_ID",
-            "alias": "REGION_ID",
-            "type": "String"
-          },
-          {
-            "name": "COUNCIL",
-            "alias": "COUNCIL",
-            "type": "String"
-          },
           {
             "name": "COUNCIL_NM",
             "alias": "COUNCIL_NM",
@@ -35162,38 +32640,8 @@
             "type": "String"
           },
           {
-            "name": "PLAN_VER",
-            "alias": "PLAN_VER",
-            "type": "String"
-          },
-          {
-            "name": "PLAN_STAT",
-            "alias": "PLAN_STAT",
-            "type": "String"
-          },
-          {
-            "name": "STATUS_GRP",
-            "alias": "STATUS_GRP",
-            "type": "String"
-          },
-          {
             "name": "LEGAL_STAT",
             "alias": "LEGAL_STAT",
-            "type": "String"
-          },
-          {
-            "name": "THEME",
-            "alias": "THEME",
-            "type": "String"
-          },
-          {
-            "name": "MAP_GROUP",
-            "alias": "MAP_GROUP",
-            "type": "String"
-          },
-          {
-            "name": "TOPIC_ID",
-            "alias": "TOPIC_ID",
             "type": "String"
           },
           {
@@ -35202,23 +32650,8 @@
             "type": "String"
           },
           {
-            "name": "SUBTHEME",
-            "alias": "SUBTHEME",
-            "type": "String"
-          },
-          {
             "name": "STD_CLASS",
             "alias": "STD_CLASS",
-            "type": "String"
-          },
-          {
-            "name": "STD_LABEL",
-            "alias": "STD_LABEL",
-            "type": "String"
-          },
-          {
-            "name": "LOCAL_CLASS",
-            "alias": "LOCAL_CLASS",
             "type": "String"
           },
           {
@@ -35232,39 +32665,14 @@
             "type": "String"
           },
           {
-            "name": "SRC_ITEM",
-            "alias": "SRC_ITEM",
-            "type": "String"
-          },
-          {
             "name": "SRC_LAYER",
             "alias": "SRC_LAYER",
-            "type": "String"
-          },
-          {
-            "name": "SRC_OID",
-            "alias": "SRC_OID",
-            "type": "String"
-          },
-          {
-            "name": "SRC_URL",
-            "alias": "SRC_URL",
             "type": "String"
           },
           {
             "name": "PLAN_URL",
             "alias": "PLAN_URL",
             "type": "String"
-          },
-          {
-            "name": "AS_OF",
-            "alias": "AS_OF",
-            "type": "Date"
-          },
-          {
-            "name": "REFRESHED",
-            "alias": "REFRESHED",
-            "type": "Date"
           },
           {
             "name": "QA_STATUS",
@@ -35325,47 +32733,21 @@
       "popup": {
         "title": "Plimmerton Farm Zone",
         "field_names": [
-          "REGION_ID",
-          "COUNCIL",
           "COUNCIL_NM",
           "PLAN_NAME",
-          "PLAN_VER",
-          "PLAN_STAT",
-          "STATUS_GRP",
           "LEGAL_STAT",
-          "THEME",
-          "MAP_GROUP",
-          "TOPIC_ID",
           "TOPIC_NAME",
-          "SUBTHEME",
           "STD_CLASS",
-          "STD_LABEL",
-          "LOCAL_CLASS",
           "LOCAL_NAME",
           "LOCAL_ID",
-          "SRC_ITEM",
           "SRC_LAYER",
-          "SRC_OID",
-          "SRC_URL",
           "PLAN_URL",
-          "AS_OF",
-          "REFRESHED",
           "QA_STATUS",
           "SUBCLASS_ID",
           "SUBCLASS",
           "ZONE_GROUP"
         ],
         "fields": [
-          {
-            "name": "REGION_ID",
-            "alias": "REGION_ID",
-            "type": "String"
-          },
-          {
-            "name": "COUNCIL",
-            "alias": "COUNCIL",
-            "type": "String"
-          },
           {
             "name": "COUNCIL_NM",
             "alias": "COUNCIL_NM",
@@ -35377,38 +32759,8 @@
             "type": "String"
           },
           {
-            "name": "PLAN_VER",
-            "alias": "PLAN_VER",
-            "type": "String"
-          },
-          {
-            "name": "PLAN_STAT",
-            "alias": "PLAN_STAT",
-            "type": "String"
-          },
-          {
-            "name": "STATUS_GRP",
-            "alias": "STATUS_GRP",
-            "type": "String"
-          },
-          {
             "name": "LEGAL_STAT",
             "alias": "LEGAL_STAT",
-            "type": "String"
-          },
-          {
-            "name": "THEME",
-            "alias": "THEME",
-            "type": "String"
-          },
-          {
-            "name": "MAP_GROUP",
-            "alias": "MAP_GROUP",
-            "type": "String"
-          },
-          {
-            "name": "TOPIC_ID",
-            "alias": "TOPIC_ID",
             "type": "String"
           },
           {
@@ -35417,23 +32769,8 @@
             "type": "String"
           },
           {
-            "name": "SUBTHEME",
-            "alias": "SUBTHEME",
-            "type": "String"
-          },
-          {
             "name": "STD_CLASS",
             "alias": "STD_CLASS",
-            "type": "String"
-          },
-          {
-            "name": "STD_LABEL",
-            "alias": "STD_LABEL",
-            "type": "String"
-          },
-          {
-            "name": "LOCAL_CLASS",
-            "alias": "LOCAL_CLASS",
             "type": "String"
           },
           {
@@ -35447,39 +32784,14 @@
             "type": "String"
           },
           {
-            "name": "SRC_ITEM",
-            "alias": "SRC_ITEM",
-            "type": "String"
-          },
-          {
             "name": "SRC_LAYER",
             "alias": "SRC_LAYER",
-            "type": "String"
-          },
-          {
-            "name": "SRC_OID",
-            "alias": "SRC_OID",
-            "type": "String"
-          },
-          {
-            "name": "SRC_URL",
-            "alias": "SRC_URL",
             "type": "String"
           },
           {
             "name": "PLAN_URL",
             "alias": "PLAN_URL",
             "type": "String"
-          },
-          {
-            "name": "AS_OF",
-            "alias": "AS_OF",
-            "type": "Date"
-          },
-          {
-            "name": "REFRESHED",
-            "alias": "REFRESHED",
-            "type": "Date"
           },
           {
             "name": "QA_STATUS",
@@ -35539,47 +32851,21 @@
       "popup": {
         "title": "Port Zone",
         "field_names": [
-          "REGION_ID",
-          "COUNCIL",
           "COUNCIL_NM",
           "PLAN_NAME",
-          "PLAN_VER",
-          "PLAN_STAT",
-          "STATUS_GRP",
           "LEGAL_STAT",
-          "THEME",
-          "MAP_GROUP",
-          "TOPIC_ID",
           "TOPIC_NAME",
-          "SUBTHEME",
           "STD_CLASS",
-          "STD_LABEL",
-          "LOCAL_CLASS",
           "LOCAL_NAME",
           "LOCAL_ID",
-          "SRC_ITEM",
           "SRC_LAYER",
-          "SRC_OID",
-          "SRC_URL",
           "PLAN_URL",
-          "AS_OF",
-          "REFRESHED",
           "QA_STATUS",
           "SUBCLASS_ID",
           "SUBCLASS",
           "ZONE_GROUP"
         ],
         "fields": [
-          {
-            "name": "REGION_ID",
-            "alias": "REGION_ID",
-            "type": "String"
-          },
-          {
-            "name": "COUNCIL",
-            "alias": "COUNCIL",
-            "type": "String"
-          },
           {
             "name": "COUNCIL_NM",
             "alias": "COUNCIL_NM",
@@ -35591,38 +32877,8 @@
             "type": "String"
           },
           {
-            "name": "PLAN_VER",
-            "alias": "PLAN_VER",
-            "type": "String"
-          },
-          {
-            "name": "PLAN_STAT",
-            "alias": "PLAN_STAT",
-            "type": "String"
-          },
-          {
-            "name": "STATUS_GRP",
-            "alias": "STATUS_GRP",
-            "type": "String"
-          },
-          {
             "name": "LEGAL_STAT",
             "alias": "LEGAL_STAT",
-            "type": "String"
-          },
-          {
-            "name": "THEME",
-            "alias": "THEME",
-            "type": "String"
-          },
-          {
-            "name": "MAP_GROUP",
-            "alias": "MAP_GROUP",
-            "type": "String"
-          },
-          {
-            "name": "TOPIC_ID",
-            "alias": "TOPIC_ID",
             "type": "String"
           },
           {
@@ -35631,23 +32887,8 @@
             "type": "String"
           },
           {
-            "name": "SUBTHEME",
-            "alias": "SUBTHEME",
-            "type": "String"
-          },
-          {
             "name": "STD_CLASS",
             "alias": "STD_CLASS",
-            "type": "String"
-          },
-          {
-            "name": "STD_LABEL",
-            "alias": "STD_LABEL",
-            "type": "String"
-          },
-          {
-            "name": "LOCAL_CLASS",
-            "alias": "LOCAL_CLASS",
             "type": "String"
           },
           {
@@ -35661,39 +32902,14 @@
             "type": "String"
           },
           {
-            "name": "SRC_ITEM",
-            "alias": "SRC_ITEM",
-            "type": "String"
-          },
-          {
             "name": "SRC_LAYER",
             "alias": "SRC_LAYER",
-            "type": "String"
-          },
-          {
-            "name": "SRC_OID",
-            "alias": "SRC_OID",
-            "type": "String"
-          },
-          {
-            "name": "SRC_URL",
-            "alias": "SRC_URL",
             "type": "String"
           },
           {
             "name": "PLAN_URL",
             "alias": "PLAN_URL",
             "type": "String"
-          },
-          {
-            "name": "AS_OF",
-            "alias": "AS_OF",
-            "type": "Date"
-          },
-          {
-            "name": "REFRESHED",
-            "alias": "REFRESHED",
-            "type": "Date"
           },
           {
             "name": "QA_STATUS",
@@ -35753,47 +32969,21 @@
       "popup": {
         "title": "Quarry Zone",
         "field_names": [
-          "REGION_ID",
-          "COUNCIL",
           "COUNCIL_NM",
           "PLAN_NAME",
-          "PLAN_VER",
-          "PLAN_STAT",
-          "STATUS_GRP",
           "LEGAL_STAT",
-          "THEME",
-          "MAP_GROUP",
-          "TOPIC_ID",
           "TOPIC_NAME",
-          "SUBTHEME",
           "STD_CLASS",
-          "STD_LABEL",
-          "LOCAL_CLASS",
           "LOCAL_NAME",
           "LOCAL_ID",
-          "SRC_ITEM",
           "SRC_LAYER",
-          "SRC_OID",
-          "SRC_URL",
           "PLAN_URL",
-          "AS_OF",
-          "REFRESHED",
           "QA_STATUS",
           "SUBCLASS_ID",
           "SUBCLASS",
           "ZONE_GROUP"
         ],
         "fields": [
-          {
-            "name": "REGION_ID",
-            "alias": "REGION_ID",
-            "type": "String"
-          },
-          {
-            "name": "COUNCIL",
-            "alias": "COUNCIL",
-            "type": "String"
-          },
           {
             "name": "COUNCIL_NM",
             "alias": "COUNCIL_NM",
@@ -35805,38 +32995,8 @@
             "type": "String"
           },
           {
-            "name": "PLAN_VER",
-            "alias": "PLAN_VER",
-            "type": "String"
-          },
-          {
-            "name": "PLAN_STAT",
-            "alias": "PLAN_STAT",
-            "type": "String"
-          },
-          {
-            "name": "STATUS_GRP",
-            "alias": "STATUS_GRP",
-            "type": "String"
-          },
-          {
             "name": "LEGAL_STAT",
             "alias": "LEGAL_STAT",
-            "type": "String"
-          },
-          {
-            "name": "THEME",
-            "alias": "THEME",
-            "type": "String"
-          },
-          {
-            "name": "MAP_GROUP",
-            "alias": "MAP_GROUP",
-            "type": "String"
-          },
-          {
-            "name": "TOPIC_ID",
-            "alias": "TOPIC_ID",
             "type": "String"
           },
           {
@@ -35845,23 +33005,8 @@
             "type": "String"
           },
           {
-            "name": "SUBTHEME",
-            "alias": "SUBTHEME",
-            "type": "String"
-          },
-          {
             "name": "STD_CLASS",
             "alias": "STD_CLASS",
-            "type": "String"
-          },
-          {
-            "name": "STD_LABEL",
-            "alias": "STD_LABEL",
-            "type": "String"
-          },
-          {
-            "name": "LOCAL_CLASS",
-            "alias": "LOCAL_CLASS",
             "type": "String"
           },
           {
@@ -35875,39 +33020,14 @@
             "type": "String"
           },
           {
-            "name": "SRC_ITEM",
-            "alias": "SRC_ITEM",
-            "type": "String"
-          },
-          {
             "name": "SRC_LAYER",
             "alias": "SRC_LAYER",
-            "type": "String"
-          },
-          {
-            "name": "SRC_OID",
-            "alias": "SRC_OID",
-            "type": "String"
-          },
-          {
-            "name": "SRC_URL",
-            "alias": "SRC_URL",
             "type": "String"
           },
           {
             "name": "PLAN_URL",
             "alias": "PLAN_URL",
             "type": "String"
-          },
-          {
-            "name": "AS_OF",
-            "alias": "AS_OF",
-            "type": "Date"
-          },
-          {
-            "name": "REFRESHED",
-            "alias": "REFRESHED",
-            "type": "Date"
           },
           {
             "name": "QA_STATUS",
@@ -35967,47 +33087,21 @@
       "popup": {
         "title": "Stadium Zone",
         "field_names": [
-          "REGION_ID",
-          "COUNCIL",
           "COUNCIL_NM",
           "PLAN_NAME",
-          "PLAN_VER",
-          "PLAN_STAT",
-          "STATUS_GRP",
           "LEGAL_STAT",
-          "THEME",
-          "MAP_GROUP",
-          "TOPIC_ID",
           "TOPIC_NAME",
-          "SUBTHEME",
           "STD_CLASS",
-          "STD_LABEL",
-          "LOCAL_CLASS",
           "LOCAL_NAME",
           "LOCAL_ID",
-          "SRC_ITEM",
           "SRC_LAYER",
-          "SRC_OID",
-          "SRC_URL",
           "PLAN_URL",
-          "AS_OF",
-          "REFRESHED",
           "QA_STATUS",
           "SUBCLASS_ID",
           "SUBCLASS",
           "ZONE_GROUP"
         ],
         "fields": [
-          {
-            "name": "REGION_ID",
-            "alias": "REGION_ID",
-            "type": "String"
-          },
-          {
-            "name": "COUNCIL",
-            "alias": "COUNCIL",
-            "type": "String"
-          },
           {
             "name": "COUNCIL_NM",
             "alias": "COUNCIL_NM",
@@ -36019,38 +33113,8 @@
             "type": "String"
           },
           {
-            "name": "PLAN_VER",
-            "alias": "PLAN_VER",
-            "type": "String"
-          },
-          {
-            "name": "PLAN_STAT",
-            "alias": "PLAN_STAT",
-            "type": "String"
-          },
-          {
-            "name": "STATUS_GRP",
-            "alias": "STATUS_GRP",
-            "type": "String"
-          },
-          {
             "name": "LEGAL_STAT",
             "alias": "LEGAL_STAT",
-            "type": "String"
-          },
-          {
-            "name": "THEME",
-            "alias": "THEME",
-            "type": "String"
-          },
-          {
-            "name": "MAP_GROUP",
-            "alias": "MAP_GROUP",
-            "type": "String"
-          },
-          {
-            "name": "TOPIC_ID",
-            "alias": "TOPIC_ID",
             "type": "String"
           },
           {
@@ -36059,23 +33123,8 @@
             "type": "String"
           },
           {
-            "name": "SUBTHEME",
-            "alias": "SUBTHEME",
-            "type": "String"
-          },
-          {
             "name": "STD_CLASS",
             "alias": "STD_CLASS",
-            "type": "String"
-          },
-          {
-            "name": "STD_LABEL",
-            "alias": "STD_LABEL",
-            "type": "String"
-          },
-          {
-            "name": "LOCAL_CLASS",
-            "alias": "LOCAL_CLASS",
             "type": "String"
           },
           {
@@ -36089,39 +33138,14 @@
             "type": "String"
           },
           {
-            "name": "SRC_ITEM",
-            "alias": "SRC_ITEM",
-            "type": "String"
-          },
-          {
             "name": "SRC_LAYER",
             "alias": "SRC_LAYER",
-            "type": "String"
-          },
-          {
-            "name": "SRC_OID",
-            "alias": "SRC_OID",
-            "type": "String"
-          },
-          {
-            "name": "SRC_URL",
-            "alias": "SRC_URL",
             "type": "String"
           },
           {
             "name": "PLAN_URL",
             "alias": "PLAN_URL",
             "type": "String"
-          },
-          {
-            "name": "AS_OF",
-            "alias": "AS_OF",
-            "type": "Date"
-          },
-          {
-            "name": "REFRESHED",
-            "alias": "REFRESHED",
-            "type": "Date"
           },
           {
             "name": "QA_STATUS",
@@ -36181,47 +33205,21 @@
       "popup": {
         "title": "Tertiary Education Zone",
         "field_names": [
-          "REGION_ID",
-          "COUNCIL",
           "COUNCIL_NM",
           "PLAN_NAME",
-          "PLAN_VER",
-          "PLAN_STAT",
-          "STATUS_GRP",
           "LEGAL_STAT",
-          "THEME",
-          "MAP_GROUP",
-          "TOPIC_ID",
           "TOPIC_NAME",
-          "SUBTHEME",
           "STD_CLASS",
-          "STD_LABEL",
-          "LOCAL_CLASS",
           "LOCAL_NAME",
           "LOCAL_ID",
-          "SRC_ITEM",
           "SRC_LAYER",
-          "SRC_OID",
-          "SRC_URL",
           "PLAN_URL",
-          "AS_OF",
-          "REFRESHED",
           "QA_STATUS",
           "SUBCLASS_ID",
           "SUBCLASS",
           "ZONE_GROUP"
         ],
         "fields": [
-          {
-            "name": "REGION_ID",
-            "alias": "REGION_ID",
-            "type": "String"
-          },
-          {
-            "name": "COUNCIL",
-            "alias": "COUNCIL",
-            "type": "String"
-          },
           {
             "name": "COUNCIL_NM",
             "alias": "COUNCIL_NM",
@@ -36233,38 +33231,8 @@
             "type": "String"
           },
           {
-            "name": "PLAN_VER",
-            "alias": "PLAN_VER",
-            "type": "String"
-          },
-          {
-            "name": "PLAN_STAT",
-            "alias": "PLAN_STAT",
-            "type": "String"
-          },
-          {
-            "name": "STATUS_GRP",
-            "alias": "STATUS_GRP",
-            "type": "String"
-          },
-          {
             "name": "LEGAL_STAT",
             "alias": "LEGAL_STAT",
-            "type": "String"
-          },
-          {
-            "name": "THEME",
-            "alias": "THEME",
-            "type": "String"
-          },
-          {
-            "name": "MAP_GROUP",
-            "alias": "MAP_GROUP",
-            "type": "String"
-          },
-          {
-            "name": "TOPIC_ID",
-            "alias": "TOPIC_ID",
             "type": "String"
           },
           {
@@ -36273,23 +33241,8 @@
             "type": "String"
           },
           {
-            "name": "SUBTHEME",
-            "alias": "SUBTHEME",
-            "type": "String"
-          },
-          {
             "name": "STD_CLASS",
             "alias": "STD_CLASS",
-            "type": "String"
-          },
-          {
-            "name": "STD_LABEL",
-            "alias": "STD_LABEL",
-            "type": "String"
-          },
-          {
-            "name": "LOCAL_CLASS",
-            "alias": "LOCAL_CLASS",
             "type": "String"
           },
           {
@@ -36303,39 +33256,14 @@
             "type": "String"
           },
           {
-            "name": "SRC_ITEM",
-            "alias": "SRC_ITEM",
-            "type": "String"
-          },
-          {
             "name": "SRC_LAYER",
             "alias": "SRC_LAYER",
-            "type": "String"
-          },
-          {
-            "name": "SRC_OID",
-            "alias": "SRC_OID",
-            "type": "String"
-          },
-          {
-            "name": "SRC_URL",
-            "alias": "SRC_URL",
             "type": "String"
           },
           {
             "name": "PLAN_URL",
             "alias": "PLAN_URL",
             "type": "String"
-          },
-          {
-            "name": "AS_OF",
-            "alias": "AS_OF",
-            "type": "Date"
-          },
-          {
-            "name": "REFRESHED",
-            "alias": "REFRESHED",
-            "type": "Date"
           },
           {
             "name": "QA_STATUS",
@@ -36395,47 +33323,21 @@
       "popup": {
         "title": "Waterfront Zone",
         "field_names": [
-          "REGION_ID",
-          "COUNCIL",
           "COUNCIL_NM",
           "PLAN_NAME",
-          "PLAN_VER",
-          "PLAN_STAT",
-          "STATUS_GRP",
           "LEGAL_STAT",
-          "THEME",
-          "MAP_GROUP",
-          "TOPIC_ID",
           "TOPIC_NAME",
-          "SUBTHEME",
           "STD_CLASS",
-          "STD_LABEL",
-          "LOCAL_CLASS",
           "LOCAL_NAME",
           "LOCAL_ID",
-          "SRC_ITEM",
           "SRC_LAYER",
-          "SRC_OID",
-          "SRC_URL",
           "PLAN_URL",
-          "AS_OF",
-          "REFRESHED",
           "QA_STATUS",
           "SUBCLASS_ID",
           "SUBCLASS",
           "ZONE_GROUP"
         ],
         "fields": [
-          {
-            "name": "REGION_ID",
-            "alias": "REGION_ID",
-            "type": "String"
-          },
-          {
-            "name": "COUNCIL",
-            "alias": "COUNCIL",
-            "type": "String"
-          },
           {
             "name": "COUNCIL_NM",
             "alias": "COUNCIL_NM",
@@ -36447,38 +33349,8 @@
             "type": "String"
           },
           {
-            "name": "PLAN_VER",
-            "alias": "PLAN_VER",
-            "type": "String"
-          },
-          {
-            "name": "PLAN_STAT",
-            "alias": "PLAN_STAT",
-            "type": "String"
-          },
-          {
-            "name": "STATUS_GRP",
-            "alias": "STATUS_GRP",
-            "type": "String"
-          },
-          {
             "name": "LEGAL_STAT",
             "alias": "LEGAL_STAT",
-            "type": "String"
-          },
-          {
-            "name": "THEME",
-            "alias": "THEME",
-            "type": "String"
-          },
-          {
-            "name": "MAP_GROUP",
-            "alias": "MAP_GROUP",
-            "type": "String"
-          },
-          {
-            "name": "TOPIC_ID",
-            "alias": "TOPIC_ID",
             "type": "String"
           },
           {
@@ -36487,23 +33359,8 @@
             "type": "String"
           },
           {
-            "name": "SUBTHEME",
-            "alias": "SUBTHEME",
-            "type": "String"
-          },
-          {
             "name": "STD_CLASS",
             "alias": "STD_CLASS",
-            "type": "String"
-          },
-          {
-            "name": "STD_LABEL",
-            "alias": "STD_LABEL",
-            "type": "String"
-          },
-          {
-            "name": "LOCAL_CLASS",
-            "alias": "LOCAL_CLASS",
             "type": "String"
           },
           {
@@ -36517,39 +33374,14 @@
             "type": "String"
           },
           {
-            "name": "SRC_ITEM",
-            "alias": "SRC_ITEM",
-            "type": "String"
-          },
-          {
             "name": "SRC_LAYER",
             "alias": "SRC_LAYER",
-            "type": "String"
-          },
-          {
-            "name": "SRC_OID",
-            "alias": "SRC_OID",
-            "type": "String"
-          },
-          {
-            "name": "SRC_URL",
-            "alias": "SRC_URL",
             "type": "String"
           },
           {
             "name": "PLAN_URL",
             "alias": "PLAN_URL",
             "type": "String"
-          },
-          {
-            "name": "AS_OF",
-            "alias": "AS_OF",
-            "type": "Date"
-          },
-          {
-            "name": "REFRESHED",
-            "alias": "REFRESHED",
-            "type": "Date"
           },
           {
             "name": "QA_STATUS",
@@ -36609,47 +33441,21 @@
       "popup": {
         "title": "Wellington Town Belt Zone",
         "field_names": [
-          "REGION_ID",
-          "COUNCIL",
           "COUNCIL_NM",
           "PLAN_NAME",
-          "PLAN_VER",
-          "PLAN_STAT",
-          "STATUS_GRP",
           "LEGAL_STAT",
-          "THEME",
-          "MAP_GROUP",
-          "TOPIC_ID",
           "TOPIC_NAME",
-          "SUBTHEME",
           "STD_CLASS",
-          "STD_LABEL",
-          "LOCAL_CLASS",
           "LOCAL_NAME",
           "LOCAL_ID",
-          "SRC_ITEM",
           "SRC_LAYER",
-          "SRC_OID",
-          "SRC_URL",
           "PLAN_URL",
-          "AS_OF",
-          "REFRESHED",
           "QA_STATUS",
           "SUBCLASS_ID",
           "SUBCLASS",
           "ZONE_GROUP"
         ],
         "fields": [
-          {
-            "name": "REGION_ID",
-            "alias": "REGION_ID",
-            "type": "String"
-          },
-          {
-            "name": "COUNCIL",
-            "alias": "COUNCIL",
-            "type": "String"
-          },
           {
             "name": "COUNCIL_NM",
             "alias": "COUNCIL_NM",
@@ -36661,38 +33467,8 @@
             "type": "String"
           },
           {
-            "name": "PLAN_VER",
-            "alias": "PLAN_VER",
-            "type": "String"
-          },
-          {
-            "name": "PLAN_STAT",
-            "alias": "PLAN_STAT",
-            "type": "String"
-          },
-          {
-            "name": "STATUS_GRP",
-            "alias": "STATUS_GRP",
-            "type": "String"
-          },
-          {
             "name": "LEGAL_STAT",
             "alias": "LEGAL_STAT",
-            "type": "String"
-          },
-          {
-            "name": "THEME",
-            "alias": "THEME",
-            "type": "String"
-          },
-          {
-            "name": "MAP_GROUP",
-            "alias": "MAP_GROUP",
-            "type": "String"
-          },
-          {
-            "name": "TOPIC_ID",
-            "alias": "TOPIC_ID",
             "type": "String"
           },
           {
@@ -36701,23 +33477,8 @@
             "type": "String"
           },
           {
-            "name": "SUBTHEME",
-            "alias": "SUBTHEME",
-            "type": "String"
-          },
-          {
             "name": "STD_CLASS",
             "alias": "STD_CLASS",
-            "type": "String"
-          },
-          {
-            "name": "STD_LABEL",
-            "alias": "STD_LABEL",
-            "type": "String"
-          },
-          {
-            "name": "LOCAL_CLASS",
-            "alias": "LOCAL_CLASS",
             "type": "String"
           },
           {
@@ -36731,39 +33492,14 @@
             "type": "String"
           },
           {
-            "name": "SRC_ITEM",
-            "alias": "SRC_ITEM",
-            "type": "String"
-          },
-          {
             "name": "SRC_LAYER",
             "alias": "SRC_LAYER",
-            "type": "String"
-          },
-          {
-            "name": "SRC_OID",
-            "alias": "SRC_OID",
-            "type": "String"
-          },
-          {
-            "name": "SRC_URL",
-            "alias": "SRC_URL",
             "type": "String"
           },
           {
             "name": "PLAN_URL",
             "alias": "PLAN_URL",
             "type": "String"
-          },
-          {
-            "name": "AS_OF",
-            "alias": "AS_OF",
-            "type": "Date"
-          },
-          {
-            "name": "REFRESHED",
-            "alias": "REFRESHED",
-            "type": "Date"
           },
           {
             "name": "QA_STATUS",

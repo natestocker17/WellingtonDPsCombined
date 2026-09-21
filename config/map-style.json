@@ -16,7 +16,7 @@
   "sources": {
     "planning-zones": {
       "type": "vector",
-      "url": "pmtiles://./data/wellington-district-plans-zones.pmtiles?v=153a1e4184a0",
+      "url": "pmtiles://./data/wellington-district-plans-zones.pmtiles?v=635243af49b3",
       "attribution": "District-plan data: source councils. Refer to each feature's plan URL; this map is not statutory."
     },
     "planning-hazards": {

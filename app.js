@@ -98,7 +98,7 @@
     const mapOptions = {
       container: "map",
       style: getBasemapStyle(initialBasemapId),
-      attributionControl: true,
+      attributionControl: {compact: true},
       dragRotate: false,
       pitchWithRotate: false,
       touchPitch: false,
@@ -115,10 +115,16 @@
       Object.assign(mapOptions, {bounds: manifest.map.wgs84_bounds, fitBoundsOptions: {padding: 30}});
     }
     const map = new maplibregl.Map(mapOptions);
+    const collapseAttribution = () => {
+      const attribution = map.getContainer().querySelector(".maplibregl-ctrl-attrib");
+      if (!attribution) return;
+      attribution.removeAttribute("open");
+      attribution.classList.remove("maplibregl-compact-show");
+    };
+    map.once("load", collapseAttribution);
     map.touchZoomRotate.disableRotation();
     map.keyboard.disableRotation();
     map.addControl(new maplibregl.NavigationControl({showCompass: false}), "top-right");
-    map.addControl(new maplibregl.ScaleControl({unit: "metric"}), "bottom-right");
     const selectionSourceId = "feature-selection";
     const emptySelection = () => ({type: "FeatureCollection", features: []});
     let selectedFeatureData = emptySelection();
@@ -392,6 +398,7 @@
     const featurePanelTitle = document.getElementById("feature-panel-title");
     const featurePanelContent = document.getElementById("feature-panel-content");
     const featurePanelClose = document.getElementById("feature-panel-close");
+    const featurePanelClear = document.getElementById("feature-panel-clear");
     const featurePanelNavigation = document.getElementById("feature-panel-navigation");
     const featurePanelPrevious = document.getElementById("feature-panel-previous");
     const featurePanelPosition = document.getElementById("feature-panel-position");
@@ -459,6 +466,7 @@
     featurePanelPrevious.addEventListener("click", () => showFeaturePanelItem(featurePanelIndex - 1));
     featurePanelNext.addEventListener("click", () => showFeaturePanelItem(featurePanelIndex + 1));
     featurePanelClose.addEventListener("click", () => closeFeaturePanel(true));
+    featurePanelClear.addEventListener("click", () => closeFeaturePanel(true));
     featurePanel.addEventListener("keydown", event => {
       if (event.key === "Escape") closeFeaturePanel(true);
     });

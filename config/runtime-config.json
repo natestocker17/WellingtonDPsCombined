@@ -38,11 +38,11 @@
     }
   ],
   "default_basemap": "nz-imagery",
-  "default_planning_opacity": 1.0,
+  "default_planning_opacity": 0.8,
   "default_visible_groups": [
     "Zones"
   ],
-  "defaults_revision": 6,
+  "defaults_revision": 7,
   "basemaps": [
     {
       "id": "nz-imagery",

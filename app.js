@@ -99,19 +99,25 @@
       container: "map",
       style: getBasemapStyle(initialBasemapId),
       attributionControl: true,
+      dragRotate: false,
+      pitchWithRotate: false,
+      touchPitch: false,
+      maxPitch: 0,
     };
     if (savedView?.center && Number.isFinite(savedView.zoom)) {
       Object.assign(mapOptions, {
         center: savedView.center,
         zoom: savedView.zoom,
-        bearing: savedView.bearing || 0,
-        pitch: savedView.pitch || 0,
+        bearing: 0,
+        pitch: 0,
       });
     } else {
       Object.assign(mapOptions, {bounds: manifest.map.wgs84_bounds, fitBoundsOptions: {padding: 30}});
     }
     const map = new maplibregl.Map(mapOptions);
-    map.addControl(new maplibregl.NavigationControl(), "top-right");
+    map.touchZoomRotate.disableRotation();
+    map.keyboard.disableRotation();
+    map.addControl(new maplibregl.NavigationControl({showCompass: false}), "top-right");
     map.addControl(new maplibregl.ScaleControl({unit: "metric"}), "bottom-right");
     const selectionSourceId = "feature-selection";
     const emptySelection = () => ({type: "FeatureCollection", features: []});
@@ -132,14 +138,14 @@
           id: "feature-selection-casing",
           type: "line",
           source: selectionSourceId,
-          layout: {"line-cap": "round", "line-join": "round"},
+          layout: {"line-cap": "butt", "line-join": "bevel"},
           paint: {"line-color": "#111c26", "line-width": 7, "line-opacity": 0.9},
         },
         {
           id: "feature-selection-outline",
           type: "line",
           source: selectionSourceId,
-          layout: {"line-cap": "round", "line-join": "round"},
+          layout: {"line-cap": "butt", "line-join": "bevel"},
           paint: {"line-color": "#ffdd57", "line-width": 4},
         },
         {
@@ -239,8 +245,8 @@
       writeSession("districtPlans.view", {
         center: [map.getCenter().lng, map.getCenter().lat],
         zoom: map.getZoom(),
-        bearing: map.getBearing(),
-        pitch: map.getPitch(),
+        bearing: 0,
+        pitch: 0,
       });
       writeSession("districtPlans.visibility", Object.fromEntries(leafVisibility));
       writeSession("districtPlans.opacity", opacityFactor);

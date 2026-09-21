@@ -392,9 +392,17 @@
     const featurePanelTitle = document.getElementById("feature-panel-title");
     const featurePanelContent = document.getElementById("feature-panel-content");
     const featurePanelClose = document.getElementById("feature-panel-close");
+    const featurePanelNavigation = document.getElementById("feature-panel-navigation");
+    const featurePanelPrevious = document.getElementById("feature-panel-previous");
+    const featurePanelPosition = document.getElementById("feature-panel-position");
+    const featurePanelNext = document.getElementById("feature-panel-next");
+    let featurePanelItems = [];
+    let featurePanelIndex = 0;
     function closeFeaturePanel(returnFocus = false) {
       featurePanel.hidden = true;
       main.classList.remove("feature-panel-open");
+      featurePanelItems = [];
+      featurePanelIndex = 0;
       clearSelectedFeature();
       window.setTimeout(() => map.resize(), 0);
       if (returnFocus) map.getCanvas().focus();
@@ -410,11 +418,46 @@
       }).join("");
       featurePanelTitle.textContent = node.display_name;
       featurePanelContent.innerHTML = `<table class="feature-grid">${rows || "<tr><td>No attributes available.</td></tr>"}</table>`;
+      setSelectedFeature(feature);
       featurePanel.hidden = false;
       main.classList.add("feature-panel-open");
       featurePanel.scrollTop = 0;
       window.setTimeout(() => map.resize(), 0);
     }
+    function showFeaturePanelItem(index) {
+      if (!featurePanelItems.length) return;
+      featurePanelIndex = Math.max(0, Math.min(index, featurePanelItems.length - 1));
+      const item = featurePanelItems[featurePanelIndex];
+      featurePanelNavigation.hidden = featurePanelItems.length < 2;
+      featurePanelPosition.value = `${featurePanelIndex + 1} of ${featurePanelItems.length}`;
+      featurePanelPosition.textContent = featurePanelPosition.value;
+      featurePanelPrevious.disabled = featurePanelIndex === 0;
+      featurePanelNext.disabled = featurePanelIndex === featurePanelItems.length - 1;
+      showFeaturePanel(item.node, item.feature);
+    }
+    function featurePanelItemsFor(renderedFeatures) {
+      const seen = new Set();
+      const items = [];
+      for (const feature of renderedFeatures) {
+        const logicalId = map.getLayer(feature.layer.id)?.metadata?.logicalLayerId;
+        const node = nodes.get(logicalId);
+        if (!node) continue;
+        const key = JSON.stringify([
+          logicalId,
+          feature.source || feature.layer.source || "",
+          feature.sourceLayer || feature.layer["source-layer"] || "",
+          feature.id ?? null,
+          feature.geometry,
+          feature.properties,
+        ]);
+        if (seen.has(key)) continue;
+        seen.add(key);
+        items.push({node, feature});
+      }
+      return items;
+    }
+    featurePanelPrevious.addEventListener("click", () => showFeaturePanelItem(featurePanelIndex - 1));
+    featurePanelNext.addEventListener("click", () => showFeaturePanelItem(featurePanelIndex + 1));
     featurePanelClose.addEventListener("click", () => closeFeaturePanel(true));
     featurePanel.addEventListener("keydown", event => {
       if (event.key === "Escape") closeFeaturePanel(true);
@@ -428,13 +471,9 @@
     map.on("click", event => {
       const visibleIds = leaves.flatMap(node => leafVisibility.get(node.id) ? (node.style_layer_ids || []) : []).filter(id => map.getLayer(id));
       if (!visibleIds.length) return;
-      const feature = map.queryRenderedFeatures(event.point, {layers: visibleIds})[0];
-      if (!feature) return;
-      const logicalId = map.getLayer(feature.layer.id)?.metadata?.logicalLayerId;
-      const node = nodes.get(logicalId);
-      if (!node) return;
-      setSelectedFeature(feature);
-      showFeaturePanel(node, feature);
+      featurePanelItems = featurePanelItemsFor(map.queryRenderedFeatures(event.point, {layers: visibleIds}));
+      if (!featurePanelItems.length) return;
+      showFeaturePanelItem(0);
     });
     map.on("mousemove", event => {
       const visibleIds = leaves.flatMap(node => leafVisibility.get(node.id) ? (node.style_layer_ids || []) : []).filter(id => map.getLayer(id));

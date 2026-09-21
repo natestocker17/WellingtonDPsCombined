@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Wellington Region District Plans</title>
   <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.13.0/dist/maplibre-gl.css">
-  <link rel="stylesheet" href="style.css?v=20260921-flat-legend-1">
+  <link rel="stylesheet" href="style.css?v=20260921-overlap-navigation-1">
 </head>
 <body>
   <header>
@@ -34,9 +34,16 @@
     </aside>
     <div id="map" aria-label="Interactive planning map"></div>
     <aside id="feature-panel" aria-labelledby="feature-panel-title" hidden>
-      <div class="feature-panel-header">
-        <h2 id="feature-panel-title">Feature details</h2>
-        <button id="feature-panel-close" type="button" aria-label="Close feature details">&times;</button>
+      <div class="feature-panel-toolbar">
+        <div class="feature-panel-header">
+          <h2 id="feature-panel-title">Feature details</h2>
+          <button id="feature-panel-close" type="button" aria-label="Close feature details">&times;</button>
+        </div>
+        <div id="feature-panel-navigation" class="feature-panel-navigation" aria-label="Overlapping features" hidden>
+          <button id="feature-panel-previous" type="button">&lsaquo; Previous</button>
+          <output id="feature-panel-position" aria-live="polite"></output>
+          <button id="feature-panel-next" type="button">Next &rsaquo;</button>
+        </div>
       </div>
       <div id="feature-panel-content"></div>
     </aside>
@@ -44,6 +51,6 @@
   </main>
   <script src="https://unpkg.com/maplibre-gl@5.13.0/dist/maplibre-gl.js"></script>
   <script src="https://unpkg.com/pmtiles@4.5.0/dist/pmtiles.js"></script>
-  <script src="app.js?v=81224275bfe7"></script>
+  <script src="app.js?v=5389ff826abc"></script>
 </body>
 </html>

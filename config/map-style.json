@@ -21,32 +21,32 @@
     },
     "planning-hazards": {
       "type": "vector",
-      "url": "pmtiles://./data/wellington-district-plans-hazards.pmtiles?v=c62491ce0512",
+      "url": "pmtiles://./data/wellington-district-plans-hazards.pmtiles?v=97f65cc6be8d",
       "attribution": "District-plan data: source councils. Refer to each feature's plan URL; this map is not statutory."
     },
     "planning-heritage-cultural-values": {
       "type": "vector",
-      "url": "pmtiles://./data/wellington-district-plans-heritage-cultural-values.pmtiles?v=2f82c02429e8",
+      "url": "pmtiles://./data/wellington-district-plans-heritage-cultural-values.pmtiles?v=f7eb9b164441",
       "attribution": "District-plan data: source councils. Refer to each feature's plan URL; this map is not statutory."
     },
     "planning-landscape-natural-environment": {
       "type": "vector",
-      "url": "pmtiles://./data/wellington-district-plans-landscape-natural-environment.pmtiles?v=4737afd6ecd5",
+      "url": "pmtiles://./data/wellington-district-plans-landscape-natural-environment.pmtiles?v=0728af1dbc38",
       "attribution": "District-plan data: source councils. Refer to each feature's plan URL; this map is not statutory."
     },
     "planning-designations": {
       "type": "vector",
-      "url": "pmtiles://./data/wellington-district-plans-designations.pmtiles?v=7154fd2dfe84",
+      "url": "pmtiles://./data/wellington-district-plans-designations.pmtiles?v=5fa7f02aec6c",
       "attribution": "District-plan data: source councils. Refer to each feature's plan URL; this map is not statutory."
     },
     "planning-infrastructure-transport": {
       "type": "vector",
-      "url": "pmtiles://./data/wellington-district-plans-infrastructure-transport.pmtiles?v=e8b0d8291897",
+      "url": "pmtiles://./data/wellington-district-plans-infrastructure-transport.pmtiles?v=260f642fcd31",
       "attribution": "District-plan data: source councils. Refer to each feature's plan URL; this map is not statutory."
     },
     "planning-other-overlays": {
       "type": "vector",
-      "url": "pmtiles://./data/wellington-district-plans-other-overlays.pmtiles?v=589c3b777aa0",
+      "url": "pmtiles://./data/wellington-district-plans-other-overlays.pmtiles?v=0daf7ffdf61c",
       "attribution": "District-plan data: source councils. Refer to each feature's plan URL; this map is not statutory."
     }
   },
